@@ -1,0 +1,1245 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_4245703</BlastOutput_query-ID>
+  <BlastOutput_query-def>Mycobacterium tuberculosis H37Rv|Rv3854c|ethA</BlastOutput_query-def>
+  <BlastOutput_query-len>489</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_4245703</Iteration_query-ID>
+  <Iteration_query-def>Mycobacterium tuberculosis H37Rv|Rv3854c|ethA</Iteration_query-def>
+  <Iteration_query-len>489</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|3UOV|A</Hit_id>
+  <Hit_def>Chain A, OTEMO [Pseudomonas putida] &gt;pdb|3UOV|B Chain B, OTEMO [Pseudomonas putida] &gt;pdb|3UOX|A Chain A, OTEMO [Pseudomonas putida] &gt;pdb|3UOX|B Chain B, OTEMO [Pseudomonas putida] &gt;pdb|3UOY|A Chain A, OTEMO [Pseudomonas putida] &gt;pdb|3UOY|B Chain B, OTEMO [Pseudomonas putida] &gt;pdb|3UOZ|A Chain A, OTEMO [Pseudomonas putida] &gt;pdb|3UOZ|B Chain B, OTEMO [Pseudomonas putida] &gt;pdb|3UP4|A Chain A, OTEMO [Pseudomonas putida] &gt;pdb|3UP4|B Chain B, OTEMO [Pseudomonas putida] &gt;pdb|3UP5|A Chain A, OTEMO [Pseudomonas putida] &gt;pdb|3UP5|B Chain B, OTEMO [Pseudomonas putida]</Hit_def>
+  <Hit_accession>3UOV_A</Hit_accession>
+  <Hit_len>545</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>1.74591e-27</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>414</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>90</Hsp_gaps>
+      <Hsp_align-len>480</Hsp_align-len>
+      <Hsp_qseq>LDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFR-----FRPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWPED-------LDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIVSQPDRDGIAEKL----NRWLPETMAY-----TAVRWKNVLRQAAVYSACQK---------------WPRRMRKMFLSLIQRQLPEGYDVRKHFGPHYNPWDQRLCLVPNGDLFRAIRHGKVEVVTDTIERFTATGIRLNSGRELPA-----------------DIIITATGLNLQLFGGATATIDGQQVDITTT-------------MAYKGMMLSGIPNMAYTVGYTNASWTLK----ADLVSEFVCRLLNYMDDNGF</Hsp_qseq>
+      <Hsp_hseq>LDAVVIGAGVTGIYQAF-LINQAGMKVLGI-EAGEDVGGTWYWNRYPGCRLDTESYAYGYFALKGIIPEWEWSENFASQPEMLRYVNRAADAMDVRKHYRFNTRVTAARYVENDRLWEVTLDNE---EVVTCRFLISATGPLSASR--MPDIKGIDSFKGESFHSSRWPTDAEGAPKGVDFTGKRVGVIGTGATGVQIIPIAAET-AKELYVFQRTPNWCTPLGNSPMSKEKMDSLRNRY-PTILEYVKSTDTAFPYHRDPRKGTDVSESERDAFFEELYRQPGYGIWLSGFRDLLLNKESNKFLADFVAKKIRQRVKDPVVAEK-LIPKDHPFGAKR---VPMETNYYETYNRDNVHLVDIREAPIQEVTPEGIKTADAAYDLDVIIYATG-----FDAVTGSLD--RIDIRGKDNVRLIDAWAEGPSTYLGLQARGFPNFFTLVGPHNGSTFCNVGVCGGLQAEWVLRMISYMKDNGF</Hsp_hseq>
+      <Hsp_midline>LD V++GAG++G+  A+ L ++   K   I E  E +GGTW   RYPG R D++ Y  G+         W   +  A    +L YV   A    + +H RF+ +V +A +   +  W V + +      +TC FL   +G  +      P   G + F G   H   WP D       +D+  K + VIG+GAT V ++P  A++ AK + + QR+P +     +     EK+    NR+ P  + Y     TA  +    R+    S  ++               W    R + L+    +    +  +K      +P      L+P    F A R   V + T+  E +    + L   RE P                  D+II ATG     F   T ++D  ++DI                  Y G+   G PN    VG  N S          L +E+V R+++YM DNGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|2YLZ|A</Hit_id>
+  <Hit_def>Chain A, PHENYLACETONE MONOOXYGENASE [Thermobifida fusca]</Hit_def>
+  <Hit_accession>2YLZ_A</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>9.07324e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>414</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>91</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>EHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFRF-----RPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWP-EDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIVSQPDRDG--------------------------------------------IAEKLNRWLPETMAYTAVRWKNVLRQAAVYSACQKWPRRMRKMFL---SLIQRQLPEGYDVRKHFGPHYNPWDQRLCL-VPNGDLFRAIRHGKVEVVTDTIERFTATGIRLNSGRELPADIIITATGLNLQLFGGATATIDGQQVDITTTM--------AYKGMMLSGIPNMAYTVGYTNASWTLKADLVS-----EFVCRLLNYMDDNGF</Hsp_qseq>
+      <Hsp_hseq>EEVDVLVVGAGFSGLYALYRLRELG--RSVHVIETAGDVGGVWYWNRYPGARCDIESIEYCYSFSEEVLQEWNWTERYASQPEILRYINFVADKFDLRSGITFHTTVTAAAFDEATNTWTVDT-NHG--DRIRARYLIMASGQLSVPQ--LPNFPGLKDFAGNLYHTGNWPHEPVDFSGQRVGVIGTGSSGIQVSPQIAKQAAE-LFVFQRTPHFAV--PARNAPLDPEFLADLKKRYAEFREESRNTPGGTHRYQGPKSALEVSDEELVETLERYWQEGGPDILAAYRDILRDRDANERVAEFIRNKIRNTVRDPEVAERLVPKGYP----FG------TKRLILEIDYYEMFNRDNVHLVDTLSAPIETITPRGVR-TSEREYELDSLVLATGFD--ALTGALFKIDIRGVGNVALKEKWAAGPRTYLGLSTAGFPNLFFIAGPGSPS-ALSNGLVSIEQHVEWVTDHIAYMFKNGL</Hsp_hseq>
+      <Hsp_midline>E +DV++VGAG SG+ A + L++    +S  ++E    +GG W   RYPG R D +     + F     + W   +  A    IL Y+   A  + +   I FH  V +A +  A N WTV   +HG    +   +L + SG  +  +   P F G +DF G + H  +WP E +D+  + + VIG+G++ + + P +A   A+ + + QR+P + V  P R+                                             + E L R+  E        ++++LR         ++ R   +  +    + +R +P+GY     FG       +RL L +   ++F       V+ ++  IE  T  G+R  S RE   D ++ ATG +     GA   ID + V               Y G+  +G PN+ +  G  + S  L   LVS     E+V   + YM  NG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|8XG7|A</Hit_id>
+  <Hit_def>Chain A, Phenylacetone monooxygenase [Thermobifida fusca YX]</Hit_def>
+  <Hit_accession>8XG7_A</Hit_accession>
+  <Hit_len>546</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>1.29444e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>414</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>91</Hsp_gaps>
+      <Hsp_align-len>478</Hsp_align-len>
+      <Hsp_qseq>EHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFRF-----RPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWP-EDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIVSQPDRDG--------------------------------------------IAEKLNRWLPETMAYTAVRWKNVLRQAAVYSACQKWPRRMRKMFL---SLIQRQLPEGYDVRKHFGPHYNPWDQRLCL-VPNGDLFRAIRHGKVEVVTDTIERFTATGIRLNSGRELPADIIITATGLNLQLFGGATATIDGQQVDITTTM--------AYKGMMLSGIPNMAYTVG----YTNASWTLKADLVSEFVCRLLNYMDDNGF</Hsp_qseq>
+      <Hsp_hseq>EEVDVLVVGAGFSGLYALYRLRELG--RSVHVIETAGDVGGVWYWNRYPGARCDIESIEYCYSFSEEVLQEWNWTERYASQPEILRYINFVADKFDLRSGITFHTTVTAAAFDEATNTWTVDT-NHG--DRIRARYLIMASGQLSVPQ--LPNFPGLKDFAGNLYHTGNWPHEPVDFSGQRVGVIGTGSSGIQVSPQIAKQAAE-LFVFQRTPHFAV--PARNAPLDPEFLADLKKRYAEFREESRNTPGGTHRYQGPKSALEVSDEELVETLERYWQEGGPDILAAYRDILRDRDANERVAEFIRNKIRNTVRDPEVAERLVPKGYP----FG------TKRLILEIDYYEMFNRDNVHLVDTLSAPIETITPRGVR-TSEREYELDSLVLATGFD--ALTGALFKIDIRGVGNVALKEKWAAGPRTYLGLSTAGFPNLFFIAGPGSPFTNMLVSIEQHV--EWVTDHIAYMFKNGL</Hsp_hseq>
+      <Hsp_midline>E +DV++VGAG SG+ A + L++    +S  ++E    +GG W   RYPG R D +     + F     + W   +  A    IL Y+   A  + +   I FH  V +A +  A N WTV   +HG    +   +L + SG  +  +   P F G +DF G + H  +WP E +D+  + + VIG+G++ + + P +A   A+ + + QR+P + V  P R+                                             + E L R+  E        ++++LR         ++ R   +  +    + +R +P+GY     FG       +RL L +   ++F       V+ ++  IE  T  G+R  S RE   D ++ ATG +     GA   ID + V               Y G+  +G PN+ +  G    +TN   +++  +  E+V   + YM  NG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|1W4X|A</Hit_id>
+  <Hit_def>Chain A, PHENYLACETONE MONOOXYGENASE [Thermobifida fusca] &gt;pdb|2YLR|A Chain A, PHENYLACETONE MONOOXYGENASE [Thermobifida fusca] &gt;pdb|2YLS|A Chain A, PHENYLACETONE MONOOXYGENASE [Thermobifida fusca] &gt;pdb|2YLT|A Chain A, PHENYLACETONE MONOOXYGENASE [Thermobifida fusca] &gt;pdb|4C74|A Chain A, PHENYLACETONE MONOOXYGENASE [Thermobifida fusca] &gt;pdb|4OVI|A Chain A, Phenylacetone monooxygenase [Thermobifida fusca]</Hit_def>
+  <Hit_accession>1W4X_A</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>1.93991e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>414</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>91</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>EHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFRF-----RPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWP-EDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIVSQPDRDG--------------------------------------------IAEKLNRWLPETMAYTAVRWKNVLRQAAVYSACQKWPRRMRKMFL---SLIQRQLPEGYDVRKHFGPHYNPWDQRLCL-VPNGDLFRAIRHGKVEVVTDTIERFTATGIRLNSGRELPADIIITATGLNLQLFGGATATIDGQQVDITTTM--------AYKGMMLSGIPNMAYTVGYTNASWTLKADLVS-----EFVCRLLNYMDDNGF</Hsp_qseq>
+      <Hsp_hseq>EEVDVLVVGAGFSGLYALYRLRELG--RSVHVIETAGDVGGVWYWNRYPGARCDIESIEYCYSFSEEVLQEWNWTERYASQPEILRYINFVADKFDLRSGITFHTTVTAAAFDEATNTWTVDT-NHG--DRIRARYLIMASGQLSVPQ--LPNFPGLKDFAGNLYHTGNWPHEPVDFSGQRVGVIGTGSSGIQVSPQIAKQAAE-LFVFQRTPHFAV--PARNAPLDPEFLADLKKRYAEFREESRNTPGGTHRYQGPKSALEVSDEELVETLERYWQEGGPDILAAYRDILRDRDANERVAEFIRNKIRNTVRDPEVAERLVPKGYP----FG------TKRLILEIDYYEMFNRDNVHLVDTLSAPIETITPRGVR-TSEREYELDSLVLATGFD--ALTGALFKIDIRGVGNVALKEKWAAGPRTYLGLSTAGFPNLFFIAGPGSPS-ALSNMLVSIEQHVEWVTDHIAYMFKNGL</Hsp_hseq>
+      <Hsp_midline>E +DV++VGAG SG+ A + L++    +S  ++E    +GG W   RYPG R D +     + F     + W   +  A    IL Y+   A  + +   I FH  V +A +  A N WTV   +HG    +   +L + SG  +  +   P F G +DF G + H  +WP E +D+  + + VIG+G++ + + P +A   A+ + + QR+P + V  P R+                                             + E L R+  E        ++++LR         ++ R   +  +    + +R +P+GY     FG       +RL L +   ++F       V+ ++  IE  T  G+R  S RE   D ++ ATG +     GA   ID + V               Y G+  +G PN+ +  G  + S  L   LVS     E+V   + YM  NG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|4D03|A</Hit_id>
+  <Hit_def>Chain A, PHENYLACETONE MONOOXYGENASE [Thermobifida fusca] &gt;pdb|4D04|A Chain A, PHENYLACETONE MONOOXYGENASE [Thermobifida fusca]</Hit_def>
+  <Hit_accession>4D03_A</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>2.01309e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>414</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>91</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>EHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFRF-----RPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWP-EDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIVSQPDRDG--------------------------------------------IAEKLNRWLPETMAYTAVRWKNVLRQAAVYSACQKWPRRMRKMFL---SLIQRQLPEGYDVRKHFGPHYNPWDQRLCL-VPNGDLFRAIRHGKVEVVTDTIERFTATGIRLNSGRELPADIIITATGLNLQLFGGATATIDGQQVDITTTM--------AYKGMMLSGIPNMAYTVGYTNASWTLKADLVS-----EFVCRLLNYMDDNGF</Hsp_qseq>
+      <Hsp_hseq>EEVDVLVVGAGFSGLYALYRLRELG--RSVHVIETAGDVGGVWYWNRYPGARDDIESIEYCYSFSEEVLQEWNWTERYASQPEILRYINFVADKFDLRSGITFHTTVTAAAFDEATNTWTVDT-NHG--DRIRARYLIMASGQLSVPQ--LPNFPGLKDFAGNLYHTGNWPHEPVDFSGQRVGVIGTGSSGIQVSPQIAKQAAE-LFVFQRTPHFAV--PARNAPLDPEFLADLKKRYAEFREESRNTPGGTHRYQGPKSALEVSDEELVETLERYWQEGGPDILAAYRDILRDRDANERVAEFIRNKIRNTVRDPEVAERLVPKGYP----FG------TKRLILEIDYYEMFNRDNVHLVDTLSAPIETITPRGVR-TSEREYELDSLVLATGFD--ALTGALFKIDIRGVGNVALKEKWAAGPRTYLGLSTAGFPNLFFIAGPGSPS-ALSNMLVSIEQHVEWVTDHIAYMFKNGL</Hsp_hseq>
+      <Hsp_midline>E +DV++VGAG SG+ A + L++    +S  ++E    +GG W   RYPG R D +     + F     + W   +  A    IL Y+   A  + +   I FH  V +A +  A N WTV   +HG    +   +L + SG  +  +   P F G +DF G + H  +WP E +D+  + + VIG+G++ + + P +A   A+ + + QR+P + V  P R+                                             + E L R+  E        ++++LR         ++ R   +  +    + +R +P+GY     FG       +RL L +   ++F       V+ ++  IE  T  G+R  S RE   D ++ ATG +     GA   ID + V               Y G+  +G PN+ +  G  + S  L   LVS     E+V   + YM  NG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|8XG8|A</Hit_id>
+  <Hit_def>Chain A, Phenylacetone monooxygenase [Thermobifida fusca YX]</Hit_def>
+  <Hit_accession>8XG8_A</Hit_accession>
+  <Hit_len>546</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>2.2141e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>414</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>87</Hsp_gaps>
+      <Hsp_align-len>476</Hsp_align-len>
+      <Hsp_qseq>EHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFRF-----RPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWP-EDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIVSQPDRDG--------------------------------------------IAEKLNRWLPETMAYTAVRWKNVLRQAAVYSACQKWPRRMRKMFL---SLIQRQLPEGYDVRKHFGPHYNPWDQRLCL-VPNGDLFRAIRHGKVEVVTDTIERFTATGIRLNSGRELPADIIITATGLNLQLFGGATATIDGQQVDITTTM--------AYKGMMLSGIPNMAYTVGYTNASWTLKADLVS--EFVCRLLNYMDDNGF</Hsp_qseq>
+      <Hsp_hseq>EEVDVLVVGAGFSGLYALYRLRELG--RSVHVIETAGDVGGVWYWNRYPGARCDIESIEYCYSFSEEVLQEWNWTERYASQPEILRYINFVADKFDLRSGITFHTTVTAAAFDEATNTWTVDT-NHG--DRIRARYLIMASGQLSVPQ--LPNFPGLKDFAGNLYHTGNWPHEPVDFSGQRVGVIGTGSSGIQVSPQIAKQAAE-LFVFQRTPHFAV--PARNAPLDPEFLADLKKRYAEFREESRNTPGGTHRYQGPKSALEVSDEELVETLERYWQEGGPDILAAYRDILRDRDANERVAEFIRNKIRNTVRDPEVAERLVPKGYP----FG------TKRLILEIDYYEMFNRDNVHLVDTLSAPIETITPRGVR-TSEREYELDSLVLATGFD--ALTGALFKIDIRGVGNVALKEKWAAGPRTYLGLSTAGFPNLFFIAGPGSPMYNMLVSIEQHVEWVTDHIAYMFKNGL</Hsp_hseq>
+      <Hsp_midline>E +DV++VGAG SG+ A + L++    +S  ++E    +GG W   RYPG R D +     + F     + W   +  A    IL Y+   A  + +   I FH  V +A +  A N WTV   +HG    +   +L + SG  +  +   P F G +DF G + H  +WP E +D+  + + VIG+G++ + + P +A   A+ + + QR+P + V  P R+                                             + E L R+  E        ++++LR         ++ R   +  +    + +R +P+GY     FG       +RL L +   ++F       V+ ++  IE  T  G+R  S RE   D ++ ATG +     GA   ID + V               Y G+  +G PN+ +  G  +  + +   +    E+V   + YM  NG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|2YLW|A</Hit_id>
+  <Hit_def>Chain A, PHENYLACETONE MONOOXYGENASE [Thermobifida fusca] &gt;pdb|2YM1|A Chain A, PHENYLACETONE MONOOXYGENASE [Thermobifida fusca] &gt;pdb|2YM2|A Chain A, PHENYLACETONE MONOOXYGENASE [Thermobifida fusca] &gt;pdb|4C77|A Chain A, PHENYLACETONE MONOOXYGENASE [Thermobifida fusca]</Hit_def>
+  <Hit_accession>2YLW_A</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>4.21934e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>414</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>91</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>EHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFRF-----RPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWP-EDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIVSQPDRDG--------------------------------------------IAEKLNRWLPETMAYTAVRWKNVLRQAAVYSACQKWPRRMRKMFL---SLIQRQLPEGYDVRKHFGPHYNPWDQRLCL-VPNGDLFRAIRHGKVEVVTDTIERFTATGIRLNSGRELPADIIITATGLNLQLFGGATATIDGQQVDITTTM--------AYKGMMLSGIPNMAYTVGYTNASWTLKADLVS-----EFVCRLLNYMDDNGF</Hsp_qseq>
+      <Hsp_hseq>EEVDVLVVGAGFSGLYALYRLRELG--RSVHVIETAGDVGGVWYWNRYPGARCDIESIEYCYSFSEEVLQEWNWTERYASQPEILRYINFVADKFDLRSGITFHTTVTAAAFDEATNTWTVDT-NHG--DRIRARYLIMASGQLSVPQ--LPNFPGLKDFAGNLYHTGNWPHEPVDFSGQRVGVIGTGSSGIQVSPQIAKQAAE-LFVFQRTPHFAV--PARNAPLDPEFLADLKKRYAEFREESRNTPGGTHRYQGPKSALEVSDEELVETLERYWQEGGPDILAAYRDILRDRDANERVAEFIRNKIRNTVRDPEVAERLVPKGYP----FG------TKKLILEIDYYEMFNRDNVHLVDTLSAPIETITPRGVR-TSEREYELDSLVLATGFD--ALTGALFKIDIRGVGNVALKEKWAAGPRTYLGLSTAGFPNLFFIAGPGSPS-ALSNMLVSIEQHVEWVTDHIAYMFKNGL</Hsp_hseq>
+      <Hsp_midline>E +DV++VGAG SG+ A + L++    +S  ++E    +GG W   RYPG R D +     + F     + W   +  A    IL Y+   A  + +   I FH  V +A +  A N WTV   +HG    +   +L + SG  +  +   P F G +DF G + H  +WP E +D+  + + VIG+G++ + + P +A   A+ + + QR+P + V  P R+                                             + E L R+  E        ++++LR         ++ R   +  +    + +R +P+GY     FG       ++L L +   ++F       V+ ++  IE  T  G+R  S RE   D ++ ATG +     GA   ID + V               Y G+  +G PN+ +  G  + S  L   LVS     E+V   + YM  NG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|8XG9|A</Hit_id>
+  <Hit_def>Chain A, Phenylacetone monooxygenase [Thermobifida fusca YX]</Hit_def>
+  <Hit_accession>8XG9_A</Hit_accession>
+  <Hit_len>546</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>7.99284e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>414</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>87</Hsp_gaps>
+      <Hsp_align-len>476</Hsp_align-len>
+      <Hsp_qseq>EHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFRF-----RPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWP-EDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIVSQPDRDG--------------------------------------------IAEKLNRWLPETMAYTAVRWKNVLRQAAVYSACQKWPRRMRKMFL---SLIQRQLPEGYDVRKHFGPHYNPWDQRLCL-VPNGDLFRAIRHGKVEVVTDTIERFTATGIRLNSGRELPADIIITATGLNLQLFGGATATIDGQQVDITTTM--------AYKGMMLSGIPNMAYTVGYTNASWTLKADLVS--EFVCRLLNYMDDNGF</Hsp_qseq>
+      <Hsp_hseq>EEVDVLVVGAGFSGLYALYRLRELG--RSVHVIETAGDVGGVWYWNRYPGARCDIESIEYCYSFSEEVLQEWNWTERYASQPEILRYINFVADKFDLRSGITFHTTVTAAAFDEATNTWTVDT-NHG--DRIRARYLIMASGQLSVPQ--LPNFPGLKDFAGNLYHTGNWPHEPVDFSGQRVGVIGTGSSGIQVSPQIAKQAAE-LFVFQRTPHFAV--PARNAPLDPEFLADLKKRYAEFREESRNTPGGTHRYQGPKSALEVSDEELVETLERYWQEGGPDILAAYRDILRDRDANERVAEFIRNKIRNTVRDPEVAERLVPKGYP----FG------TKRLILEIDYYEMFNRDNVHLVDTLSAPIETITPRGVR-TSEREYELDSLVLATGFD--ALTGALFKIDIRGVGNVALKEKWAAGPRTYLGLSTAGFPNLFFIAGPGSPGINMLVSIEQHVEWVTDHIAYMFKNGL</Hsp_hseq>
+      <Hsp_midline>E +DV++VGAG SG+ A + L++    +S  ++E    +GG W   RYPG R D +     + F     + W   +  A    IL Y+   A  + +   I FH  V +A +  A N WTV   +HG    +   +L + SG  +  +   P F G +DF G + H  +WP E +D+  + + VIG+G++ + + P +A   A+ + + QR+P + V  P R+                                             + E L R+  E        ++++LR         ++ R   +  +    + +R +P+GY     FG       +RL L +   ++F       V+ ++  IE  T  G+R  S RE   D ++ ATG +     GA   ID + V               Y G+  +G PN+ +  G  +    +   +    E+V   + YM  NG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|2YLX|A</Hit_id>
+  <Hit_def>Chain A, PHENYLACETONE MONOOXYGENASE [Thermobifida fusca]</Hit_def>
+  <Hit_accession>2YLX_A</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.17558e-24</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>414</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>91</Hsp_gaps>
+      <Hsp_align-len>479</Hsp_align-len>
+      <Hsp_qseq>EHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRS--DSDMYTLGFR---FRPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWP-EDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIVSQPDRDG--------------------------------------------IAEKLNRWLPETMAYTAVRWKNVLRQAAVYSACQKWPRRMRKMFL---SLIQRQLPEGYDVRKHFGPHYNPWDQRLCL-VPNGDLFRAIRHGKVEVVTDTIERFTATGIRLNSGRELPADIIITATGLNLQLFGGATATIDGQQVDITTTM--------AYKGMMLSGIPNMAYTVGYTNASWTLKADLVS-----EFVCRLLNYMDDNGF</Hsp_qseq>
+      <Hsp_hseq>EEVDVLVVGAGFSGLYALYRLRELG--RSVHVIETAGDVGGVWYWNRYPGARCAIESIEYCYSFSEEVLQEWNWTERYASQPEILRYINFVADKFDLRSGITFHTTVTAAAFDEATNTWTVDT-NHG--DRIRARYLIMASGQLSVPQ--LPNFPGLKDFAGNLYHTGNWPHEPVDFSGQRVGVIGTGSSGIQVSPQIAKQAAE-LFVFQRTPHFAV--PARNAPLDPEFLADLKKRYAEFREESRNTPGGTHRYQGPKSALEVSDEELVETLERYWQEGGPDILAAYRDILRDRDANERVAEFIRNKIRNTVRDPEVAERLVPKGYP----FG------TKRLILEIDYYEMFNRDNVHLVDTLSAPIETITPRGVR-TSEREYELDSLVLATGFD--ALTGALFKIDIRGVGNVALKEKWAAGPRTYLGLSTAGFPNLFFIAGPGSPS-ALSNMLVSIEQHVEWVTDHIAYMFKNGL</Hsp_hseq>
+      <Hsp_midline>E +DV++VGAG SG+ A + L++    +S  ++E    +GG W   RYPG R   +S  Y   F     + W   +  A    IL Y+   A  + +   I FH  V +A +  A N WTV   +HG    +   +L + SG  +  +   P F G +DF G + H  +WP E +D+  + + VIG+G++ + + P +A   A+ + + QR+P + V  P R+                                             + E L R+  E        ++++LR         ++ R   +  +    + +R +P+GY     FG       +RL L +   ++F       V+ ++  IE  T  G+R  S RE   D ++ ATG +     GA   ID + V               Y G+  +G PN+ +  G  + S  L   LVS     E+V   + YM  NG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|8WKC|A</Hit_id>
+  <Hit_def>Chain A, Putative monooxygenase [Oceanicola granulosus HTCC2516]</Hit_def>
+  <Hit_accession>8WKC_A</Hit_accession>
+  <Hit_len>537</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>3.63165e-22</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>LDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSD--MYTLGF---RFRPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSA-LTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWPEDL-DYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIV</Hsp_qseq>
+      <Hsp_hseq>LDVAVIGAGVGGLYALHRVKNELGMNAQG-FDDASGVGGTWYWNRYPGCRVDTESTVYTYSFDMDMFQNWEWSERYAKQEEVLGYLNAVADKHGLKEAINFNTRIAKMEWQEEARRWRLTTEAGETVTAKYVIEAVGLLS------SSYAPQFPDRDKFKGEVLLASKWPRDEPDLAGKRVGVVGTGSTGIQIITSIADK-VGHLHVLQRTPQWVV</Hsp_hseq>
+      <Hsp_midline>LDV ++GAG+ G+ A   +++     +    +    +GGTW   RYPG R D++  +YT  F    F+ W   +  A  + +L Y+ + A  +G+   I F+ ++   +W     RW +  ++  T++A    E + L S        Y+P+F   + F G ++    WP D  D   K + V+G+G+T + ++ ++AD    H+ +LQR+P ++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|4AP3|A</Hit_id>
+  <Hit_def>Chain A, STEROID MONOOXYGENASE [Rhodococcus rhodochrous]</Hit_def>
+  <Hit_accession>4AP3_A</Hit_accession>
+  <Hit_len>549</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>3.87797e-22</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>TEHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFRFRP-----WTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWPED-LDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIV</Hsp_qseq>
+      <Hsp_hseq>TTSYDVVVVGAGIAGLYAIHRFRSQGLT--VRAFEAASGVGGVWYWNRYPGARCDVESIDYSYSFSPELEQEWNWSEKYATQPEILAYLEHVADRFDLRRDIRFDTRVTSAVLDEEGLRWTVRTDRGDEVSA---RFLVVAAGPLS--NANTPAFDGLDRFTGDIVHTARWPHDGVDFTGKRVGVIGTGSSGIQSIPIIAEQ-AEQLFVFQRSANYSI</Hsp_hseq>
+      <Hsp_midline>T   DVV+VGAGI+G+ A    + +  T      E    +GG W   RYPG R D +     + F P     W   +  A    IL Y++  A  + + R IRF  +V SA       RWTV       +SA    FL + +G  +     +P F G + F G I+H   WP D +D+  K + VIG+G++ +  +P +A+  A+ + + QRS  Y +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|4AP1|A</Hit_id>
+  <Hit_def>Chain A, STEROID MONOOXYGENASE [Rhodococcus rhodochrous]</Hit_def>
+  <Hit_accession>4AP1_A</Hit_accession>
+  <Hit_len>549</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>4.13286e-22</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>TEHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFRFRP-----WTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWPED-LDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIV</Hsp_qseq>
+      <Hsp_hseq>TTSYDVVVVGAGIAGLYAIHRFRSQGLT--VRAFEAASGVGGVWYWNRYPGARCDVESIDYSYSFSPELEQEWNWSEKYATQPEILAYLEHVADRFDLRRDIRFDTRVTSAVLDEEGLRWTVRTDRGDEVSA---RFLVVAAGPLS--NANTPAFDGLDRFTGDIVHTARWPHDGVDFTGKRVGVIGTGSSGIQSIPIIAEQ-AEQLFVFQRSANYSI</Hsp_hseq>
+      <Hsp_midline>T   DVV+VGAGI+G+ A    + +  T      E    +GG W   RYPG R D +     + F P     W   +  A    IL Y++  A  + + R IRF  +V SA       RWTV       +SA    FL + +G  +     +P F G + F G I+H   WP D +D+  K + VIG+G++ +  +P +A+  A+ + + QRS  Y +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|4AOS|A</Hit_id>
+  <Hit_def>Chain A, STEROID MONOOXYGENASE [Rhodococcus rhodochrous] &gt;pdb|4AOX|A Chain A, STEROID MONOOXYGENASE [Rhodococcus rhodochrous]</Hit_def>
+  <Hit_accession>4AOS_A</Hit_accession>
+  <Hit_len>549</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>4.13286e-22</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>TEHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFRFRP-----WTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWPED-LDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIV</Hsp_qseq>
+      <Hsp_hseq>TTSYDVVVVGAGIAGLYAIHRFRSQGLT--VRAFEAASGVGGVWYWNRYPGARCDVESIDYSYSFSPELEQEWNWSEKYATQPEILAYLEHVADRFDLRRDIRFDTRVTSAVLDEEGLRWTVRTDRGDEVSA---RFLVVAAGPLS--NANTPAFDGLDRFTGDIVHTARWPHDGVDFTGKRVGVIGTGSSGIQSIPIIAEQ-AEQLFVFQRSANYSI</Hsp_hseq>
+      <Hsp_midline>T   DVV+VGAGI+G+ A    + +  T      E    +GG W   RYPG R D +     + F P     W   +  A    IL Y++  A  + + R IRF  +V SA       RWTV       +SA    FL + +G  +     +P F G + F G I+H   WP D +D+  K + VIG+G++ +  +P +A+  A+ + + QRS  Y +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|5J7X|A</Hit_id>
+  <Hit_def>Chain A, Dimethylaniline monooxygenase, putative [Aspergillus flavus]</Hit_def>
+  <Hit_accession>5J7X_A</Hit_accession>
+  <Hit_len>549</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>1.95222e-21</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>432</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>66</Hsp_gaps>
+      <Hsp_align-len>432</Hsp_align-len>
+      <Hsp_qseq>HLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDM----YTLGFRFRPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWP--EDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIV---SQPDRDGIAEKLNRWLPETMAYTAVRWKNVLRQAA---VYSACQK-----------------WPRRMRKMFLSL---------------IQRQLPEGYDVRKHFGPHYNPWDQRLCLVPNGDLFRAIRHGKVEVV---TDTIERFTATGIRLNSGRELPADIIITATG--------LNLQLFGGATATIDGQQVDITTTMAYKGMMLSGIPNM</Hsp_qseq>
+      <Hsp_hseq>HLDALIIGSGFSGIYLLHKLRDELKLK-VKIFEAESDIGGTWNNNRYPGARVDCPVPFYAYSLPEVWQSWNWTELYPNQKEIKSYFDHVDRVLDVRKDCLFHSRVNEGTFDEATGRWTVWT-TDGKVA--TAKYLLVAVGFAS--KSYLPDWKGLDSFKGTIYHSAHWPEAEEISVKGKKVAVIGTGSTGIQIFQEWARE-AEEAFLFQRTPNLCLPMRQQELHAGYQVKDKGEYADYLAECALTFGGLEYQQTPKNTFDASEEEREAFWEDLYQMGGFRFWQNNYQDLLTSLDANREAYNFWARKTRARIQDPKKRDLLAPLEPPYPFGTKRPSL--EQDFYEQFNKSNVHIVDTKSQPIVGVTPTGIVTADEKVHEVDIIAVATGFDAVTGGLLRLGLKDVNGVGLDERWKDGMST--YLGMAISGFPNM</Hsp_hseq>
+      <Hsp_midline>HLD +I+G+G SG+     L+D    K   I E    +GGTW+  RYPG R D  +    Y+L   ++ W   +   + K I  Y      +  + +   FH +V    +  A  RWTV   + G ++  T ++L +  G+ +  + Y P + G + F G I H  HWP  E++    K + VIG+G+T + +    A   A+   + QR+P   +    Q    G   K      + +A  A+ +  +  Q      + A ++                 W    + +  SL                + Q P+  D+     P Y    +R  L    D +       V +V   +  I   T TGI     +    DII  ATG        L L L       +D +  D  +T  Y GM +SG PNM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|5M0Z|A</Hit_id>
+  <Hit_def>Chain A, Cyclohexanone Monooxygenase from Thermocrispum municipale. [Thermocrispum municipale DSM 44069] &gt;pdb|5M10|A Chain A, Cyclohexanone Monooxygenase from Thermocrispum municipale [Thermocrispum municipale] &gt;pdb|6GQI|A Chain A, Cyclohexanone Monooxygenase from Thermocrispum municipale [Thermocrispum municipale] &gt;pdb|6GQI|B Chain B, Cyclohexanone Monooxygenase from Thermocrispum municipale [Thermocrispum municipale]</Hit_def>
+  <Hit_accession>5M0Z_A</Hit_accession>
+  <Hit_len>541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>4.21174e-21</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>TEHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFRFRP-------WTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWPEDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIV</Hsp_qseq>
+      <Hsp_hseq>TPDLDAIVIGAGFGGIYMLHKLRNDLGL-SVRVFEKGGGVGGTWYWNKYPGAKSDTEGFVYRYSFDKELLREYDWTTR--YLDQPDVLAYLEHVVERYDLARDIQLNTEVTDAIFDEETELWRVTTAGGETLTAR-----FLVTALGLLSRSNIPDIPGRDSFAGRLVHTNAWPEDLDITGKRVGVIGTGSTGTQFIVAAAKM-AEQLTVFQRTPQYCV</Hsp_hseq>
+      <Hsp_midline>T  LD +++GAG  G+     L++     S  + EK   +GGTW   +YPG +SD++ +   + F         WT R    D   +L Y++     Y + R I+ + +V  A +      W V      TL+A      FL +          P   G + F G ++H   WPEDLD   K + VIG+G+T    + A A   A+ +T+ QR+P Y V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|7V8O|A</Hit_id>
+  <Hit_def>Chain A, Cyclohexanone Monooxygenase from Thermocrispum municipale [Thermocrispum municipale] &gt;pdb|7V8O|B Chain B, Cyclohexanone Monooxygenase from Thermocrispum municipale [Thermocrispum municipale] &gt;pdb|7V8R|A Chain A, Cyclohexanone Monooxygenase from Thermocrispum municipale [Thermocrispum municipale] &gt;pdb|7V8S|A Chain A, Cyclohexanone Monooxygenase from Thermocrispum municipale [Thermocrispum municipale] &gt;pdb|7V8S|B Chain B, Cyclohexanone Monooxygenase from Thermocrispum municipale [Thermocrispum municipale]</Hit_def>
+  <Hit_accession>7V8O_A</Hit_accession>
+  <Hit_len>541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>4.48754e-21</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>TEHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFRFRP-------WTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWPEDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIV</Hsp_qseq>
+      <Hsp_hseq>TPDLDAIVIGAGFGGIYMLHKLRNDLGL-SVRVFEKGGGVGGTWYWNKYPGAKSDTEGFVYRYSFDKELLREYDWTTR--YLDQPDVLAYLEHVVERYDLARDIQLNTEVTDAIFDEETELWRVTTAGGETLTAR-----FLVTALGLLSRSNIPDIPGRDSFAGRLVHTNAWPEDLDITGKRVGVIGTGSTGTQFIVAAAKM-AEQLTVFQRTPQYCV</Hsp_hseq>
+      <Hsp_midline>T  LD +++GAG  G+     L++     S  + EK   +GGTW   +YPG +SD++ +   + F         WT R    D   +L Y++     Y + R I+ + +V  A +      W V      TL+A      FL +          P   G + F G ++H   WPEDLD   K + VIG+G+T    + A A   A+ +T+ QR+P Y V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|6ER9|A</Hit_id>
+  <Hit_def>Chain A, Cyclohexanone monooxygenase [Rhodococcus sp. Phi1] &gt;pdb|6ER9|B Chain B, Cyclohexanone monooxygenase [Rhodococcus sp. Phi1]</Hit_def>
+  <Hit_accession>6ER9_A</Hit_accession>
+  <Hit_len>549</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>4.57769e-19</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>LDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFRFRPWTGRQAIADGK---------PILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWPEDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIVSQPDRDGIAEKLN</Hsp_qseq>
+      <Hsp_hseq>VDAVVIGAGFGGIYAVHKLHNEQGLTVVG-FDKADGPGGTWYWNRYPGALSDTESHLYRFSFD----RDLLQDGTWKTTYITQPEILEYLESVVDRFDLRRHFRFGTEVTSAIYLEDENLWEVSTDKGEVYRAKYVVNAVGLLSAINF-----PDLPGLDTFEGETIHTAAWPEGKNLAGKRVGVIGTGSTGQQVITALAPE-VEHLTVFVRTPQYSVPVGNRPVTKEQID</Hsp_hseq>
+      <Hsp_midline>+D V++GAG  G+ A   L +          +K +  GGTW   RYPG  SD++ +   F F     R  + DG           ILEY++S    + + RH RF  +V SA +   EN W V         A             N+     P   G + F G  IH   WPE  +   K + VIG+G+T   ++ ALA    +H+T+  R+P Y V   +R    E+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|6ERA|A</Hit_id>
+  <Hit_def>Chain A, Cyclohexanone monooxygenase [Rhodococcus sp. Phi1] &gt;pdb|6ERA|B Chain B, Cyclohexanone monooxygenase [Rhodococcus sp. Phi1]</Hit_def>
+  <Hit_accession>6ERA_A</Hit_accession>
+  <Hit_len>549</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>5.47797e-19</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>LDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFRFRPWTGRQAIADGK---------PILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWPEDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIVSQPDRDGIAEKLN</Hsp_qseq>
+      <Hsp_hseq>VDAVVIGAGFGGIYAVHKLHNEQGLTVVG-FDKADGPGGTWYWNRYPGALSDTESHLYRFSFD----RDLLQDGTWKTTYITQPEILEYLESVVDRFDLRRHFRFGTEVTSAIYLEDENLWEVSTDKGEVYRAKYVVNAVGLLSAINF-----PDLPGLDTFEGETIHTAAWPEGKNLAGKRVGVIGTGSTGQQVITALAPE-VEHLTVFVRTPQYSVPVGNRPVTKEQID</Hsp_hseq>
+      <Hsp_midline>+D V++GAG  G+ A   L +          +K +  GGTW   RYPG  SD++ +   F F     R  + DG           ILEY++S    + + RH RF  +V SA +   EN W V         A             N+     P   G + F G  IH   WPE  +   K + VIG+G+T   ++ ALA    +H+T+  R+P Y V   +R    E+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|7V50|A</Hit_id>
+  <Hit_def>Chain A, Putative flavin-binding monooxygenase [Acinetobacter calcoaceticus]</Hit_def>
+  <Hit_accession>7V50_A</Hit_accession>
+  <Hit_len>562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>9.20836e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>447</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>76</Hsp_gaps>
+      <Hsp_align-len>444</Hsp_align-len>
+      <Hsp_qseq>MTEHLD--VVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFR-----FRPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWPEDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTY-------IVSQPDRDGIAEK----------------LNRWLPETMAYTAVRWKNVLRQAAVYSACQKWPR--RMRKMFLSLIQRQLPEGYDVRKH---------------FGPHYNPWDQRLC--LVPNG--DLFRAIRHGKVEVVTDTIERFTATGIRLNSGRELPADIIITATGLNLQLFGGATATIDGQQVDITTTM--------AYKGMMLSGIPNMAYTVG</Hsp_qseq>
+      <Hsp_hseq>MTQKMDFDAIIIGAGFGGLYSLKKLRDDFNLKVRA-FDRATEVGGTWFWNQYPGALSDSETHLYCYSWDKELLQEMEIKRKYISQPDVLAYLKRVADKHDLRKDIQFETGIRSAYFDEENSFWNVTTEND---EKFTARFLITALGLLAAPN--LPKIKGIETFKGELHHTSRWPKDVTFSGKRVGVIGTGSTGVQVITAIA-SQVKHLTVFQRSAQYSVPIGNVVMSETDVAKIKENYDQIWENVWNSALGYGLNESTLPTMSVSAEERDKIFEKA--------WQEGGGLRFMFETFGDIAVDETANIEAQNFIKKKISEIVKDPFVAKKLTPTDLYACRPLCDSGYYEIFNRDNVSLEDVKANPIVEIKEDCVVTADGVEHKLDMLICATGFD--AVDGSYKRIDIRGKDGISIKDHWKDGPNSYLGMMVSNFPNMFMVFG</Hsp_hseq>
+      <Hsp_midline>MT+ +D   +I+GAG  G+ +   L+D    K  A  ++   +GGTW   +YPG  SDS+ +   +       +    ++       +L Y+K  A  + + + I+F   + SA +    + W V  ++       T  FL    G         P+  G E F G + H   WP+D+ +  K + VIG+G+T V ++ A+A S  KH+T+ QRS  Y       ++S+ D   I E                 LN     TM+ +A     +  +A        W     +R MF +     + E  ++                        P D   C  L  +G  ++F        +V  + I       +    G E   D++I ATG +     G+   ID +  D  +          +Y GMM+S  PNM    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|7V4X|A</Hit_id>
+  <Hit_def>Chain A, Putative flavin-binding monooxygenase [Acinetobacter calcoaceticus]</Hit_def>
+  <Hit_accession>7V4X_A</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>9.53389e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>76</Hsp_gaps>
+      <Hsp_align-len>444</Hsp_align-len>
+      <Hsp_qseq>MTEHLD--VVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFR-----FRPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWPEDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTY-------IVSQPDRDGIAEK----------------LNRWLPETMAYTAVRWKNVLRQAAVYSACQKWPR--RMRKMFLSLIQRQLPEGYDVRKH---------------FGPHYNPWDQRLC--LVPNG--DLFRAIRHGKVEVVTDTIERFTATGIRLNSGRELPADIIITATGLNLQLFGGATATIDGQQVDITTTM--------AYKGMMLSGIPNMAYTVG</Hsp_qseq>
+      <Hsp_hseq>MTQQMDFDAIIIGAGFGGLYSLKKLRDDFNLKVRA-FDRATEVGGTWFWNQYPGALSDSETHLYCYSWDKELLQEMEIKRKYISQPDVLAYLKRVADKHDLRKDIQFETGIRSAYFDEENSFWNVTTEND---EKFTARFLITALGLLAAPN--LPKIKGIETFKGELHHTSRWPKDVTFSGKRVGVIGTGSTGVQVITAIA-SQVKHLTVFQRSAQYSVPIGNVVMSETDVAKIKENYDQIWENVWNSALGYGLNESTLPTMSVSAEERDKIFEKA--------WQEGGGFRFMFETFGDIAVDETANIEAQNFIKKKISEIVKDPFVAKKLTPTDLYACRPLCDSGYYEIFNRDNVSLEDVKANPIVEIKEDCVVTADGVEHKLDMLICATGFD--AVDGSYKRIDIRGKDGISIKDHWKDGPNSYLGMMVSNFPNMFMVFG</Hsp_hseq>
+      <Hsp_midline>MT+ +D   +I+GAG  G+ +   L+D    K  A  ++   +GGTW   +YPG  SDS+ +   +       +    ++       +L Y+K  A  + + + I+F   + SA +    + W V  ++       T  FL    G         P+  G E F G + H   WP+D+ +  K + VIG+G+T V ++ A+A S  KH+T+ QRS  Y       ++S+ D   I E                 LN     TM+ +A     +  +A        W      R MF +     + E  ++                        P D   C  L  +G  ++F        +V  + I       +    G E   D++I ATG +     G+   ID +  D  +          +Y GMM+S  PNM    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|7V51|A</Hit_id>
+  <Hit_def>Chain A, Putative flavin-binding monooxygenase [Acinetobacter calcoaceticus]</Hit_def>
+  <Hit_accession>7V51_A</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>1.52914e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>76</Hsp_gaps>
+      <Hsp_align-len>444</Hsp_align-len>
+      <Hsp_qseq>MTEHLD--VVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFR-----FRPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWPEDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTY-------IVSQPDRDGIAEK----------------LNRWLPETMAYTAVRWKNVLRQAAVYSACQKWPR--RMRKMFLSLIQRQLPEGYDVRKH---------------FGPHYNPWDQRLC--LVPNG--DLFRAIRHGKVEVVTDTIERFTATGIRLNSGRELPADIIITATGLNLQLFGGATATIDGQQVDITTTM--------AYKGMMLSGIPNMAYTVG</Hsp_qseq>
+      <Hsp_hseq>MTQKMDFDAIIIGAGFGGLYSLKKLRDDFNLKVRA-FDRATEVGGTWFWNQYPGALSDSETHLYCYSWDKELLQEMEIKRKYISQPDVLAYLKRVADKHDLRKDIQFETGIRSAYFDEENSFWNVTTEND---EKFTARFLITALGLLAAPN--LPKIKGIETFKGELHHTSRWPKDVTFSGKRVGVIGTGSTGVQVITAIA-SQVKHLTVFQRSAQYSVPIGNVVMSETDVAKIKENYDQIWENVWNSALGYGLNESTLPTMSVSAEERDKIFEKA--------WQEGGGFRFMFETFGDIAVDETANIEAQNFIKKKISEIVKDPFVAKKLTPTDLYACRPLCDSGYYEIFNRDNVSLEDVKANPIVEIKEDCVVTADGVEHKLDMLICATGFD--AVDGSYKRIDIRGKDGISIKDHWKDGPNSYLGMMVSNFPNMFMVFG</Hsp_hseq>
+      <Hsp_midline>MT+ +D   +I+GAG  G+ +   L+D    K  A  ++   +GGTW   +YPG  SDS+ +   +       +    ++       +L Y+K  A  + + + I+F   + SA +    + W V  ++       T  FL    G         P+  G E F G + H   WP+D+ +  K + VIG+G+T V ++ A+A S  KH+T+ QRS  Y       ++S+ D   I E                 LN     TM+ +A     +  +A        W      R MF +     + E  ++                        P D   C  L  +G  ++F        +V  + I       +    G E   D++I ATG +     G+   ID +  D  +          +Y GMM+S  PNM    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|6A37|A</Hit_id>
+  <Hit_def>Chain A, Putative flavin-binding monooxygenase [Acinetobacter calcoaceticus]</Hit_def>
+  <Hit_accession>6A37_A</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>1.80392e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MTEHLD--VVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFR-----FRPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWPEDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIV</Hsp_qseq>
+      <Hsp_hseq>MTQKMDFDAIIIGAGFGGLYSLKKLRDDFNLKVRA-FDRATEVGGTWFWNQYPGALSDSETHLYCYSWDKELLQEMEIKRKYISQPDVLAYLKRVADKHDLRKDIQFETGIRSAYFDEENSFWNVTTEND---EKFTARFLITALGLLAAPN--LPKIKGIETFKGELHHTSRWPKDVTFSGKRVGVIGTGSTGVQVITAIA-SQVKHLTVFQRSAQYSV</Hsp_hseq>
+      <Hsp_midline>MT+ +D   +I+GAG  G+ +   L+D    K  A  ++   +GGTW   +YPG  SDS+ +   +       +    ++       +L Y+K  A  + + + I+F   + SA +    + W V  ++       T  FL    G         P+  G E F G + H   WP+D+ +  K + VIG+G+T V ++ A+A S  KH+T+ QRS  Y V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|6JDK|A</Hit_id>
+  <Hit_def>Chain A, Baeyer-Villiger monooxygenase [Parvibaculum lavamentivorans DS-1] &gt;pdb|6JDK|B Chain B, Baeyer-Villiger monooxygenase [Parvibaculum lavamentivorans DS-1]</Hit_def>
+  <Hit_accession>6JDK_A</Hit_accession>
+  <Hit_len>544</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>4.94261e-18</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>TEHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDM----YTLGFRFRPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWP-EDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIVSQPDRDGIAEKLNR</Hsp_qseq>
+      <Hsp_hseq>AEVFDALIVGAGFNGIYQLHRL--RQEGFKVRLFEAGADMGGIWYWNCYPGARVDSHIPIYEFSIEELWRDWNWTERFPAWDELRRYFHYVDKKLDLSRDIRFGMRVSAAEFDEARDQWVIRT-TDGTV--VRARFFILCTGFAS--KPYIPNYKGLESFAGESFHTGLWPQEGASFTGKRVGVVGTGASGVQVVQE-ASKDAAHLTVFQRTPILALPMQQRKLDVETQQR</Hsp_hseq>
+      <Hsp_midline> E  D +IVGAG +G+     L  R       + E    MGG W    YPG R DS +    +++   +R W   +       +  Y         + R IRF  +V +A++  A ++W +   + GT+  +   F  LC+G+ +  + Y P + G E F G   H   WP E   +  K + V+G+GA+ V +V   A   A H+T+ QR+P   +    R    E   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|3GWD|A</Hit_id>
+  <Hit_def>Chain A, Cyclohexanone monooxygenase [Rhodococcus sp. HI-31] &gt;pdb|3GWF|A Chain A, Cyclohexanone monooxygenase [Rhodococcus sp. HI-31]</Hit_def>
+  <Hit_accession>3GWD_A</Hit_accession>
+  <Hit_len>540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>2.74532e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>TEHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFRF-----RPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTL--SALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWPEDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIVSQPDR</Hsp_qseq>
+      <Hsp_hseq>THTVDAVVIGAGFGGIYAVHKLHHELGLTTVG-FDKADGPGGTWYWNRYPGALSDTESHLYRFSFDRDLLQESTWKTTYITQPEILEYLEDVVDRFDLRRHFKFGTEVTSALYLDDENLWEV-TTDHGEVYRAKYVVNAVGLLSAI-NF-----PNLPGLDTFEGETIHTAAWPEGKSLAGRRVGVIGTGSTGQQVITSLAPE-VEHLTVFVRTPQYSVPVGNR</Hsp_hseq>
+      <Hsp_midline>T  +D V++GAG  G+ A   L       +    +K +  GGTW   RYPG  SD++ +   F F     +  T +        ILEY++     + + RH +F  +V SA +   EN W V    HG +  +      + L S   N+     P   G + F G  IH   WPE      + + VIG+G+T   ++ +LA    +H+T+  R+P Y V   +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|4RG3|A</Hit_id>
+  <Hit_def>Chain A, Cyclohexanone monooxygenase [Rhodococcus sp. HI-31] &gt;pdb|4RG4|A Chain A, Cyclohexanone monooxygenase [Rhodococcus sp. HI-31]</Hit_def>
+  <Hit_accession>4RG3_A</Hit_accession>
+  <Hit_len>548</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>3.2907e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>TEHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFRF-----RPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTL--SALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWPEDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIVSQPDR</Hsp_qseq>
+      <Hsp_hseq>THTVDAVVIGAGFGGIYAVHKLHHELGLTTVG-FDKADGPGGTWYWNRYPGALSDTESHLYRFSFDRDLLQESTWKTTYITQPEILEYLEDVVDRFDLRRHFKFGTEVTSALYLDDENLWEV-TTDHGEVYRAKYVVNAVGLLSAI-NF-----PNLPGLDTFEGETIHTAAWPEGKSLAGRRVGVIGTGSTGQQVITSLAPE-VEHLTVFVRTPQYSVPVGNR</Hsp_hseq>
+      <Hsp_midline>T  +D V++GAG  G+ A   L       +    +K +  GGTW   RYPG  SD++ +   F F     +  T +        ILEY++     + + RH +F  +V SA +   EN W V    HG +  +      + L S   N+     P   G + F G  IH   WPE      + + VIG+G+T   ++ +LA    +H+T+  R+P Y V   +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|3UCL|A</Hit_id>
+  <Hit_def>Chain A, Cyclohexanone monooxygenase [Rhodococcus sp. HI-31]</Hit_def>
+  <Hit_accession>3UCL_A</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>3.45497e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>TEHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFRF-----RPWTGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTL--SALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWPEDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIVSQPDR</Hsp_qseq>
+      <Hsp_hseq>THTVDAVVIGAGFGGIYAVHKLHHELGLTTVG-FDKADGPGGTWYWNRYPGALSDTESHLYRFSFDRDLLQESTWKTTYITQPEILEYLEDVVDRFDLRRHFKFGTEVTSALYLDDENLWEV-TTDHGEVYRAKYVVNAVGLLSAI-NF-----PNLPGLDTFEGETIHTAAWPEGKSLAGRRVGVIGTGSTGQQVITSLAPE-VEHLTVFVRTPQYSVPVGNR</Hsp_hseq>
+      <Hsp_midline>T  +D V++GAG  G+ A   L       +    +K +  GGTW   RYPG  SD++ +   F F     +  T +        ILEY++     + + RH +F  +V SA +   EN W V    HG +  +      + L S   N+     P   G + F G  IH   WPE      + + VIG+G+T   ++ +LA    +H+T+  R+P Y V   +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|5MQ6|A</Hit_id>
+  <Hit_def>Chain A, Pyridine nucleotide-disulfide oxidoreductase-like protein [Thermothelomyces thermophilus]</Hit_def>
+  <Hit_accession>5MQ6_A</Hit_accession>
+  <Hit_len>655</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>8.72372e-12</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>VIVGAGISGVSAAWHLQDR---CPTKSYAILEKRESMGGTWDLFRYPGIRSDSDMYTLGFRFRPWTG---RQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHI---QSHGTLS---ALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWPEDLD-----------YDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYI</Hsp_qseq>
+      <Hsp_hseq>IILGAGYGGLLYAVRLAEAGLASGPDDILMVDAAGGFGGTWWWNRYPGLHCDVESYSY-MPLLEETGYIPKSKYAAGPELLEHAYRIATQWKLHDKALFRSNVKTIRWDDESRLWSLEVTEGRGPGQQSRELKLQARYVLLASGILTNPQ--VPKIPGLETFTGPVFHTARWNYDVTGGSPTDEALNRLEGKRVGIIGTGATAIQVVPKLAKY-AKELYVFQRTPSGV</Hsp_hseq>
+      <Hsp_midline>+I+GAG  G+  A  L +           +++     GGTW   RYPG+  D + Y+        TG   +   A G  +LE+    A  + +     F   V +  W      W++ +   +  G  S    L   ++ L SG     +   P+  G E F GP+ H   W  D+             + K + +IG+GATA+ +VP LA   AK + + QR+P+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|7AL4|A</Hit_id>
+  <Hit_def>Chain A, Ancestral Flavin-containing monooxygenase 1 (mammalian) [Felis catus] &gt;pdb|7AL4|B Chain B, Ancestral Flavin-containing monooxygenase 1 (mammalian) [Felis catus] &gt;pdb|7AL4|C Chain C, Ancestral Flavin-containing monooxygenase 1 (mammalian) [Felis catus] &gt;pdb|7AL4|D Chain D, Ancestral Flavin-containing monooxygenase 1 (mammalian) [Felis catus]</Hit_def>
+  <Hit_accession>7AL4_A</Hit_accession>
+  <Hit_len>531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>9.99325e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>VVIVGAGISGVSAAWHLQDRCPTKS---YAILEKRESMGGTWDLFR---------YPGIRSDSDMYTLGFRFRPW-TGRQAIADGKPILEYVKSTAAMYGIDRHIRFHHKVISADWS---TAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSP--RFAGSEDFVGPIIHPQHWPEDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIVSQPDRDGIAEKLNRWLPETMAYTAVRWKNVLRQAAVYSACQKW--PRRMRKMFLSLIQRQLPEGYDVRKHFGPHYNPWDQRLCLVPNGDLFRAIRHGKVEVVTDTIERFTATGIRLNSGRELPADIIITATG</Hsp_qseq>
+      <Hsp_hseq>VAIVGAGVSGLASI-----KCCLEEGLEPTCFERSDDLGGLWRFTEHVEEGRASLYKSVVSNSCKEMSCYSDFPFPEDYPNYVPNSQFLEYLKMYANRFNLLKHIQFKTKVCSVTKCPDFTVTGQWEVVTQHEGKQESAIFDAVMVCTGFLT--DPYLPLDSFPGINTFKGQYFHSRQYKHPDIFKDKRVLVVGMGNSG-TDIAVEASHLAKKVFLSTTGGAWVMSRVFDSG--------YPWDMVFTT-RFQNMLRN-SLPTPIVTWLMARKMNSWFNHANYGLVPE--DRTQLREP-----------VLNDELPGCIITGKVLIKPSIKEVKENSVIFNNTPKEEPIDIIVFATG</Hsp_hseq>
+      <Hsp_midline>V IVGAG+SG+++      +C  +        E+ + +GG W             Y  + S+S      +   P+             LEY+K  A  + + +HI+F  KV S       T   +W V  Q  G   +   + + +C+G+    + Y P   F G   F G   H + +     +  K ++V+G G +  T +   A   AK V +      +++S+    G         P  M +T  R++N+LR  ++ +    W   R+M   F       +PE  D  +   P           V N +L   I  GKV +     E    + I  N+ +E P DII+ ATG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|8ACS|A</Hit_id>
+  <Hit_def>Chain A, FAD-dependent oxidoreductase [Janthinobacterium svalbardensis] &gt;pdb|8ACS|B Chain B, FAD-dependent oxidoreductase [Janthinobacterium svalbardensis] &gt;pdb|8ACS|C Chain C, FAD-dependent oxidoreductase [Janthinobacterium svalbardensis] &gt;pdb|8ACS|D Chain D, FAD-dependent oxidoreductase [Janthinobacterium svalbardensis]</Hit_def>
+  <Hit_accession>8ACS_A</Hit_accession>
+  <Hit_len>618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>4.02326e-08</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>SADWSTAENRWTVHIQSHGTLSALTCEFLFLCSGYYNYDEGYSPRFAGSEDFVGPIIHPQHWPEDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTYIVSQPDRDGIAEKLNRWLPETMAYTAVRWKNVLRQAAVYSACQKWPRRMRKMFLSLIQRQLPEGYDVRKHFGPHYNPWDQRLCLVPNGD----LF-----------------RAIRHGKVEVVTDT-IERFTATGIRLNSGRELPADIIITATG</Hsp_qseq>
+      <Hsp_hseq>SASFDAASGEWTVQVLRDGQPVTLKPKQLVLATGMSG--KANMPKFKGMDVFQGEQQHSSQHPGPDAYAGKKVVVVGANNSAHDICAALWEAGVD-VTMVQRSSTHIVKSDSLMDLALG-DLYSERALAAGMTTNKADLTFASI-------PYKILANF------QKPVFKAIRERDADFYARLEERGFMLDFGDDDSGLFMKYLRRGSGYYIDVGASELVAEGKIKLKSGVGVQELKSHSIVLSDGTELPADLVVYATG</Hsp_hseq>
+      <Hsp_midline>SA +  A   WTV +   G    L  + L L +G     +   P+F G + F G   H    P    Y  K +VV+G+  +A  +  AL ++G   VTM+QRS T+IV       +A   + +    +A      K  L  A++       P ++   F      Q P    +R+     Y   ++R  ++  GD    LF                   +  GK+++ +   ++   +  I L+ G ELPAD+++ ATG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|7OG2|A</Hit_id>
+  <Hit_def>Chain A, Amine oxidoreductase [Pseudoalteromonas luteoviolacea DSM 6061] &gt;pdb|7OG2|B Chain B, Amine oxidoreductase [Pseudoalteromonas luteoviolacea DSM 6061]</Hit_def>
+  <Hit_accession>7OG2_A</Hit_accession>
+  <Hit_len>653</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000321278</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>MTEHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTW--DLFRYPGIRSD</Hsp_qseq>
+      <Hsp_hseq>LPSQVKVAIVGAGMSGLYSAWRLQQEANCQDLAIFERSDRTGGRLDSDLIEFKNLRSD</Hsp_hseq>
+      <Hsp_midline>+   + V IVGAG+SG+ +AW LQ     +  AI E+ +  GG    DL  +  +RSD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|8JHE|A</Hit_id>
+  <Hit_def>Chain A, Hyper thermostable ancestral L-amino acid oxidase [synthetic construct] &gt;pdb|8JHE|B Chain B, Hyper thermostable ancestral L-amino acid oxidase [synthetic construct] &gt;pdb|8JHE|C Chain C, Hyper thermostable ancestral L-amino acid oxidase [synthetic construct] &gt;pdb|8JHE|D Chain D, Hyper thermostable ancestral L-amino acid oxidase [synthetic construct]</Hit_def>
+  <Hit_accession>8JHE_A</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00107218</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>TEHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGI</Hsp_qseq>
+      <Hsp_hseq>NEKIDIAIVGGGVSGVYSAWKLKTKYPNKKIVLFEGGDHIGGRLLSVIPPGI</Hsp_hseq>
+      <Hsp_midline> E +D+ IVG G+SGV +AW L+ + P K   + E  + +GG       PGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|7C4K|A</Hit_id>
+  <Hit_def>Chain A, Ancestral L-amino acid oxidase [synthetic construct] &gt;pdb|7C4L|A Chain A, L-amino acid oxidase [synthetic construct] &gt;pdb|7C4M|A Chain A, Ancestral L-amino acid oxidase [synthetic construct] &gt;pdb|7C4N|A Chain A, Ancestral L-amino acid oxidase [synthetic construct]</Hit_def>
+  <Hit_accession>7C4K_A</Hit_accession>
+  <Hit_len>663</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0160846</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>46</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>MTEHLDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWD</Hsp_qseq>
+      <Hsp_hseq>IPKEVKVAIVGAGMSGLYSAWRLQSEANVGDLAIFERSDRTGGRLD</Hsp_hseq>
+      <Hsp_midline>+ + + V IVGAG+SG+ +AW LQ        AI E+ +  GG  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|1RP0|A</Hit_id>
+  <Hit_def>Chain A, Thiazole biosynthetic enzyme [Arabidopsis thaliana] &gt;pdb|1RP0|B Chain B, Thiazole biosynthetic enzyme [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>1RP0_A</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.399592</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>DVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGG</Hsp_qseq>
+      <Hsp_hseq>DVVVVGAGSAGLSAAYEIS-KNPNVQVAIIEQSVSPGG</Hsp_hseq>
+      <Hsp_midline>DVV+VGAG +G+SAA+ +  + P    AI+E+  S GG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|4I58|A</Hit_id>
+  <Hit_def>Chain A, Cyclohexylamine Oxidase [Microbacterium oxydans] &gt;pdb|4I58|B Chain B, Cyclohexylamine Oxidase [Microbacterium oxydans] &gt;pdb|4I58|C Chain C, Cyclohexylamine Oxidase [Microbacterium oxydans] &gt;pdb|4I58|D Chain D, Cyclohexylamine Oxidase [Microbacterium oxydans] &gt;pdb|4I59|A Chain A, Cyclohexylamine Oxidase [Microbacterium oxydans] &gt;pdb|4I59|B Chain B, Cyclohexylamine Oxidase [Microbacterium oxydans] &gt;pdb|4I59|C Chain C, Cyclohexylamine Oxidase [Microbacterium oxydans] &gt;pdb|4I59|D Chain D, Cyclohexylamine Oxidase [Microbacterium oxydans]</Hit_def>
+  <Hit_accession>4I58_A</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.15359</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>45</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>LDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGG-TW</Hsp_qseq>
+      <Hsp_hseq>VDVIIIGAGISGSAAAKALHDQG--ASVLVVEANDRIGGRTW</Hsp_hseq>
+      <Hsp_midline>+DV+I+GAGISG +AA  L D+    S  ++E  + +GG TW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|4E0V|A</Hit_id>
+  <Hit_def>Chain A, L-amino-acid oxidase [Bothrops jararacussu] &gt;pdb|4E0V|B Chain B, L-amino-acid oxidase [Bothrops jararacussu]</Hit_def>
+  <Hit_accession>4E0V_A</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.59958</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>VVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFR</Hsp_qseq>
+      <Hsp_hseq>VVIVGAGMSGLSAAYVLAN--AGHQVTVLEASERAGGQVKTYR</Hsp_hseq>
+      <Hsp_midline>VVIVGAG+SG+SAA+ L +        +LE  E  GG    +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|1VQW|A</Hit_id>
+  <Hit_def>Chain A, PROTEIN WITH SIMILARITY TO FLAVIN-CONTAINING MONOOXYGENASES AND TO MAMMALIAN DIMETHYLALANINE MONOOXYGENASES [Schizosaccharomyces pombe] &gt;pdb|1VQW|B Chain B, PROTEIN WITH SIMILARITY TO FLAVIN-CONTAINING MONOOXYGENASES AND TO MAMMALIAN DIMETHYLALANINE MONOOXYGENASES [Schizosaccharomyces pombe]</Hit_def>
+  <Hit_accession>1VQW_A</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.92149</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>77</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>VVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWD----------------------------LFRYPG-----IRSDSDMYTLGF---RFRPWT----GRQAIAD-----GKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEF---LFLCSGYYNYDEGYSPRFAGSEDFV----GPIIHPQHWPEDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTY</Hsp_qseq>
+      <Hsp_hseq>IAIIGAGPSGLVTAKALLAEKAFDQVTLFERRGSPGGVWNYTSTLSNKLPVPSTNPILTTEPIVGPAALPVYPSPLYRDLQTNTPIELXGYCDQSFKPQTLQFPHRHTIQEYQRIYAQPLLPFIKLATDVLDIEK---------------KDGSWVVTYKGTKAGSPISKDIFDAVSICNGH--YEVPYIPNIKGLDEYAKAVPGSVLHSSLFREPELFVGESVLVVGGASSANDLV--------RHLTPVAKHPIY</Hsp_hseq>
+      <Hsp_midline>+ I+GAG SG+  A  L          + E+R S GG W+                            L  YP      +++++ +   G+    F+P T     R  I +      +P+L ++K    +  I++                +  W V  +     S ++ +    + +C+G+  Y+  Y P   G +++     G ++H   + E   +  ++++V+G  ++A  LV        +H+T + + P Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|2GV8|A</Hit_id>
+  <Hit_def>Chain A, monooxygenase [Schizosaccharomyces pombe] &gt;pdb|2GV8|B Chain B, monooxygenase [Schizosaccharomyces pombe] &gt;pdb|2GVC|A Chain A, monooxygenase [Schizosaccharomyces pombe] &gt;pdb|2GVC|B Chain B, monooxygenase [Schizosaccharomyces pombe] &gt;pdb|2GVC|D Chain D, monooxygenase [Schizosaccharomyces pombe] &gt;pdb|2GVC|E Chain E, monooxygenase [Schizosaccharomyces pombe]</Hit_def>
+  <Hit_accession>2GV8_A</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.97578</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>77</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>VVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWD----------------------------LFRYPG-----IRSDSDMYTLGF---RFRPWT----GRQAIAD-----GKPILEYVKSTAAMYGIDRHIRFHHKVISADWSTAENRWTVHIQSHGTLSALTCEF---LFLCSGYYNYDEGYSPRFAGSEDFV----GPIIHPQHWPEDLDYDAKNIVVIGSGATAVTLVPALADSGAKHVTMLQRSPTY</Hsp_qseq>
+      <Hsp_hseq>IAIIGAGPSGLVTAKALLAEKAFDQVTLFERRGSPGGVWNYTSTLSNKLPVPSTNPILTTEPIVGPAALPVYPSPLYRDLQTNTPIELXGYCDQSFKPQTLQFPHRHTIQEYQRIYAQPLLPFIKLATDVLDIEK---------------KDGSWVVTYKGTKAGSPISKDIFDAVSICNGH--YEVPYIPNIKGLDEYAKAVPGSVLHSSLFREPELFVGESVLVVGGASSANDLV--------RHLTPVAKHPIY</Hsp_hseq>
+      <Hsp_midline>+ I+GAG SG+  A  L          + E+R S GG W+                            L  YP      +++++ +   G+    F+P T     R  I +      +P+L ++K    +  I++                +  W V  +     S ++ +    + +C+G+  Y+  Y P   G +++     G ++H   + E   +  ++++V+G  ++A  LV        +H+T + + P Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|5TS5|A</Hit_id>
+  <Hit_def>Chain A, Amine oxidase [Bothrops atrox] &gt;pdb|5TS5|B Chain B, Amine oxidase [Bothrops atrox] &gt;pdb|5TS5|C Chain C, Amine oxidase [Bothrops atrox] &gt;pdb|5TS5|D Chain D, Amine oxidase [Bothrops atrox]</Hit_def>
+  <Hit_accession>5TS5_A</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.02267</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>VVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFR</Hsp_qseq>
+      <Hsp_hseq>VVIVGAGMSGLSAAYVLAN--AGHQVTVLEASERAGGRVKTYR</Hsp_hseq>
+      <Hsp_midline>VVIVGAG+SG+SAA+ L +        +LE  E  GG    +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|1B37|A</Hit_id>
+  <Hit_def>Chain A, PROTEIN (POLYAMINE OXIDASE) [Zea mays] &gt;pdb|1B37|B Chain B, PROTEIN (POLYAMINE OXIDASE) [Zea mays] &gt;pdb|1B37|C Chain C, PROTEIN (POLYAMINE OXIDASE) [Zea mays] &gt;pdb|1B5Q|A Chain A, PROTEIN (POLYAMINE OXIDASE) [Zea mays] &gt;pdb|1B5Q|B Chain B, PROTEIN (POLYAMINE OXIDASE) [Zea mays] &gt;pdb|1B5Q|C Chain C, PROTEIN (POLYAMINE OXIDASE) [Zea mays] &gt;pdb|1H81|A Chain A, POLYAMINE OXIDASE [Zea mays] &gt;pdb|1H81|B Chain B, POLYAMINE OXIDASE [Zea mays] &gt;pdb|1H81|C Chain C, POLYAMINE OXIDASE [Zea mays] &gt;pdb|1H82|A Chain A, POLYAMINE OXIDASE [Zea mays] &gt;pdb|1H82|B Chain B, POLYAMINE OXIDASE [Zea mays] &gt;pdb|1H82|C Chain C, POLYAMINE OXIDASE [Zea mays] &gt;pdb|1H83|A Chain A, POLYAMINE OXIDASE [Zea mays] &gt;pdb|1H83|B Chain B, POLYAMINE OXIDASE [Zea mays] &gt;pdb|1H83|C Chain C, POLYAMINE OXIDASE [Zea mays] &gt;pdb|1H84|A Chain A, POLYAMINE OXIDASE [Zea mays] &gt;pdb|1H84|B Chain B, POLYAMINE OXIDASE [Zea mays] &gt;pdb|1H84|C Chain C, POLYAMINE OXIDASE [Zea mays] &gt;pdb|1H86|A Chain A, POLYAMINE OXIDASE [Zea mays] &gt;pdb|1H86|B Chain B, POLYAMINE OXIDASE [Zea mays] &gt;pdb|1H86|C Chain C, POLYAMINE OXIDASE [Zea mays]</Hit_def>
+  <Hit_accession>1B37_A</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.78981</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>VVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGI</Hsp_qseq>
+      <Hsp_hseq>VIVVGAGMSGISAAKRLSEAGIT-DLLILEATDHIGGRMHKTNFAGI</Hsp_hseq>
+      <Hsp_midline>V++VGAG+SG+SAA  L +   T    ILE  + +GG      + GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|3KPF|A</Hit_id>
+  <Hit_def>Chain A, Polyamine oxidase [Zea mays] &gt;pdb|3KPF|B Chain B, Polyamine oxidase [Zea mays] &gt;pdb|3KU9|A Chain A, Polyamine oxidase [Zea mays] &gt;pdb|3KU9|B Chain B, Polyamine oxidase [Zea mays] &gt;pdb|3L1R|A Chain A, Polyamine oxidase [Zea mays] &gt;pdb|3L1R|B Chain B, Polyamine oxidase [Zea mays]</Hit_def>
+  <Hit_accession>3KPF_A</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.79969</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>VVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFRYPGI</Hsp_qseq>
+      <Hsp_hseq>VIVVGAGMSGISAAKRLSEAGIT-DLLILEATDHIGGRMHKTNFAGI</Hsp_hseq>
+      <Hsp_midline>V++VGAG+SG+SAA  L +   T    ILE  + +GG      + GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|3OC4|A</Hit_id>
+  <Hit_def>Chain A, Oxidoreductase, pyridine nucleotide-disulfide family [Enterococcus faecalis] &gt;pdb|3OC4|B Chain B, Oxidoreductase, pyridine nucleotide-disulfide family [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>3OC4_A</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>5.70032</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>40</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>LDVVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMG</Hsp_qseq>
+      <Hsp_hseq>LKIVIIGASFAGISAAIASRKKYPQAEISLIDKQATVG</Hsp_hseq>
+      <Hsp_midline>L +VI+GA  +G+SAA   + + P    ++++K+ ++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|5DUU|A</Hit_id>
+  <Hit_def>Chain A, Galectin-4 [Homo sapiens] &gt;pdb|5DUU|B Chain B, Galectin-4 [Homo sapiens] &gt;pdb|5DUU|C Chain C, Galectin-4 [Homo sapiens] &gt;pdb|5DUU|D Chain D, Galectin-4 [Homo sapiens] &gt;pdb|5DUV|A Chain A, Galectin-4 [Homo sapiens] &gt;pdb|5DUV|B Chain B, Galectin-4 [Homo sapiens] &gt;pdb|5DUV|C Chain C, Galectin-4 [Homo sapiens] &gt;pdb|5DUV|D Chain D, Galectin-4 [Homo sapiens] &gt;pdb|5DUW|A Chain A, Galectin-4 [Homo sapiens] &gt;pdb|5DUW|B Chain B, Galectin-4 [Homo sapiens] &gt;pdb|5DUW|C Chain C, Galectin-4 [Homo sapiens] &gt;pdb|5DUW|D Chain D, Galectin-4 [Homo sapiens] &gt;pdb|5DUX|A Chain A, Galectin-4 [Homo sapiens] &gt;pdb|5DUX|B Chain B, Galectin-4 [Homo sapiens] &gt;pdb|5DUX|C Chain C, Galectin-4 [Homo sapiens] &gt;pdb|5DUX|D Chain D, Galectin-4 [Homo sapiens]</Hit_def>
+  <Hit_accession>5DUU_A</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>6.61267</Hsp_evalue>
+      <Hsp_query-from>260</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>MRKMFLSLIQRQLPEGYDVRKHFGPHYNPWDQ</Hsp_qseq>
+      <Hsp_hseq>MKRFFVNFVVGQDP-GSDVAFHFNPRFDGWDK</Hsp_hseq>
+      <Hsp_midline>M++ F++ +  Q P G DV  HF P ++ WD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|1REO|A</Hit_id>
+  <Hit_def>Chain A, AHPLAAO [Gloydius halys] &gt;pdb|1TDK|A Chain A, L-amino acid oxidase [Gloydius halys] &gt;pdb|1TDN|A Chain A, L-amino acid oxidase [Gloydius halys] &gt;pdb|1TDO|A Chain A, L-amino acid oxidase [Gloydius halys]</Hit_def>
+  <Hit_accession>1REO_A</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>9.03049</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>VVIVGAGISGVSAAWHLQDRCPTKSYAILEKRESMGGTWDLFR</Hsp_qseq>
+      <Hsp_hseq>VVVVGAGMSGLSAAYVLSG--AGHQVTVLEASERAGGRVRTYR</Hsp_hseq>
+      <Hsp_midline>VV+VGAG+SG+SAA+ L          +LE  E  GG    +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>167019</Statistics_db-num>
+      <Statistics_db-len>47228606</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

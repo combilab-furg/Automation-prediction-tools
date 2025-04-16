@@ -1,0 +1,545 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_2480417</BlastOutput_query-ID>
+  <BlastOutput_query-def>Mycobacterium tuberculosis H37Rv|Rv1305|atpE</BlastOutput_query-def>
+  <BlastOutput_query-len>81</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_2480417</Iteration_query-ID>
+  <Iteration_query-def>Mycobacterium tuberculosis H37Rv|Rv1305|atpE</Iteration_query-def>
+  <Iteration_query-len>81</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|8J0S|1</Hit_id>
+  <Hit_def>Chain 1, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J0S|2 Chain 2, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J0S|3 Chain 3, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J0S|4 Chain 4, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J0S|5 Chain 5, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J0S|6 Chain 6, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J0S|7 Chain 7, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J0S|8 Chain 8, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J0S|9 Chain 9, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J0T|1 Chain 1, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J0T|2 Chain 2, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J0T|3 Chain 3, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J0T|4 Chain 4, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J0T|5 Chain 5, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J0T|6 Chain 6, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J0T|7 Chain 7, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J0T|8 Chain 8, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J0T|9 Chain 9, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J57|1 Chain 1, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J57|2 Chain 2, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J57|3 Chain 3, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J57|4 Chain 4, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J57|5 Chain 5, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J57|6 Chain 6, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J57|7 Chain 7, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J57|8 Chain 8, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J57|9 Chain 9, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J58|1 Chain 1, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J58|2 Chain 2, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J58|3 Chain 3, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J58|4 Chain 4, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J58|5 Chain 5, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J58|6 Chain 6, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J58|7 Chain 7, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J58|8 Chain 8, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8J58|9 Chain 9, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8JR0|1 Chain 1, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8JR0|2 Chain 2, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8JR0|3 Chain 3, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8JR0|4 Chain 4, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8JR0|5 Chain 5, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8JR0|6 Chain 6, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8JR0|7 Chain 7, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8JR0|8 Chain 8, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8JR0|9 Chain 9, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8JR1|1 Chain 1, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8JR1|2 Chain 2, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8JR1|3 Chain 3, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8JR1|4 Chain 4, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8JR1|5 Chain 5, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8JR1|6 Chain 6, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8JR1|7 Chain 7, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8JR1|8 Chain 8, ATP synthase subunit c [Mycobacterium tuberculosis] &gt;pdb|8JR1|9 Chain 9, ATP synthase subunit c [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>8J0S_1</Hit_accession>
+  <Hit_len>81</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>4.19263e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MDPTIAAGALIGGGLIMAGGAIGAGIGDGVAGNALISGVARQPEAQGRLFTPFFITVGLVEAAYFINLAFMALFVFATPVK</Hsp_qseq>
+      <Hsp_hseq>MDPTIAAGALIGGGLIMAGGAIGAGIGDGVAGNALISGVARQPEAQGRLFTPFFITVGLVEAAYFINLAFMALFVFATPVK</Hsp_hseq>
+      <Hsp_midline>MDPTIAAGALIGGGLIMAGGAIGAGIGDGVAGNALISGVARQPEAQGRLFTPFFITVGLVEAAYFINLAFMALFVFATPVK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|4V1F|A</Hit_id>
+  <Hit_def>Chain A, F0F1 ATP SYNTHASE SUBUNIT C [Mycolicibacterium phlei] &gt;pdb|4V1F|B Chain B, F0F1 ATP SYNTHASE SUBUNIT C [Mycolicibacterium phlei] &gt;pdb|4V1F|C Chain C, F0F1 ATP SYNTHASE SUBUNIT C [Mycolicibacterium phlei] &gt;pdb|4V1G|A Chain A, F0F1 ATP SYNTHASE SUBUNIT C [Mycolicibacterium phlei] &gt;pdb|4V1G|B Chain B, F0F1 ATP SYNTHASE SUBUNIT C [Mycolicibacterium phlei] &gt;pdb|4V1G|C Chain C, F0F1 ATP SYNTHASE SUBUNIT C [Mycolicibacterium phlei] &gt;pdb|4V1H|A Chain A, F0F1 ATP SYNTHASE SUBUNIT C [Mycolicibacterium phlei] &gt;pdb|4V1H|B Chain B, F0F1 ATP SYNTHASE SUBUNIT C [Mycolicibacterium phlei] &gt;pdb|4V1H|C Chain C, F0F1 ATP SYNTHASE SUBUNIT C [Mycolicibacterium phlei]</Hit_def>
+  <Hit_accession>4V1F_A</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>5.68693e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MDPT--IAAGALIGGGLIMAGGAIGAGIGDGVAGNALISGVARQPEAQGRLFTPFFITVGLVEAAYFINLAFMALFVFATP</Hsp_qseq>
+      <Hsp_hseq>LDPNALITAGALIGGGLIMGGGAIGAGIGDGIAGNALISGIARQPEAQGRLFTPFFITVGLVEAAYFINLAFMALFVFATP</Hsp_hseq>
+      <Hsp_midline>+DP   I AGALIGGGLIM GGAIGAGIGDG+AGNALISG+ARQPEAQGRLFTPFFITVGLVEAAYFINLAFMALFVFATP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|7JG5|1</Hit_id>
+  <Hit_def>Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG5|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG5|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG5|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG5|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG5|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG5|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG5|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG5|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG6|1 Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG6|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG6|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG6|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG6|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG6|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG6|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG6|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG6|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG7|1 Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG7|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG7|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG7|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG7|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG7|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG7|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG7|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG7|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG8|1 Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG8|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG8|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG8|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG8|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG8|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG8|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG8|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG8|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG9|1 Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG9|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG9|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG9|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG9|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG9|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG9|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG9|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JG9|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGA|1 Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGA|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGA|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGA|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGA|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGA|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGA|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGA|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGA|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGB|1 Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGB|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGB|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGB|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGB|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGB|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGB|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGB|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGB|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGC|1 Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGC|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGC|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGC|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGC|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGC|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGC|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGC|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7JGC|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7NJK|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJK|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJK|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJK|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJK|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJK|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJK|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJK|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJK|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJL|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJL|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJL|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJL|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJL|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJL|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJL|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJL|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJL|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJM|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJM|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJM|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJM|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJM|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJM|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJM|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJM|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJM|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJN|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJN|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJN|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJN|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJN|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJN|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJN|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJN|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJN|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJO|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJO|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJO|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJO|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJO|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJO|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJO|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJO|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJO|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJP|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJP|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJP|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJP|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJP|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJP|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJP|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJP|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJP|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJQ|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJQ|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJQ|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJQ|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJQ|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJQ|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJQ|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJQ|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJQ|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJR|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJR|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJR|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJR|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJR|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJR|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJR|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJR|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJR|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJS|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJS|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJS|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJS|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJS|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJS|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJS|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJS|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJS|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJT|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJT|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJT|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJT|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJT|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJT|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJT|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJT|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJT|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJU|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJU|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJU|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJU|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJU|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJU|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJU|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJU|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJU|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJV|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJV|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJV|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJV|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJV|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJV|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJV|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJV|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJV|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJW|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJW|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJW|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJW|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJW|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJW|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJW|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJW|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJW|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJX|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJX|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJX|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJX|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJX|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJX|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJX|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJX|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJX|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJY|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJY|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJY|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJY|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJY|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJY|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJY|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJY|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NJY|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NK9|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NK9|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NK9|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NK9|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NK9|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NK9|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NK9|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NK9|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NK9|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKB|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKB|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKB|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKB|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKB|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKB|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKB|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKB|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKB|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKK|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKK|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKK|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKK|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKK|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKK|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKK|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKK|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKK|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKN|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKN|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKN|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKN|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKN|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKN|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKN|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKN|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKN|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKP|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKP|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKP|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKP|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKP|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKP|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKP|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKP|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NKP|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NL9|L Chain L, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NL9|M Chain M, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NL9|N Chain N, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NL9|O Chain O, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NL9|P Chain P, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NL9|Q Chain Q, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NL9|R Chain R, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NL9|S Chain S, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7NL9|T Chain T, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7Y5B|1 Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5B|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5B|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5B|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5B|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5B|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5B|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5B|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5B|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5C|1 Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5C|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5C|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5C|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5C|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5C|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5C|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5C|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5C|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5D|1 Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5D|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5D|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5D|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5D|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5D|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5D|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5D|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|7Y5D|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis] &gt;pdb|8G07|1 Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G07|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G07|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G07|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G07|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G07|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G07|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G07|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G07|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G08|1 Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G08|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G08|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G08|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G08|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G08|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G08|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G08|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G08|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G09|1 Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G09|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G09|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G09|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G09|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G09|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G09|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G09|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G09|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0A|1 Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0A|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0A|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0A|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0A|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0A|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0A|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0A|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0A|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0B|1 Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0B|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0B|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0B|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0B|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0B|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0B|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0B|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0B|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0C|1 Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0C|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0C|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0C|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0C|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0C|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0C|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0C|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0C|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0D|1 Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0D|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0D|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0D|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0D|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0D|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0D|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0D|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0D|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0E|1 Chain 1, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0E|2 Chain 2, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0E|3 Chain 3, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0E|4 Chain 4, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0E|5 Chain 5, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0E|6 Chain 6, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0E|7 Chain 7, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0E|8 Chain 8, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8G0E|9 Chain 9, ATP synthase subunit c [Mycolicibacterium smegmatis MC2 155]</Hit_def>
+  <Hit_accession>7JG5_1</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>6.4862e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MDPT--IAAGALIGGGLIMAGGAIGAGIGDGVAGNALISGVARQPEAQGRLFTPFFITVGLVEAAYFINLAFMALFVFATP</Hsp_qseq>
+      <Hsp_hseq>LDPNAIITAGALIGGGLIMGGGAIGAGIGDGIAGNALISGIARQPEAQGRLFTPFFITVGLVEAAYFINLAFMALFVFATP</Hsp_hseq>
+      <Hsp_midline>+DP   I AGALIGGGLIM GGAIGAGIGDG+AGNALISG+ARQPEAQGRLFTPFFITVGLVEAAYFINLAFMALFVFATP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|4MJN|A</Hit_id>
+  <Hit_def>Chain A, ATP synthase subunit c, chloroplastic [Triticum aestivum] &gt;pdb|4MJN|B Chain B, ATP synthase subunit c, chloroplastic [Triticum aestivum] &gt;pdb|4MJN|C Chain C, ATP synthase subunit c, chloroplastic [Triticum aestivum] &gt;pdb|4MJN|D Chain D, ATP synthase subunit c, chloroplastic [Triticum aestivum] &gt;pdb|4MJN|E Chain E, ATP synthase subunit c, chloroplastic [Triticum aestivum] &gt;pdb|4MJN|F Chain F, ATP synthase subunit c, chloroplastic [Triticum aestivum] &gt;pdb|4MJN|G Chain G, ATP synthase subunit c, chloroplastic [Triticum aestivum] &gt;pdb|4MJN|H Chain H, ATP synthase subunit c, chloroplastic [Triticum aestivum] &gt;pdb|4MJN|I Chain I, ATP synthase subunit c, chloroplastic [Triticum aestivum] &gt;pdb|4MJN|J Chain J, ATP synthase subunit c, chloroplastic [Triticum aestivum] &gt;pdb|4MJN|K Chain K, ATP synthase subunit c, chloroplastic [Triticum aestivum] &gt;pdb|4MJN|L Chain L, ATP synthase subunit c, chloroplastic [Triticum aestivum] &gt;pdb|4MJN|M Chain M, ATP synthase subunit c, chloroplastic [Triticum aestivum] &gt;pdb|4MJN|N Chain N, ATP synthase subunit c, chloroplastic [Triticum aestivum] &gt;pdb|6FKF|G Chain G, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKF|H Chain H, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKF|I Chain I, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKF|J Chain J, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKF|K Chain K, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKF|L Chain L, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKF|M Chain M, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKF|N Chain N, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKF|O Chain O, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKF|P Chain P, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKF|Q Chain Q, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKF|R Chain R, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKF|S Chain S, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKF|T Chain T, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKH|G Chain G, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKH|H Chain H, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKH|I Chain I, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKH|J Chain J, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKH|K Chain K, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKH|L Chain L, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKH|M Chain M, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKH|N Chain N, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKH|O Chain O, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKH|P Chain P, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKH|Q Chain Q, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKH|R Chain R, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKH|S Chain S, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKH|T Chain T, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKI|G Chain G, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKI|H Chain H, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKI|I Chain I, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKI|J Chain J, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKI|K Chain K, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKI|L Chain L, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKI|M Chain M, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKI|N Chain N, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKI|O Chain O, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKI|P Chain P, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKI|Q Chain Q, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKI|R Chain R, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKI|S Chain S, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6FKI|T Chain T, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6TQJ|A Chain A, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6TQJ|B Chain B, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6TQJ|C Chain C, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6TQJ|D Chain D, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6TQJ|E Chain E, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6TQJ|F Chain F, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6TQJ|G Chain G, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6TQJ|H Chain H, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6TQJ|I Chain I, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6TQJ|J Chain J, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6TQJ|K Chain K, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6TQJ|L Chain L, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6TQJ|M Chain M, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6TQJ|N Chain N, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM1|M Chain M, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM1|N Chain N, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM1|O Chain O, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM1|P Chain P, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM1|Q Chain Q, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM1|R Chain R, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM1|S Chain S, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM1|T Chain T, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM1|U Chain U, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM1|V Chain V, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM1|W Chain W, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM1|X Chain X, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM1|Y Chain Y, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM1|Z Chain Z, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM4|M Chain M, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM4|N Chain N, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM4|O Chain O, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM4|P Chain P, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM4|Q Chain Q, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM4|R Chain R, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM4|S Chain S, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM4|T Chain T, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM4|U Chain U, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM4|V Chain V, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM4|W Chain W, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM4|X Chain X, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM4|Y Chain Y, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VM4|Z Chain Z, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMB|M Chain M, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMB|N Chain N, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMB|O Chain O, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMB|P Chain P, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMB|Q Chain Q, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMB|R Chain R, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMB|S Chain S, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMB|T Chain T, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMB|U Chain U, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMB|V Chain V, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMB|W Chain W, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMB|X Chain X, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMB|Y Chain Y, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMB|Z Chain Z, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMG|M Chain M, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMG|N Chain N, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMG|O Chain O, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMG|P Chain P, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMG|Q Chain Q, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMG|R Chain R, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMG|S Chain S, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMG|T Chain T, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMG|U Chain U, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMG|V Chain V, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMG|W Chain W, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMG|X Chain X, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMG|Y Chain Y, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VMG|Z Chain Z, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOF|M Chain M, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOF|N Chain N, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOF|O Chain O, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOF|P Chain P, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOF|Q Chain Q, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOF|R Chain R, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOF|S Chain S, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOF|T Chain T, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOF|U Chain U, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOF|V Chain V, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOF|W Chain W, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOF|X Chain X, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOF|Y Chain Y, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOF|Z Chain Z, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOH|M Chain M, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOH|N Chain N, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOH|O Chain O, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOH|P Chain P, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOH|Q Chain Q, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOH|R Chain R, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOH|S Chain S, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOH|T Chain T, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOH|U Chain U, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOH|V Chain V, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOH|W Chain W, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOH|X Chain X, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOH|Y Chain Y, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOH|Z Chain Z, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOJ|M Chain M, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOJ|N Chain N, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOJ|O Chain O, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOJ|P Chain P, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOJ|Q Chain Q, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOJ|R Chain R, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOJ|S Chain S, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOJ|T Chain T, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOJ|U Chain U, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOJ|V Chain V, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOJ|W Chain W, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOJ|X Chain X, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOJ|Y Chain Y, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOJ|Z Chain Z, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOL|M Chain M, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOL|N Chain N, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOL|O Chain O, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOL|P Chain P, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOL|Q Chain Q, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOL|R Chain R, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOL|S Chain S, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOL|T Chain T, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOL|U Chain U, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOL|V Chain V, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOL|W Chain W, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOL|X Chain X, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOL|Y Chain Y, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VOL|Z Chain Z, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VON|M Chain M, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VON|N Chain N, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VON|O Chain O, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VON|P Chain P, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VON|Q Chain Q, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VON|R Chain R, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VON|S Chain S, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VON|T Chain T, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VON|U Chain U, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VON|V Chain V, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VON|W Chain W, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VON|X Chain X, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VON|Y Chain Y, ATP synthase subunit c, chloroplastic [Spinacia oleracea] &gt;pdb|6VON|Z Chain Z, ATP synthase subunit c, chloroplastic [Spinacia oleracea]</Hit_def>
+  <Hit_accession>4MJN_A</Hit_accession>
+  <Hit_len>81</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.20131e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>MDPTIAAGALIGGGLIMAGGAIGAGIGDGVAGNALISGVARQPEAQGRLFTPFFITVGLVEAAYFINLAFMALFVFATP</Hsp_qseq>
+      <Hsp_hseq>MNPLIAAASVIAAGLAVGLASIGPGVGQGTAAGQAVEGIARQPEAEGKIRGTLLLSLAFMEALTIYGLVVALALLFANP</Hsp_hseq>
+      <Hsp_midline>M+P IAA ++I  GL +   +IG G+G G A    + G+ARQPEA+G++     +++  +EA     L      +FA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|2W5J|A</Hit_id>
+  <Hit_def>Chain A, ATP SYNTHASE C CHAIN, CHLOROPLASTIC [Spinacia oleracea] &gt;pdb|2W5J|B Chain B, ATP SYNTHASE C CHAIN, CHLOROPLASTIC [Spinacia oleracea] &gt;pdb|2W5J|C Chain C, ATP SYNTHASE C CHAIN, CHLOROPLASTIC [Spinacia oleracea] &gt;pdb|2W5J|D Chain D, ATP SYNTHASE C CHAIN, CHLOROPLASTIC [Spinacia oleracea] &gt;pdb|2W5J|E Chain E, ATP SYNTHASE C CHAIN, CHLOROPLASTIC [Spinacia oleracea] &gt;pdb|2W5J|F Chain F, ATP SYNTHASE C CHAIN, CHLOROPLASTIC [Spinacia oleracea] &gt;pdb|2W5J|G Chain G, ATP SYNTHASE C CHAIN, CHLOROPLASTIC [Spinacia oleracea] &gt;pdb|2W5J|H Chain H, ATP SYNTHASE C CHAIN, CHLOROPLASTIC [Spinacia oleracea] &gt;pdb|2W5J|I Chain I, ATP SYNTHASE C CHAIN, CHLOROPLASTIC [Spinacia oleracea] &gt;pdb|2W5J|J Chain J, ATP SYNTHASE C CHAIN, CHLOROPLASTIC [Spinacia oleracea] &gt;pdb|2W5J|K Chain K, ATP SYNTHASE C CHAIN, CHLOROPLASTIC [Spinacia oleracea] &gt;pdb|2W5J|L Chain L, ATP SYNTHASE C CHAIN, CHLOROPLASTIC [Spinacia oleracea] &gt;pdb|2W5J|M Chain M, ATP SYNTHASE C CHAIN, CHLOROPLASTIC [Spinacia oleracea] &gt;pdb|2W5J|V Chain V, ATP SYNTHASE C CHAIN, CHLOROPLASTIC [Spinacia oleracea]</Hit_def>
+  <Hit_accession>2W5J_A</Hit_accession>
+  <Hit_len>78</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>7.36168e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>DPTIAAGALIGGGLIMAGGAIGAGIGDGVAGNALISGVARQPEAQGRLFTPFFITVGLVEAAYFINLAFMALFVFATP</Hsp_qseq>
+      <Hsp_hseq>NPLIAAASVIAAGLAVGLASIGPGVGQGTAAGQAVEGIARQPEAEGKIRGTLLLSLAFMEALTIYGLVVALALLFANP</Hsp_hseq>
+      <Hsp_midline>+P IAA ++I  GL +   +IG G+G G A    + G+ARQPEA+G++     +++  +EA     L      +FA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|3V3C|A</Hit_id>
+  <Hit_def>Chain A, ATP synthase subunit c, chloroplastic [Pisum sativum] &gt;pdb|3V3C|B Chain B, ATP synthase subunit c, chloroplastic [Pisum sativum] &gt;pdb|3V3C|C Chain C, ATP synthase subunit c, chloroplastic [Pisum sativum] &gt;pdb|3V3C|D Chain D, ATP synthase subunit c, chloroplastic [Pisum sativum] &gt;pdb|3V3C|E Chain E, ATP synthase subunit c, chloroplastic [Pisum sativum] &gt;pdb|3V3C|F Chain F, ATP synthase subunit c, chloroplastic [Pisum sativum] &gt;pdb|3V3C|G Chain G, ATP synthase subunit c, chloroplastic [Pisum sativum] &gt;pdb|3V3C|H Chain H, ATP synthase subunit c, chloroplastic [Pisum sativum] &gt;pdb|3V3C|I Chain I, ATP synthase subunit c, chloroplastic [Pisum sativum] &gt;pdb|3V3C|J Chain J, ATP synthase subunit c, chloroplastic [Pisum sativum] &gt;pdb|3V3C|K Chain K, ATP synthase subunit c, chloroplastic [Pisum sativum] &gt;pdb|3V3C|L Chain L, ATP synthase subunit c, chloroplastic [Pisum sativum] &gt;pdb|3V3C|M Chain M, ATP synthase subunit c, chloroplastic [Pisum sativum] &gt;pdb|3V3C|N Chain N, ATP synthase subunit c, chloroplastic [Pisum sativum]</Hit_def>
+  <Hit_accession>3V3C_A</Hit_accession>
+  <Hit_len>79</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>1.48105e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>PTIAAGALIGGGLIMAGGAIGAGIGDGVAGNALISGVARQPEAQGRLFTPFFITVGLVEAAYFINLAFMALFVFATP</Hsp_qseq>
+      <Hsp_hseq>PLIAAASVIAAGLAVGLASIGPGVGQGTAAGQAVEGIARQPEAEDKIRGTLLLSLAFMEALTIYGLVVALALLFANP</Hsp_hseq>
+      <Hsp_midline>P IAA ++I  GL +   +IG G+G G A    + G+ARQPEA+ ++     +++  +EA     L      +FA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|2WIE|A</Hit_id>
+  <Hit_def>Chain A, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2WIE|B Chain B, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2WIE|C Chain C, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2WIE|D Chain D, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2WIE|E Chain E, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2XQS|A Chain A, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2XQS|B Chain B, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2XQS|C Chain C, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2XQS|D Chain D, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2XQS|E Chain E, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2XQT|A Chain A, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2XQT|B Chain B, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2XQT|C Chain C, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2XQT|D Chain D, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2XQT|E Chain E, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2XQU|A Chain A, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2XQU|B Chain B, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2XQU|C Chain C, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2XQU|D Chain D, ATP SYNTHASE C CHAIN [Arthrospira platensis] &gt;pdb|2XQU|E Chain E, ATP SYNTHASE C CHAIN [Arthrospira platensis]</Hit_def>
+  <Hit_accession>2WIE_A</Hit_accession>
+  <Hit_len>82</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>5.36257e-07</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>GAIGAGIGDGVAGNALISGVARQPEAQGRLFTPFFITVGLVEAAYFINLAFMALFVFATP</Hsp_qseq>
+      <Hsp_hseq>GSIGPGLGQGQAAGQAVEGIARQPEAEGKIRGTLLLSLAFMEALTIYGLVVALVLLFANP</Hsp_hseq>
+      <Hsp_midline>G+IG G+G G A    + G+ARQPEA+G++     +++  +EA     L    + +FA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|7P2Y|G</Hit_id>
+  <Hit_def>Chain G, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P2Y|H Chain H, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P2Y|J Chain J, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P2Y|K Chain K, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P2Y|L Chain L, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P2Y|O Chain O, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P2Y|P Chain P, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P2Y|Q Chain Q, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P2Y|R Chain R, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P2Y|S Chain S, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3N|G Chain G, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3N|H Chain H, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3N|J Chain J, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3N|K Chain K, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3N|L Chain L, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3N|O Chain O, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3N|P Chain P, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3N|Q Chain Q, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3N|R Chain R, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3N|S Chain S, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3W|G Chain G, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3W|H Chain H, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3W|J Chain J, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3W|K Chain K, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3W|L Chain L, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3W|O Chain O, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3W|P Chain P, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3W|Q Chain Q, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3W|R Chain R, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978] &gt;pdb|7P3W|S Chain S, ATP synthase subunit c [Acinetobacter baumannii ATCC 17978]</Hit_def>
+  <Hit_accession>7P2Y_G</Hit_accession>
+  <Hit_len>81</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>6.51857e-07</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>IGGGLIMAGGAIGAGIGDGVAGNALISGVARQPEAQGRLFTPFFITVGLVEAAYFINLAFMALFVFATP</Hsp_qseq>
+      <Hsp_hseq>IASAILIAFGALGTAIGFGLLGGRFLEAVARQPELAPQLQTRMFLIAGLLDAVPMIGVGIGLFFIFANP</Hsp_hseq>
+      <Hsp_midline>I   +++A GA+G  IG G+ G   +  VARQPE   +L T  F+  GL++A   I +     F+FA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|3ZK1|A</Hit_id>
+  <Hit_def>Chain A, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|B Chain B, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|C Chain C, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|D Chain D, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|E Chain E, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|F Chain F, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|G Chain G, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|H Chain H, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|I Chain I, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|J Chain J, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|K Chain K, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|L Chain L, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|M Chain M, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|N Chain N, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|O Chain O, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|P Chain P, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|Q Chain Q, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|R Chain R, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|S Chain S, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|T Chain T, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|U Chain U, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK1|V Chain V, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|A Chain A, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|B Chain B, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|C Chain C, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|D Chain D, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|E Chain E, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|F Chain F, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|G Chain G, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|H Chain H, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|I Chain I, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|J Chain J, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|K Chain K, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|L Chain L, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|M Chain M, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|N Chain N, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|O Chain O, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|P Chain P, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|Q Chain Q, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|R Chain R, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|S Chain S, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|T Chain T, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|U Chain U, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum] &gt;pdb|3ZK2|V Chain V, ATP SYNTHASE SUBUNIT C [Fusobacterium nucleatum]</Hit_def>
+  <Hit_accession>3ZK1_A</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>3.5237e-06</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>IGGGLIMAGGAIGAGIGDGVAGNALISGVARQPEAQGRLFTPFFITVGLVEAAYFINLAFMALFVFATP</Hsp_qseq>
+      <Hsp_hseq>VGAGLAMIAG-LGPGIGEGYAAGKAVESVARQPEARGSIISTMILGQAVAESTGIYSLVIALILLYANP</Hsp_hseq>
+      <Hsp_midline>+G GL M  G +G GIG+G A    +  VARQPEA+G + +   +   + E+    +L    + ++A P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|5FL7|K</Hit_id>
+  <Hit_def>Chain K, ATP SYNTHASE SUBUNIT 9, MITOCHONDRIAL [Yarrowia lipolytica] &gt;pdb|5FL7|L Chain L, ATP SYNTHASE SUBUNIT 9, MITOCHONDRIAL [Yarrowia lipolytica] &gt;pdb|5FL7|M Chain M, ATP SYNTHASE SUBUNIT 9, MITOCHONDRIAL [Yarrowia lipolytica] &gt;pdb|5FL7|N Chain N, ATP SYNTHASE SUBUNIT 9, MITOCHONDRIAL [Yarrowia lipolytica] &gt;pdb|5FL7|O Chain O, ATP SYNTHASE SUBUNIT 9, MITOCHONDRIAL [Yarrowia lipolytica] &gt;pdb|5FL7|P Chain P, ATP SYNTHASE SUBUNIT 9, MITOCHONDRIAL [Yarrowia lipolytica] &gt;pdb|5FL7|Q Chain Q, ATP SYNTHASE SUBUNIT 9, MITOCHONDRIAL [Yarrowia lipolytica] &gt;pdb|5FL7|R Chain R, ATP SYNTHASE SUBUNIT 9, MITOCHONDRIAL [Yarrowia lipolytica] &gt;pdb|5FL7|S Chain S, ATP SYNTHASE SUBUNIT 9, MITOCHONDRIAL [Yarrowia lipolytica] &gt;pdb|5FL7|T Chain T, ATP SYNTHASE SUBUNIT 9, MITOCHONDRIAL [Yarrowia lipolytica]</Hit_def>
+  <Hit_accession>5FL7_K</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>3.45815e-05</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>IAAGALIGGGLIMAGGAIGAGIGDGVAGNALISGVARQPEAQGRLFTPFFITVGLVEAA--YFINLAFMALF</Hsp_qseq>
+      <Hsp_hseq>VLAGKYIGAGL-ASIGLVGAGIGIAIVFAALINGVSRNPALKGQLFTYSILGFALSEATGLFALMIAFLLLY</Hsp_hseq>
+      <Hsp_midline>+ AG  IG GL  + G +GAGIG  +   ALI+GV+R P  +G+LFT   +   L EA   + + +AF+ L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|1YCE|A</Hit_id>
+  <Hit_def>Chain A, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|B Chain B, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|C Chain C, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|D Chain D, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|E Chain E, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|F Chain F, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|G Chain G, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|H Chain H, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|I Chain I, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|J Chain J, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|K Chain K, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|L Chain L, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|M Chain M, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|N Chain N, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|O Chain O, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|P Chain P, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|Q Chain Q, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|R Chain R, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|S Chain S, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|T Chain T, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|U Chain U, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|V Chain V, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|a Chain a, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|b Chain b, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|c Chain c, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|d Chain d, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|e Chain e, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|f Chain f, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|g Chain g, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|h Chain h, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|i Chain i, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|j Chain j, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|k Chain k, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|l Chain l, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|m Chain m, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|n Chain n, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|o Chain o, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|p Chain p, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|q Chain q, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|r Chain r, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|s Chain s, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|t Chain t, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|u Chain u, subunit c [Ilyobacter tartaricus] &gt;pdb|1YCE|v Chain v, subunit c [Ilyobacter tartaricus] &gt;pdb|2WGM|A Chain A, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|B Chain B, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|C Chain C, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|D Chain D, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|E Chain E, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|F Chain F, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|G Chain G, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|H Chain H, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|I Chain I, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|J Chain J, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|K Chain K, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|L Chain L, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|M Chain M, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|N Chain N, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|O Chain O, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|P Chain P, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|Q Chain Q, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|R Chain R, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|S Chain S, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|T Chain T, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|U Chain U, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|V Chain V, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|a Chain a, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|b Chain b, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|c Chain c, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|d Chain d, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|e Chain e, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|f Chain f, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|g Chain g, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|h Chain h, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|i Chain i, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|j Chain j, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|k Chain k, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|l Chain l, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|m Chain m, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|n Chain n, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|o Chain o, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|p Chain p, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|q Chain q, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|r Chain r, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|s Chain s, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|t Chain t, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|u Chain u, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus] &gt;pdb|2WGM|v Chain v, ATP SYNTHASE SUBUNIT C, SODIUM ION SPECIFIC [Ilyobacter tartaricus]</Hit_def>
+  <Hit_accession>1YCE_A</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>3.7162e-05</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>IAAGALIGGGLIMAGGAIGAGIGDGVAGNALISGVARQPEAQGRLFTPFFITVGLVEAAYFINLAFMALFVFATP</Hsp_qseq>
+      <Hsp_hseq>VLAASAVGAGTAMIAG-IGPGVGQGYAAGKAVESVARQPEAKGDIISTMVLGQAVAESTGIYSLVIALILLYANP</Hsp_hseq>
+      <Hsp_midline>+ A + +G G  M  G IG G+G G A    +  VARQPEA+G + +   +   + E+    +L    + ++A P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|4BEM|A</Hit_id>
+  <Hit_def>Chain A, F1FO ATPASE C2 SUBUNIT [Acetobacterium woodii DSM 1030] &gt;pdb|4BEM|B Chain B, F1FO ATPASE C2 SUBUNIT [Acetobacterium woodii DSM 1030] &gt;pdb|4BEM|C Chain C, F1FO ATPASE C2 SUBUNIT [Acetobacterium woodii DSM 1030] &gt;pdb|4BEM|D Chain D, F1FO ATPASE C2 SUBUNIT [Acetobacterium woodii DSM 1030] &gt;pdb|4BEM|E Chain E, F1FO ATPASE C2 SUBUNIT [Acetobacterium woodii DSM 1030] &gt;pdb|4BEM|F Chain F, F1FO ATPASE C2 SUBUNIT [Acetobacterium woodii DSM 1030] &gt;pdb|4BEM|G Chain G, F1FO ATPASE C2 SUBUNIT [Acetobacterium woodii DSM 1030] &gt;pdb|4BEM|H Chain H, F1FO ATPASE C2 SUBUNIT [Acetobacterium woodii DSM 1030] &gt;pdb|4BEM|I Chain I, F1FO ATPASE C2 SUBUNIT [Acetobacterium woodii DSM 1030]</Hit_def>
+  <Hit_accession>4BEM_A</Hit_accession>
+  <Hit_len>82</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0024297</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>IAAGALIGGGLIMAGGAIGAGIGDGVAGNALISGVARQPEAQGRLFTPFFITVGLVEAAYFINLAFMALFVFATP</Hsp_qseq>
+      <Hsp_hseq>IKACSAIGAGIAMIAG-VGPGIGQGFAAGKGAEAVGRQPEAQSDIIRTMLLGAAVAETTGIYGLIVALILLFANP</Hsp_hseq>
+      <Hsp_midline>I A + IG G+ M  G +G GIG G A       V RQPEAQ  +     +   + E      L    + +FA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|1WU0|A</Hit_id>
+  <Hit_def>Chain A, ATP synthase C chain [Bacillus sp. PS3] &gt;pdb|6N2D|c0 Chain c0, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2D|c1 Chain c1, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2D|c2 Chain c2, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2D|c3 Chain c3, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2D|c4 Chain c4, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2D|c5 Chain c5, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2D|c6 Chain c6, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2D|c7 Chain c7, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2D|c8 Chain c8, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2D|c9 Chain c9, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Y|c0 Chain c0, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Y|c1 Chain c1, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Y|c2 Chain c2, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Y|c3 Chain c3, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Y|c4 Chain c4, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Y|c5 Chain c5, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Y|c6 Chain c6, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Y|c7 Chain c7, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Y|c8 Chain c8, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Y|c9 Chain c9, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Z|c0 Chain c0, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Z|c1 Chain c1, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Z|c2 Chain c2, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Z|c3 Chain c3, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Z|c4 Chain c4, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Z|c5 Chain c5, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Z|c6 Chain c6, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Z|c7 Chain c7, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Z|c8 Chain c8, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N2Z|c9 Chain c9, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N30|c0 Chain c0, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N30|c1 Chain c1, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N30|c2 Chain c2, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N30|c3 Chain c3, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N30|c4 Chain c4, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N30|c5 Chain c5, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N30|c6 Chain c6, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N30|c7 Chain c7, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N30|c8 Chain c8, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|6N30|c9 Chain c9, ATP synthase subunit c [Bacillus sp. PS3]</Hit_def>
+  <Hit_accession>1WU0_A</Hit_accession>
+  <Hit_len>72</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.0155061</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>IGDGVAGNALISGVARQPEAQGRLFTPFFITVGLVEAAYFINLAF</Hsp_qseq>
+      <Hsp_hseq>IGNGLIVSRTIEGIARQPELRPVLQTTMFIGVALVEALPIIGVVF</Hsp_hseq>
+      <Hsp_midline>IG+G+  +  I G+ARQPE +  L T  FI V LVEA   I + F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|7WEM|A</Hit_id>
+  <Hit_def>Chain A, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|7WEM|B Chain B, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|7WEM|C Chain C, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|7WEM|D Chain D, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|7WEM|E Chain E, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|7WEM|F Chain F, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|7WEM|G Chain G, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|7WEM|H Chain H, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|7WEM|I Chain I, ATP synthase subunit c [Bacillus sp. PS3] &gt;pdb|7WEM|J Chain J, ATP synthase subunit c [Bacillus sp. PS3]</Hit_def>
+  <Hit_accession>7WEM_A</Hit_accession>
+  <Hit_len>72</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.0155061</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>IGDGVAGNALISGVARQPEAQGRLFTPFFITVGLVEAAYFINLAF</Hsp_qseq>
+      <Hsp_hseq>IGNGLIVSRTIEGIARQPELRPVLQTTMFIGVALVEALPIIGVVF</Hsp_hseq>
+      <Hsp_midline>IG+G+  +  I G+ARQPE +  L T  FI V LVEA   I + F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|8DBQ|I</Hit_id>
+  <Hit_def>Chain I, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBQ|J Chain J, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBQ|L Chain L, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBQ|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBQ|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBQ|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBQ|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBQ|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBQ|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBQ|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBS|I Chain I, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBS|J Chain J, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBS|L Chain L, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBS|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBS|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBS|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBS|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBS|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBS|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBS|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBW|I Chain I, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBW|J Chain J, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBW|L Chain L, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBW|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBW|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBW|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBW|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBW|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBW|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBW|S Chain S, ATP synthase subunit c [Escherichia coli]</Hit_def>
+  <Hit_accession>8DBQ_I</Hit_accession>
+  <Hit_len>77</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>0.17044</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>ISGVARQPEAQGRLFTPFFITVGLVEA</Hsp_qseq>
+      <Hsp_hseq>LEGAARQPDLIPLLRTQFFIVMGLVDA</Hsp_hseq>
+      <Hsp_midline>+ G ARQP+    L T FFI +GLV+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|1IJP|A</Hit_id>
+  <Hit_def>Chain A, ATP Synthase [Escherichia coli]</Hit_def>
+  <Hit_accession>1IJP_A</Hit_accession>
+  <Hit_len>79</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>0.172202</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>ISGVARQPEAQGRLFTPFFITVGLVEA</Hsp_qseq>
+      <Hsp_hseq>LEGAARQPDLIPLLRTQFFIVMGLVDA</Hsp_hseq>
+      <Hsp_midline>+ G ARQP+    L T FFI +GLV+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|1ATY|A</Hit_id>
+  <Hit_def>Chain A, F1F0 ATP SYNTHASE (SUBUNIT C) [Escherichia coli]</Hit_def>
+  <Hit_accession>1ATY_A</Hit_accession>
+  <Hit_len>79</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>0.174035</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>ISGVARQPEAQGRLFTPFFITVGLVEA</Hsp_qseq>
+      <Hsp_hseq>LEGAARQPDLIPLLRTQFFIVMGLVDA</Hsp_hseq>
+      <Hsp_midline>+ G ARQP+    L T FFI +GLV+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|1A91|A</Hit_id>
+  <Hit_def>Chain A, F1FO ATPASE SUBUNIT C [Escherichia coli] &gt;pdb|1C0V|A Chain A, PROTEIN (F1FO ATPASE SUBUNIT C) [Escherichia coli] &gt;pdb|1C17|A Chain A, ATP SYNTHASE SUBUNIT C [Escherichia coli] &gt;pdb|1C17|B Chain B, ATP SYNTHASE SUBUNIT C [Escherichia coli] &gt;pdb|1C17|C Chain C, ATP SYNTHASE SUBUNIT C [Escherichia coli] &gt;pdb|1C17|D Chain D, ATP SYNTHASE SUBUNIT C [Escherichia coli] &gt;pdb|1C17|E Chain E, ATP SYNTHASE SUBUNIT C [Escherichia coli] &gt;pdb|1C17|F Chain F, ATP SYNTHASE SUBUNIT C [Escherichia coli] &gt;pdb|1C17|G Chain G, ATP SYNTHASE SUBUNIT C [Escherichia coli] &gt;pdb|1C17|H Chain H, ATP SYNTHASE SUBUNIT C [Escherichia coli] &gt;pdb|1C17|I Chain I, ATP SYNTHASE SUBUNIT C [Escherichia coli] &gt;pdb|1C17|J Chain J, ATP SYNTHASE SUBUNIT C [Escherichia coli] &gt;pdb|1C17|K Chain K, ATP SYNTHASE SUBUNIT C [Escherichia coli] &gt;pdb|1C17|L Chain L, ATP SYNTHASE SUBUNIT C [Escherichia coli] &gt;pdb|1C99|A Chain A, PROTEOLIPID F1FO OF ATP SYNTHASE [Escherichia coli] &gt;pdb|1QO1|K Chain K, ATP SYNTHASE PROTEIN 9 [Saccharomyces cerevisiae] &gt;pdb|1QO1|L Chain L, ATP SYNTHASE PROTEIN 9 [Saccharomyces cerevisiae] &gt;pdb|1QO1|M Chain M, ATP SYNTHASE PROTEIN 9 [Saccharomyces cerevisiae] &gt;pdb|1QO1|N Chain N, ATP SYNTHASE PROTEIN 9 [Saccharomyces cerevisiae] &gt;pdb|1QO1|O Chain O, ATP SYNTHASE PROTEIN 9 [Saccharomyces cerevisiae] &gt;pdb|1QO1|P Chain P, ATP SYNTHASE PROTEIN 9 [Saccharomyces cerevisiae] &gt;pdb|1QO1|Q Chain Q, ATP SYNTHASE PROTEIN 9 [Saccharomyces cerevisiae] &gt;pdb|1QO1|R Chain R, ATP SYNTHASE PROTEIN 9 [Saccharomyces cerevisiae] &gt;pdb|1QO1|S Chain S, ATP SYNTHASE PROTEIN 9 [Saccharomyces cerevisiae] &gt;pdb|1QO1|T Chain T, ATP SYNTHASE PROTEIN 9 [Saccharomyces cerevisiae] &gt;pdb|4UTQ|Z Chain Z, ATP SYNTHASE SUBUNIT C [Escherichia coli] &gt;pdb|5T4O|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4O|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4O|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4O|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4O|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4O|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4O|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4O|T Chain T, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4O|U Chain U, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4O|V Chain V, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4P|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4P|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4P|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4P|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4P|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4P|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4P|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4P|T Chain T, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4P|U Chain U, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4P|V Chain V, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4Q|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4Q|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4Q|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4Q|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4Q|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4Q|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4Q|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4Q|T Chain T, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4Q|U Chain U, ATP synthase subunit c [Escherichia coli] &gt;pdb|5T4Q|V Chain V, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQR|I Chain I, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQR|J Chain J, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQR|L Chain L, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQR|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQR|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQR|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQR|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQR|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQR|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQR|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQS|I Chain I, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQS|J Chain J, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQS|L Chain L, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQS|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQS|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQS|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQS|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQS|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQS|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQS|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQT|I Chain I, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQT|J Chain J, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQT|L Chain L, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQT|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQT|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQT|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQT|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQT|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQT|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQT|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQU|I Chain I, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQU|J Chain J, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQU|L Chain L, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQU|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQU|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQU|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQU|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQU|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQU|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQU|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQV|I Chain I, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQV|J Chain J, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQV|L Chain L, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQV|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQV|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQV|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQV|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQV|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQV|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQV|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQW|I Chain I, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQW|J Chain J, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQW|L Chain L, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQW|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQW|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQW|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQW|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQW|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQW|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|6OQW|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|6PQV|I Chain I, ATP synthase subunit c [Escherichia coli] &gt;pdb|6PQV|J Chain J, ATP synthase subunit c [Escherichia coli] &gt;pdb|6PQV|L Chain L, ATP synthase subunit c [Escherichia coli] &gt;pdb|6PQV|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|6PQV|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|6PQV|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|6PQV|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|6PQV|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|6PQV|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|6PQV|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|6VWK|I Chain I, ATP synthase subunit c [Escherichia coli] &gt;pdb|6VWK|J Chain J, ATP synthase subunit c [Escherichia coli] &gt;pdb|6VWK|L Chain L, ATP synthase subunit c [Escherichia coli] &gt;pdb|6VWK|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|6VWK|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|6VWK|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|6VWK|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|6VWK|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|6VWK|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|6VWK|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNQ|I Chain I, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNQ|J Chain J, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNQ|L Chain L, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNQ|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNQ|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNQ|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNQ|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNQ|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNQ|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNQ|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNR|I Chain I, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNR|J Chain J, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNR|L Chain L, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNR|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNR|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNR|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNR|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNR|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNR|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|6WNR|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBP|I Chain I, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBP|J Chain J, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBP|L Chain L, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBP|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBP|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBP|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBP|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBP|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBP|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBP|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBR|I Chain I, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBR|J Chain J, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBR|L Chain L, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBR|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBR|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBR|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBR|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBR|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBR|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBR|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBT|I Chain I, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBT|J Chain J, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBT|L Chain L, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBT|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBT|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBT|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBT|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBT|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBT|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBT|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBU|I Chain I, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBU|J Chain J, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBU|L Chain L, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBU|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBU|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBU|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBU|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBU|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBU|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBU|S Chain S, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBV|I Chain I, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBV|J Chain J, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBV|L Chain L, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBV|M Chain M, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBV|N Chain N, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBV|O Chain O, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBV|P Chain P, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBV|Q Chain Q, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBV|R Chain R, ATP synthase subunit c [Escherichia coli] &gt;pdb|8DBV|S Chain S, ATP synthase subunit c [Escherichia coli]</Hit_def>
+  <Hit_accession>1A91_A</Hit_accession>
+  <Hit_len>79</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>0.185448</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>ISGVARQPEAQGRLFTPFFITVGLVEA</Hsp_qseq>
+      <Hsp_hseq>LEGAARQPDLIPLLRTQFFIVMGLVDA</Hsp_hseq>
+      <Hsp_midline>+ G ARQP+    L T FFI +GLV+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>167019</Statistics_db-num>
+      <Statistics_db-len>47228606</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

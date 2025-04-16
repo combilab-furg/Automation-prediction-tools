@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1233013</BlastOutput_query-ID>
+  <BlastOutput_query-def>Mycobacterium tuberculosis H37Rv|Rv0682|rpsL</BlastOutput_query-def>
+  <BlastOutput_query-len>124</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1233013</Iteration_query-ID>
+  <Iteration_query-def>Mycobacterium tuberculosis H37Rv|Rv0682|rpsL</Iteration_query-def>
+  <Iteration_query-len>124</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|5V93|l</Hit_id>
+  <Hit_def>Chain l, 30S ribosomal protein S12 [Mycobacterium tuberculosis] &gt;pdb|7KGB|l Chain l, 30S ribosomal protein S12 [Mycobacterium tuberculosis H37Rv] &gt;pdb|7MSC|l Chain l, 30S ribosomal protein S12 [Mycobacterium tuberculosis H37Rv] &gt;pdb|7MSH|l Chain l, 30S ribosomal protein S12 [Mycobacterium tuberculosis H37Rv] &gt;pdb|7MSM|l Chain l, 30S ribosomal protein S12 [Mycobacterium tuberculosis H37Rv] &gt;pdb|7MSZ|l Chain l, 30S ribosomal protein S12 [Mycobacterium tuberculosis H37Rv] &gt;pdb|7MT2|l Chain l, 30S ribosomal protein S12 [Mycobacterium tuberculosis H37Rv] &gt;pdb|7MT3|l Chain l, 30S ribosomal protein S12 [Mycobacterium tuberculosis H37Rv] &gt;pdb|7MT7|l Chain l, 30S ribosomal protein S12 [Mycobacterium tuberculosis H37Rv] &gt;pdb|7SFR|l Chain l, 30S ribosomal protein S12 [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>5V93_l</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.669</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>4.26415e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEKG</Hsp_qseq>
+      <Hsp_hseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEKG</Hsp_hseq>
+      <Hsp_midline>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|5O5J|L</Hit_id>
+  <Hit_def>Chain L, 30S ribosomal protein S12 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|5O61|BL Chain BL, 30S ribosomal protein S12 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|5XYU|L Chain L, 30S ribosomal protein S12 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|5ZEB|l Chain l, 30S ribosomal protein S12 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|5ZEP|l Chain l, 30S ribosomal protein S12 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|5ZEU|l Chain l, 30S ribosomal protein S12 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|6DZK|L Chain L, 30S ribosomal protein S12 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8V9J|l Chain l, 30S ribosomal protein S12 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8V9K|l Chain l, 30S ribosomal protein S12 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8V9L|l Chain l, 30S ribosomal protein S12 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8WHX|m Chain m, 30S ribosomal protein S12 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8WI7|m Chain m, 30S ribosomal protein S12 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8WI9|m Chain m, 30S ribosomal protein S12 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8WIB|m Chain m, 30S ribosomal protein S12 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8WID|m Chain m, 30S ribosomal protein S12 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8WIF|m Chain m, 30S ribosomal protein S12 [Mycolicibacterium smegmatis MC2 155]</Hit_def>
+  <Hit_accession>5O5J_L</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.588</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>6.41701e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>MPTIQQLVRKGRRDKIAKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_hseq>
+      <Hsp_midline>MPTIQQLVRKGRRDKI+KVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|6DZI|u</Hit_id>
+  <Hit_def>Chain u, 30S ribosomal protein S12 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8FR8|n Chain n, 30S ribosomal protein S12 [Mycolicibacterium smegmatis MC2 155]</Hit_def>
+  <Hit_accession>6DZI_u</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>6.71928e-84</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>PTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>PTIQQLVRKGRRDKIAKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_hseq>
+      <Hsp_midline>PTIQQLVRKGRRDKI+KVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|8CRX|L</Hit_id>
+  <Hit_def>Chain L, 30S ribosomal protein S12 [Cutibacterium acnes] &gt;pdb|8CWO|L Chain L, 30S ribosomal protein S12 [Cutibacterium acnes]</Hit_def>
+  <Hit_accession>8CRX_L</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.328</Hsp_bit-score>
+      <Hsp_score>573</Hsp_score>
+      <Hsp_evalue>2.83724e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>MPTIQQLVRKGRTDKISKNKTPALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVRLSSGIEVTAYIPGVGHNLQEHSMVLVRGGRVKDLPGVRYKIVRGSLDTQGVKGRKQARSRYGAKKEK</Hsp_hseq>
+      <Hsp_midline>MPTIQQLVRKGR DKISK KT ALKGSPQRRGVCTRVYTTTPKKPNSALRKVARV+L+S +EVTAYIPG GHNLQEHSMVLVRGGRVKDLPGVRYKI+RGSLDTQGVK RKQARSRYGAKKEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|7JIL|q</Hit_id>
+  <Hit_def>Chain q, 30S ribosomal protein S12 [Flavobacterium johnsoniae]</Hit_def>
+  <Hit_accession>7JIL_q</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>2.39009e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>MPTIQQLVRTGRTQITKKSKSVALDSCPQRRGVCTRVYTTTPKKPNSAMRKVARVRLTNGNEVNAYIPGEGHNLQEHSIVLVRGGRVKDLPGVRYHIVRGALDTSGVAGRTQRRSKYGAKRPK</Hsp_hseq>
+      <Hsp_midline>MPTIQQLVR GR     K K+ AL   PQRRGVCTRVYTTTPKKPNSA+RKVARV+LT+  EV AYIPGEGHNLQEHS+VLVRGGRVKDLPGVRY I+RG+LDT GV  R Q RS+YGAK+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|6V39|l</Hit_id>
+  <Hit_def>Chain l, 30S ribosomal protein S12 [Acinetobacter baumannii AB0057] &gt;pdb|6V3A|l Chain l, 30S ribosomal protein S12 [Acinetobacter baumannii AB0057] &gt;pdb|6V3B|l Chain l, 30S ribosomal protein S12 [Acinetobacter baumannii AB0057] &gt;pdb|6V3E|l Chain l, 30S ribosomal protein S12 [Acinetobacter baumannii AB0057] &gt;pdb|6YPU|m Chain m, 30S ribosomal protein S12 [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;pdb|6YT9|m Chain m, 30S ribosomal protein S12 [Acinetobacter baumannii] &gt;pdb|7M4U|l Chain l, 30S ribosomal protein S12 [Acinetobacter baumannii AB0057] &gt;pdb|7M4W|l Chain l, 30S ribosomal protein S12 [Acinetobacter baumannii AB0057] &gt;pdb|7M4X|l Chain l, 30S ribosomal protein S12 [Acinetobacter baumannii AB0057] &gt;pdb|7M4Y|l Chain l, 30S ribosomal protein S12 [Acinetobacter baumannii AB0057] &gt;pdb|7M4Z|l Chain l, 30S ribosomal protein S12 [Acinetobacter baumannii AB0057] &gt;pdb|7RYF|l Chain l, 30S ribosomal protein S12 [Acinetobacter baumannii AB0057] &gt;pdb|7RYG|l Chain l, 30S ribosomal protein S12 [Acinetobacter baumannii AB0057] &gt;pdb|7RYH|l Chain l, 30S ribosomal protein S12 [Acinetobacter baumannii AB0057] &gt;pdb|7UVV|l Chain l, 30S ribosomal protein S12 [Acinetobacter baumannii AB0057] &gt;pdb|7UVW|l Chain l, 30S ribosomal protein S12 [Acinetobacter baumannii AB0057] &gt;pdb|7UVX|l Chain l, 30S ribosomal protein S12 [Acinetobacter baumannii AB0057] &gt;pdb|7UVY|l Chain l, 30S ribosomal protein S12 [Acinetobacter baumannii AB0057] &gt;pdb|7UVZ|l Chain l, 30S ribosomal protein S12 [Acinetobacter baumannii AB0057] &gt;pdb|7UW1|l Chain l, 30S ribosomal protein S12 [Acinetobacter baumannii AB0057]</Hit_def>
+  <Hit_accession>6V39_l</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>2.82402e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>MATTNQLIRKGRTTLVEKSKVPALKACPQRRGVCTRVYTTTPKKPNSAMRKVCRVRLTSGFEVSSYIGGEGHNLQEHSVVLIRGGRVKDLPGVRYHTVRGSLDCAGVKDRNQSRSKYGAKRPK</Hsp_hseq>
+      <Hsp_midline>M T  QL+RKGR   + K K  ALK  PQRRGVCTRVYTTTPKKPNSA+RKV RV+LTS  EV++YI GEGHNLQEHS+VL+RGGRVKDLPGVRY  +RGSLD  GVK+R Q+RS+YGAK+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|7UNR|l</Hit_id>
+  <Hit_def>Chain l, 30S ribosomal protein S12 [Pseudomonas aeruginosa PAO1] &gt;pdb|7UNU|l Chain l, 30S ribosomal protein S12 [Pseudomonas aeruginosa PAO1] &gt;pdb|7UNV|l Chain l, 30S ribosomal protein S12 [Pseudomonas aeruginosa PAO1] &gt;pdb|7UNW|l Chain l, 30S ribosomal protein S12 [Pseudomonas aeruginosa PAO1] &gt;pdb|8CD1|l Chain l, 30S ribosomal protein S12 [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>7UNR_l</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>5.95747e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>MATINQLVRKPRKRMVDKSDVPALQNCPQRRGVCTRVYTTTPKKPNSALRKVCRVRLTNGFEVSSYIGGEGHNLQEHSVVLIRGGRVKDLPGVRYHTVRGSLDTSGVKDRKQGRSKYGAKRPK</Hsp_hseq>
+      <Hsp_midline>M TI QLVRK R+  + K    AL+  PQRRGVCTRVYTTTPKKPNSALRKV RV+LT+  EV++YI GEGHNLQEHS+VL+RGGRVKDLPGVRY  +RGSLDT GVK+RKQ RS+YGAK+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|4V61|AL</Hit_id>
+  <Hit_def>Chain AL, Ribosomal Protein S12 [Spinacia oleracea] &gt;pdb|5MMJ|l Chain l, 30S ribosomal protein S12, chloroplastic [Spinacia oleracea] &gt;pdb|5MMM|l Chain l, 30S ribosomal protein S12, chloroplastic [Spinacia oleracea] &gt;pdb|5X8P|l Chain l, 30S ribosomal protein S12, chloroplastic [Spinacia oleracea] &gt;pdb|5X8R|l Chain l, 30S ribosomal protein S12, chloroplastic [Spinacia oleracea]</Hit_def>
+  <Hit_accession>4V61_AL</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.415</Hsp_bit-score>
+      <Hsp_score>459</Hsp_score>
+      <Hsp_evalue>6.08955e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>MPTIKQLIRNTRQPIRNVTKSPALRGCPQRRGTCTRVYTITPKKPNSALRKVARVRLTSGFEITAYIPGIGHNLQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAVGVKDRQQGRSKYGVKKPK</Hsp_hseq>
+      <Hsp_midline>MPTI+QL+R  R+   +  K+ AL+G PQRRG CTRVYT TPKKPNSALRKVARV+LTS  E+TAYIPG GHNLQEHS+VLVRGGRVKDLPGVRY I+RG+LD  GVK+R+Q RS+YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|4OX9|L</Hit_id>
+  <Hit_def>Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6OF6|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6OF6|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6OJ2|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6OJ2|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6OPE|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6OPE|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8FOM|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8FOM|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8FON|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8FON|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>4OX9_L</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.644</Hsp_bit-score>
+      <Hsp_score>457</Hsp_score>
+      <Hsp_evalue>2.10951e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>MPTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKDLPGVRYHIVRGVYDAAGVKDRKKSRSKYGTKKPK</Hsp_hseq>
+      <Hsp_midline>MPTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVKDLPGVRY I+RG  D  GVK+RK++RS+YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|8RD8|L6</Hit_id>
+  <Hit_def>Chain L6, Small ribosomal subunit protein uS12 [Psychrobacter urativorans] &gt;pdb|8RDV|L6 Chain L6, Small ribosomal subunit protein uS12 [Psychrobacter urativorans] &gt;pdb|8RDW|L6 Chain L6, Small ribosomal subunit protein uS12 [Psychrobacter urativorans]</Hit_def>
+  <Hit_accession>8RD8_L6</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>2.24278e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>MATTNQLIRKGRKTIKEKSKVPALQACPQRRGVCTRVYTTTPKKPNSAMRKVCRVRLTSGYEVSSYIGGEGHNLQEHSVVLIRGGRVKDLPGVRYHTVRGALDCAGVKDRKQGRSKYGAKKPK</Hsp_hseq>
+      <Hsp_midline>M T  QL+RKGR+    K K  AL+  PQRRGVCTRVYTTTPKKPNSA+RKV RV+LTS  EV++YI GEGHNLQEHS+VL+RGGRVKDLPGVRY  +RG+LD  GVK+RKQ RS+YGAKK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|4V9A|AO</Hit_id>
+  <Hit_def>Chain AO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V9A|CO Chain CO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V9B|AO Chain AO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V9B|CO Chain CO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>4V9A_AO</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>2.66274e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>MPTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKDLPGVRYHIVRGVYDAAGVKDRKKSRSKYGTKKPK</Hsp_hseq>
+      <Hsp_midline>MPTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVKDLPGVRY I+RG  D  GVK+RK++RS+YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|3J9Y|l</Hit_id>
+  <Hit_def>Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|3JBU|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|3JBV|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|3JCD|l Chain l, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|3JCE|l Chain l, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|3JCJ|t Chain t, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|3JCN|o Chain o, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V4H|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Escherichia coli] &gt;pdb|4V4H|CL Chain CL, 30S RIBOSOMAL PROTEIN S12 [Escherichia coli] &gt;pdb|4V65|AD Chain AD, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V66|AD Chain AD, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V6C|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V6C|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V6D|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V6D|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V6E|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V6E|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V6K|BP Chain BP, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V6L|AP Chain AP, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V6Y|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V6Z|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V70|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V71|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V72|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V73|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V74|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V75|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V76|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V77|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V78|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V79|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V7A|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V7B|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V7I|BL Chain BL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V85|AL Chain AL, 30S ribosomal protein S12 1 [Escherichia coli] &gt;pdb|4V89|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V9C|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V9C|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V9O|BL Chain BL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V9O|DL Chain DL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V9O|FL Chain FL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V9O|HL Chain HL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V9P|BL Chain BL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V9P|DL Chain DL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V9P|FL Chain FL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V9P|HL Chain HL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4WOI|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4WOI|DL Chain DL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5AFI|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|5JTE|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|5JU8|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5KCR|1l Chain 1l, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5KCS|1l Chain 1l, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5KPS|17 Chain 17, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5KPV|16 Chain 16, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5KPW|16 Chain 16, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5KPX|16 Chain 16, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5L3P|l Chain l, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5NWY|B Chain B, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5U4J|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|5U9F|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|5U9G|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|5UZ4|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6DNC|YA Chain YA, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6OGF|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6OGG|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6OGI|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6SZS|l Chain l, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6VU3|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6VWL|k Chain k, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6VWM|k Chain k, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6VWN|k Chain k, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6VYQ|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6VYR|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6VYS|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6VYT|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6VYU|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6VYW|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6VYX|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6VYY|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6VYZ|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6VZ2|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6VZ5|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6W6K|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6W77|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6W7M|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6W7N|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6W7W|K Chain K, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6X6T|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6X7F|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6X7K|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6X9Q|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6XDQ|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6XDR|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6XGF|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6XII|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6XIJ|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6YSR|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6YSS|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6YST|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6YSU|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7CPJ|l Chain l, 30S ribosomal protein S12 [Escherichia coli 4.0522] &gt;pdb|7D6Z|s Chain s, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7D80|M Chain M, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7OIZ|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7OJ0|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7P3K|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7PJS|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7PJT|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7PJU|l Chain l, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7PJV|l Chain l, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7PJW|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7PJX|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7PJY|l Chain l, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7PJZ|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7QG8|E Chain E, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7QGH|B Chain B, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7QGN|E Chain E, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7QGR|B Chain B, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7S1G|t Chain t, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7S1H|t Chain t, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7S1I|t Chain t, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7S1J|t Chain t, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7S1K|t Chain t, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8AKN|M Chain M, 30S ribosomal protein S12 [Escherichia coli BW25113] &gt;pdb|8AM9|M Chain M, 30S ribosomal protein S12 [Escherichia coli BW25113] &gt;pdb|8AYE|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8B7Y|q Chain q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|8BF7|p Chain p, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|8BGE|p Chain p, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|8BGH|p Chain p, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|8BH4|p Chain p, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|8BHJ|p Chain p, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|8BHL|p Chain p, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|8BHN|p Chain p, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|8BHP|p Chain p, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|8BIL|p Chain p, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|8BIM|p Chain p, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|8EYQ|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8FIZ|AC Chain AC, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8JSH|t Chain t, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8K3O|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|8K4E|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|8PEG|L Chain L, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8PHJ|L Chain L, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8PKL|L Chain L, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8Q4F|L Chain L, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8QBT|t Chain t, 30S ribosomal protein S12 [Escherichia coli BW25113] &gt;pdb|8R3V|L1 Chain L1, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8R3V|L2 Chain L2, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8RCL|L1 Chain L1, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8RCL|L2 Chain L2, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8RCM|L1 Chain L1, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8RCM|L2 Chain L2, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8RCS|L1 Chain L1, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8RCS|L2 Chain L2, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8RCT|L1 Chain L1, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8RCT|L2 Chain L2, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8UPO|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8UPR|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8UQL|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8UQM|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8UQP|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8UR0|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8URH|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8URI|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8URX|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8URY|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8VS9|S12 Chain S12, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8VSA|S12 Chain S12, 30S ribosomal protein S12 [Escherichia coli]</Hit_def>
+  <Hit_accession>3J9Y_l</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.874</Hsp_bit-score>
+      <Hsp_score>455</Hsp_score>
+      <Hsp_evalue>2.88601e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEKG</Hsp_qseq>
+      <Hsp_hseq>MATVNQLVRKPRARKVAKSNVPALEACPQKRGVCTRVYTTTPKKPNSALRKVCRVRLTNGFEVTSYIGGEGHNLQEHSVILIRGGRVKDLPGVRYHTVRGALDCSGVKDRKQARSKYGVKRPKA</Hsp_hseq>
+      <Hsp_midline>M T+ QLVRK R  K++K    AL+  PQ+RGVCTRVYTTTPKKPNSALRKV RV+LT+  EVT+YI GEGHNLQEHS++L+RGGRVKDLPGVRY  +RG+LD  GVK+RKQARS+YG K+ K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|8FMW|L</Hit_id>
+  <Hit_def>Chain L, 30S ribosomal protein S12 [Borreliella burgdorferi B31]</Hit_def>
+  <Hit_accession>8FMW_L</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>3.88018e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEKG</Hsp_qseq>
+      <Hsp_hseq>MPTINQLIRKPRKSQTEKTASPALQNCPQRRGICTRVMTVTPKKPNSALRKVARVRLSNGFEVTAYIPGIGHNLQEHSVVLIRGGRVKDLPGVRYHIVRGAKDTLGVNNRKKGRSKYGTKKPKA</Hsp_hseq>
+      <Hsp_midline>MPTI QL+RK R+ +  K  + AL+  PQRRG+CTRV T TPKKPNSALRKVARV+L++  EVTAYIPG GHNLQEHS+VL+RGGRVKDLPGVRY I+RG+ DT GV NRK+ RS+YG KK K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|6ERI|BL</Hit_id>
+  <Hit_def>Chain BL, 30S ribosomal protein S12, chloroplastic [Spinacia oleracea]</Hit_def>
+  <Hit_accession>6ERI_BL</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.104</Hsp_bit-score>
+      <Hsp_score>453</Hsp_score>
+      <Hsp_evalue>6.58063e-59</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>PTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>PTIKQLIRNTRQPIRNVTKSPALRGCPQRRGTCTRVYTITPKKPNSALRKVARVRLTSGFEITAYIPGIGHNLQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAVGVKDRQQGRSKYGVKKPK</Hsp_hseq>
+      <Hsp_midline>PTI+QL+R  R+   +  K+ AL+G PQRRG CTRVYT TPKKPNSALRKVARV+LTS  E+TAYIPG GHNLQEHS+VLVRGGRVKDLPGVRY I+RG+LD  GVK+R+Q RS+YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|6SPC|l</Hit_id>
+  <Hit_def>Chain l, 30S ribosomal protein S12 [Pseudomonas aeruginosa] &gt;pdb|6SPF|l Chain l, 30S ribosomal protein S12 [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>6SPC_l</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>8.48579e-59</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>TIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKK</Hsp_qseq>
+      <Hsp_hseq>TINQLVRKPRKRMVDKSDVPALQNCPQRRGVCTRVYTTTPKKPNSALRKVCRVRLTNGFEVSSYIGGEGHNLQEHSVVLIRGGRVKDLPGVRYHTVRGSLDTSGVKDRKQGRSKYGAKR</Hsp_hseq>
+      <Hsp_midline>TI QLVRK R+  + K    AL+  PQRRGVCTRVYTTTPKKPNSALRKV RV+LT+  EV++YI GEGHNLQEHS+VL+RGGRVKDLPGVRY  +RGSLDT GVK+RKQ RS+YGAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|6SPE|l</Hit_id>
+  <Hit_def>Chain l, 30S ribosomal protein S12 [Pseudomonas aeruginosa] &gt;pdb|6SPG|l Chain l, 30S ribosomal protein S12 [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>6SPE_l</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>1.01022e-58</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>TIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKK</Hsp_qseq>
+      <Hsp_hseq>TINQLVRKPRKRMVDKSDVPALQNCPQRRGVCTRVYTTTPKKPNSALRKVCRVRLTNGFEVSSYIGGEGHNLQEHSVVLIRGGRVKDLPGVRYHTVRGSLDTSGVKDRKQGRSKYGAKR</Hsp_hseq>
+      <Hsp_midline>TI QLVRK R+  + K    AL+  PQRRGVCTRVYTTTPKKPNSALRKV RV+LT+  EV++YI GEGHNLQEHS+VL+RGGRVKDLPGVRY  +RGSLDT GVK+RKQ RS+YGAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|2YKR|L</Hit_id>
+  <Hit_def>Chain L, 30S RIBOSOMAL PROTEIN S12 [Escherichia coli DH5[alpha]] &gt;pdb|3DEG|D Chain D, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|3EP2|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|3EQ3|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|3EQ4|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|3IY8|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|3J0D|I Chain I, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|3J0E|F Chain F, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|3J9Z|SL Chain SL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|3JA1|SL Chain SL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4A2I|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Escherichia coli] &gt;pdb|4ADV|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Escherichia coli] &gt;pdb|4U1U|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4U1U|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4U1V|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4U1V|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4U20|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4U20|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4U24|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4U24|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4U25|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4U25|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4U26|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4U26|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4U27|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4U27|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V47|BL Chain BL, 30S RIBOSOMAL PROTEIN S12 [Escherichia coli] &gt;pdb|4V48|BL Chain BL, 30S RIBOSOMAL PROTEIN S12 [Escherichia coli] &gt;pdb|4V4Q|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V4Q|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V50|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V50|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V52|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V52|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V53|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V53|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V54|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V54|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V55|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V55|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V56|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V56|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V57|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V57|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V5B|BL Chain BL, 30S RIBOSOMAL PROTEIN S12 [Escherichia coli] &gt;pdb|4V5B|DL Chain DL, 30S RIBOSOMAL PROTEIN S12 [Escherichia coli] &gt;pdb|4V5H|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Escherichia coli] &gt;pdb|4V5Y|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V5Y|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V64|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V64|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V69|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V6M|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V6N|BO Chain BO, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V6O|AO Chain AO, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V6P|AO Chain AO, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V6Q|AO Chain AO, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V6R|AO Chain AO, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V6S|BN Chain BN, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V6T|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V6V|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V7C|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V7D|BL Chain BL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V7S|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V7S|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V7T|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V7T|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V7U|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V7U|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V7V|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V7V|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V9D|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4V9D|BL Chain BL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4WAO|L Chain L, 30s Ribosomal Protein S12 [Escherichia coli K-12] &gt;pdb|4WAQ|L Chain L, 30s Ribosomal Protein S12 [Escherichia coli K-12] &gt;pdb|4WF1|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4WF1|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4WWW|QL Chain QL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4WWW|XL Chain XL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5H5U|s Chain s, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5LZA|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|5LZB|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|5LZC|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|5LZD|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|5LZE|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|5LZF|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|5MGP|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|5MY1|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5NP6|O Chain O, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5O2R|l Chain l, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5U4I|l Chain l, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5UYK|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5UYL|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5UYM|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5UYN|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5UYP|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5UYQ|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6AWB|O Chain O, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6AWC|O Chain O, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6AWD|O Chain O, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6BU8|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6BY1|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6BY1|BL Chain BL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6ENF|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6ENJ|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6ENU|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6GWT|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6GXM|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6GXN|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6GXO|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6GXP|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6H4N|l Chain l, 30S ribosomal protein S12 [Escherichia coli BW25113] &gt;pdb|6H58|l Chain l, 30S ribosomal protein S12 [Escherichia coli BW25113] &gt;pdb|6H58|ll Chain ll, 30S ribosomal protein S12 [Escherichia coli BW25113] &gt;pdb|6I7V|BL Chain BL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6LKQ|K Chain K, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6NQB|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6O7K|t Chain t, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6O9J|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6O9K|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6OFX|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6OG7|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6VZ7|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6VZJ|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WD0|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WD1|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WD2|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WD3|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WD4|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WD5|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WD6|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6WD7|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WD8|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WD9|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WDA|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WDB|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WDC|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WDD|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WDE|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WDF|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6WDG|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6WDH|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WDI|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WDJ|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6WDK|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WDL|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6WDM|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WNV|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6WNW|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6XE0|K Chain K, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6Y69|l Chain l, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7JSS|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7JSW|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7JSZ|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7JT1|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7JT2|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7JT3|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7K50|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7K51|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7K52|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7K53|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7K54|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7K55|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7LV0|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7NSO|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7NSP|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7NSQ|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7O5H|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7OE0|L Chain L, 30S ribosomal protein S12 [Escherichia coli BW25113] &gt;pdb|7OE1|L Chain L, 30S ribosomal protein S12 [Escherichia coli str. K-12 substr. MG1655] &gt;pdb|7OI0|L Chain L, 30S ribosomal protein S12 [Escherichia coli BW25113] &gt;pdb|7SS9|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7SSD|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7SSL|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7SSN|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7SSO|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7SSW|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7ST2|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7ST6|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7ST7|Q Chain Q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7TOS|S12 Chain S12, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8G2U|k Chain k, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8G31|k Chain k, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8G34|k Chain k, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8G38|k Chain k, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8GHU|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8JSG|t Chain t, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8T5D|k Chain k, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8T5H|k Chain k, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|9AX8|l Chain l, 30S ribosomal protein S12 [Escherichia coli]</Hit_def>
+  <Hit_accession>2YKR_L</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.948</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>1.84238e-58</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEKG</Hsp_qseq>
+      <Hsp_hseq>TVNQLVRKPRARKVAKSNVPALEACPQKRGVCTRVYTTTPKKPNSALRKVCRVRLTNGFEVTSYIGGEGHNLQEHSVILIRGGRVKDLPGVRYHTVRGALDCSGVKDRKQARSKYGVKRPKA</Hsp_hseq>
+      <Hsp_midline>T+ QLVRK R  K++K    AL+  PQ+RGVCTRVYTTTPKKPNSALRKV RV+LT+  EVT+YI GEGHNLQEHS++L+RGGRVKDLPGVRY  +RG+LD  GVK+RKQARS+YG K+ K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|4JV5|L</Hit_id>
+  <Hit_def>Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4JYA|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4KHP|L Chain L, 30S Ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V68|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus] &gt;pdb|4V9J|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V9J|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V9K|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V9K|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V9L|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V9L|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V9M|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V9M|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4W29|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4W29|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|5OT7|K Chain K, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6GZQ|L2 Chain L2, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6GZX|L3 Chain L3, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6GZX|L4 Chain L4, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6GZZ|L3 Chain L3, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6GZZ|L4 Chain L4, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6Q95|q Chain q, 30S ribosomal protein S12 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>4JV5_L</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>2.52668e-58</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>PTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>PTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKDLPGVRYHIVRGVYDAAGVKDRKKSRSKYGTKKPK</Hsp_hseq>
+      <Hsp_midline>PTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVKDLPGVRY I+RG  D  GVK+RK++RS+YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|4V9N|AL</Hit_id>
+  <Hit_def>Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V9N|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V9Q|BL Chain BL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V9Q|DL Chain DL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4XEJ|AS12 Chain AS12, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4XEJ|BS12 Chain BS12, 30S ribosomal protein S12 [Thermus thermophilus HB27]</Hit_def>
+  <Hit_accession>4V9N_AL</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>3.05386e-58</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>PTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>PTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKDLPGVRYHIVRGVYDAAGVKDRKKSRSKYGTKKPK</Hsp_hseq>
+      <Hsp_midline>PTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVKDLPGVRY I+RG  D  GVK+RK++RS+YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|4K0K|L</Hit_id>
+  <Hit_def>Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>4K0K_L</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>3.10858e-58</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>PTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>PTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKDLPGVRYHIVRGVYDAAGVKDRKKSRSKYGTKKPK</Hsp_hseq>
+      <Hsp_midline>PTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVKDLPGVRY I+RG  D  GVK+RK++RS+YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|1PN7|O</Hit_id>
+  <Hit_def>Chain O, 30S ribosomal protein S12 [Thermus thermophilus] &gt;pdb|1PN8|O Chain O, 30S ribosomal protein S12 [Thermus thermophilus] &gt;pdb|2R1G|H Chain H, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|3IZZ|F Chain F, Protein S12 (Small Subunit) [Escherichia coli] &gt;pdb|4GKJ|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4GKK|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V49|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V4A|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V4G|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V4G|CL Chain CL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V4G|EL Chain EL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V4G|GL Chain GL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V4G|IL Chain IL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|4V7P|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V7P|DL Chain DL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V83|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V83|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V84|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V84|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V9H|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V9I|AL Chain AL, 30S Ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V9I|CL Chain CL, 30S Ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WT8|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WT8|BL Chain BL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WT8|L Chain L, 30s Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4YHH|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5A9Z|BP Chain BP, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5AA0|BP Chain BP, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5IWA|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6MPF|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>1PN7_O</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>3.14931e-58</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>PTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>PTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKDLPGVRYHIVRGVYDAAGVKDRKKSRSKYGTKKPK</Hsp_hseq>
+      <Hsp_midline>PTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVKDLPGVRY I+RG  D  GVK+RK++RS+YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|3J9W|AL</Hit_id>
+  <Hit_def>Chain AL, 30S ribosomal protein uS12 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|6HA1|l Chain l, 30S ribosomal protein S12 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|6HA8|l Chain l, 30S ribosomal protein S12 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|7O5B|L Chain L, 30S ribosomal protein S12 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|7QGU|q Chain q, 30S ribosomal protein S12 [Bacillus subtilis] &gt;pdb|7QH4|p Chain p, 30S ribosomal protein S12 [Bacillus subtilis] &gt;pdb|7QV1|l Chain l, 30S ribosomal protein S12 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|7QV2|l Chain l, 30S ribosomal protein S12 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|7QV3|l Chain l, 30S ribosomal protein S12 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|8BUU|l Chain l, 30S ribosomal protein S12 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|8CDU|L Chain L, 30S ribosomal protein S12 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|8CDV|L Chain L, 30S ribosomal protein S12 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|8CEC|L Chain L, 30S ribosomal protein S12 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|8CED|L Chain L, 30S ribosomal protein S12 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|8CEE|L Chain L, 30S ribosomal protein S12 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|8QCQ|l Chain l, 30S ribosomal protein S12 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|8QPP|L Chain L, 30S ribosomal protein S12 [Bacillus subtilis] &gt;pdb|8R55|L Chain L, 30S ribosomal protein S12 [Bacillus subtilis]</Hit_def>
+  <Hit_accession>3J9W_AL</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.948</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>3.17545e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALK-------------GSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>MPTINQLIRKGRVSKVENSKSPALNKGYNSFKKEHTNVSSPQKRGVCTRVGTMTPKKPNSALRKYARVRLTNGIEVTAYIPGIGHNLQEHSVVLIRGGRVKDLPGVRYHIVRGALDTAGVENRAQGRSKYGTKKPK</Hsp_hseq>
+      <Hsp_midline>MPTI QL+RKGR  K+   K+ AL               SPQ+RGVCTRV T TPKKPNSALRK ARV+LT+ +EVTAYIPG GHNLQEHS+VL+RGGRVKDLPGVRY I+RG+LDT GV+NR Q RS+YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|5IQR|q</Hit_id>
+  <Hit_def>Chain q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5MDV|q Chain q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|5MDW|q Chain q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|5MDY|q Chain q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5MDZ|q Chain q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6C4I|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6OM6|q Chain q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6Q98|q Chain q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6TBV|S121 Chain S121, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6TC3|S121 Chain S121, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6ZTJ|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6ZTL|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6ZTM|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6ZTN|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6ZTO|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6ZTP|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6ZU1|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7AA6|BL Chain BL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7AFI|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7AFL|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7AFO|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7BOD|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7BOE|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7BOF|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7BOG|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7BOH|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7BOI|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7K00|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7N1P|SL Chain SL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7N2C|SL Chain SL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7N2U|SL Chain SL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7N2V|SL Chain SL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7N30|SL Chain SL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7N31|SL Chain SL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7NAR|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7NAS|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7NAT|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7NAU|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7NAV|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7NAX|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7NWT|q Chain q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7O19|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7O1A|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7O1C|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7Q4K|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7SA4|q Chain q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7UG7|SL Chain SL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7Y7C|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7Y7D|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7Y7E|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7Y7F|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7Y7G|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7Y7H|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8A3L|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|8B0X|L Chain L, 30S ribosomal protein S12 [Escherichia coli B] &gt;pdb|8CAI|L Chain L, Small ribosomal subunit protein uS12 [Escherichia coli BW25113] &gt;pdb|8CEP|L Chain L, Small ribosomal subunit protein uS12 [Escherichia coli BW25113] &gt;pdb|8CGJ|L Chain L, Small ribosomal subunit protein uS12 [Escherichia coli BW25113] &gt;pdb|8CGR|L Chain L, Small ribosomal subunit protein uS12 [Escherichia coli BW25113] &gt;pdb|8CGU|L Chain L, Small ribosomal subunit protein uS12 [Escherichia coli BW25113] &gt;pdb|8EIU|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8EKC|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8EMM|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8EYT|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8FTO|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8FZD|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8FZE|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8FZF|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8FZG|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8FZH|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8FZI|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8FZJ|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8G6W|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8G7P|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8G7Q|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8G7R|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8G7S|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8HSP|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8HTZ|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8HU1|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8IFB|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8IFC|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|8P16|q Chain q, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8P17|q Chain q, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8P18|q Chain q, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8PVA|L Chain L, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8QK7|q Chain q, Small ribosomal subunit protein uS12 [Escherichia coli] &gt;pdb|8QOA|L Chain L, Small ribosomal subunit protein uS12 [Escherichia coli BW25113] &gt;pdb|8R6C|L Chain L, Small ribosomal subunit protein uS12 [Escherichia coli BW25113] &gt;pdb|8R8M|L Chain L, Small ribosomal subunit protein uS12 [Escherichia coli BW25113] &gt;pdb|8SYL|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|9AX7|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|9CG5|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|9CG6|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|9CG7|L Chain L, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|9GR1|L Chain L, Small ribosomal subunit protein uS12 [Escherichia coli BL21(DE3)] &gt;pdb|9GUP|M Chain M, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|9GUQ|M Chain M, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|9GUS|M Chain M, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|9GUT|M Chain M, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|9GUU|M Chain M, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|9GUV|M Chain M, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|9GUW|M Chain M, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|9GUX|M Chain M, 30S ribosomal protein S12 [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>5IQR_q</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>5.44827e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEKG</Hsp_qseq>
+      <Hsp_hseq>MATVNQLVRKPRARKVAKSNVPALEACPQKRGVCTRVYTTTPKKPNSALRKVCRVRLTNGFEVTSYIGGEGHNLQEHSVILIRGGRVKXLPGVRYHTVRGALDCSGVKDRKQARSKYGVKRPKA</Hsp_hseq>
+      <Hsp_midline>M T+ QLVRK R  K++K    AL+  PQ+RGVCTRVYTTTPKKPNSALRKV RV+LT+  EVT+YI GEGHNLQEHS++L+RGGRVK LPGVRY  +RG+LD  GVK+RKQARS+YG K+ K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|5WDT|l</Hit_id>
+  <Hit_def>Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|5WE4|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|5WE6|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|5WF0|l Chain l, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|5WFK|l Chain l, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5WFS|l Chain l, 30S ribosomal protein S12 [Escherichia coli]</Hit_def>
+  <Hit_accession>5WDT_l</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>5.83757e-58</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>TIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKK</Hsp_qseq>
+      <Hsp_hseq>TVNQLVRKPRARKVAKSNVPALEACPQKRGVCTRVYTTTPKKPNSALRKVCRVRLTNGFEVTSYIGGEGHNLQEHSVILIRGGRVKDLPGVRYHTVRGALDCSGVKDRKQARSKYGVKR</Hsp_hseq>
+      <Hsp_midline>T+ QLVRK R  K++K    AL+  PQ+RGVCTRVYTTTPKKPNSALRKV RV+LT+  EVT+YI GEGHNLQEHS++L+RGGRVKDLPGVRY  +RG+LD  GVK+RKQARS+YG K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|1VVJ|QL</Hit_id>
+  <Hit_def>Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|1VVJ|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|1VY4|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|1VY4|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|1VY5|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|1VY5|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|1VY6|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|1VY6|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|1VY7|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|1VY7|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|2F4V|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus] &gt;pdb|2OW8|m Chain m, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|2QNH|m Chain m, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|3KIQ|l Chain l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|3KIS|l Chain l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|3KIU|l Chain l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|3KIX|l Chain l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|3T1H|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|3T1Y|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4B3M|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4B3R|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4B3S|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4B3T|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4CR1|L Chain L, 30s Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4L47|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4L47|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4L71|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4L71|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4LEL|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4LEL|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4LFZ|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4LFZ|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4LNT|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4LNT|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4LSK|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4LSK|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4LT8|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4LT8|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4P6F|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4P6F|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4P70|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4P70|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4QJT|l Chain l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4TUA|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4TUA|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4TUB|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4TUB|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4TUC|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4TUC|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4TUD|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4TUD|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4TUE|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4TUE|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V4I|m Chain m, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V4J|m Chain m, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V4X|AO Chain AO, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V4Y|AO Chain AO, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V4Z|AO Chain AO, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V5E|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5E|CL Chain CL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5F|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5F|CL Chain CL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5J|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5J|CL Chain CL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5M|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5N|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5Q|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5Q|CL Chain CL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V6A|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V6A|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V6F|BO Chain BO, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V6F|CO Chain CO, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V6G|AO Chain AO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V6G|CO Chain CO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V7J|Al Chain Al, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V7J|Bl Chain Bl, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V7K|Al Chain Al, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V7K|Bl Chain Bl, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V7L|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V7L|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V7M|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V7M|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V87|BO Chain BO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V87|CO Chain CO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V8A|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V8A|DL Chain DL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V8B|AO Chain AO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V8B|CO Chain CO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V8C|CO Chain CO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V8C|DO Chain DO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V8D|AO Chain AO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V8D|CO Chain CO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V8E|BO Chain BO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V8E|DO Chain DO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V8F|BO Chain BO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V8F|CO Chain CO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V8G|AL Chain AL, 30S Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4V8G|CL Chain CL, 30S Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4V8H|AL Chain AL, 30S Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4V8H|CL Chain CL, 30S Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4V8I|AL Chain AL, 30S Ribosomal Protein S12 [Thermus thermophilus] &gt;pdb|4V8I|CL Chain CL, 30S Ribosomal Protein S12 [Thermus thermophilus] &gt;pdb|4V8J|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V8J|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V8U|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V8U|CL Chain CL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V8X|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V8X|CL Chain CL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V90|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V95|AL Chain AL, 30S Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4V95|CL Chain CL, 30S Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4V97|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V97|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V9R|AL Chain AL, 30S Ribosomal Protein S12 [Thermus thermophilus] &gt;pdb|4V9R|CL Chain CL, 30S Ribosomal Protein S12 [Thermus thermophilus] &gt;pdb|4V9S|AL Chain AL, 30S Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4V9S|CL Chain CL, 30S Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4W2E|l Chain l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4W2F|AL Chain AL, 30S Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4W2F|CL Chain CL, 30S Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4W2G|AL Chain AL, 30S Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4W2G|CL Chain CL, 30S Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4W2H|AL Chain AL, 30S Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4W2H|CL Chain CL, 30S Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4W2I|AL Chain AL, 30S Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4W2I|CL Chain CL, 30S Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4W4G|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4W4G|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WPO|BL Chain BL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WPO|DL Chain DL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WQ1|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WQ1|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WQF|BL Chain BL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WQF|DL Chain DL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WQR|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WQR|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WQU|BL Chain BL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WQU|DL Chain DL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WQY|BL Chain BL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WQY|DL Chain DL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WR6|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WR6|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WRA|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WRA|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WRO|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WSD|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WSD|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WSM|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WSM|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WT1|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WT1|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WU1|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WU1|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WZD|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WZD|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WZO|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4WZO|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4YPB|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4YPB|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4YY3|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4YZV|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4YZV|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4Z8C|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4Z8C|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4ZSN|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4ZSN|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5D8B|IC Chain IC, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|5D8B|MA Chain MA, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|5E7K|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5E7K|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5E81|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5E81|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5EL4|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5EL4|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5EL5|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5EL5|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5EL6|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5EL6|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5EL7|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5EL7|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5HAU|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5HAU|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5HCP|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5HCP|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5HCQ|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5HCQ|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5HCR|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5HCR|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5HD1|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5HD1|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5IB7|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5IB7|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5IB8|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5IB8|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5IBB|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5IBB|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5IMQ|P Chain P, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5IMR|P Chain P, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5J8B|l Chain l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5LMN|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5LMO|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5LMP|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5LMQ|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5LMR|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5LMS|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5LMT|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5LMU|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5LMV|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5NDJ|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5NDJ|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5NDK|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5NDK|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5VPO|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5VPO|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5VPP|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5VPP|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5ZLU|Q Chain Q, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6BUW|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6BUW|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6BZ6|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6BZ6|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6BZ7|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6BZ7|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6BZ8|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6BZ8|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6C5L|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus] &gt;pdb|6C5L|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus] &gt;pdb|6DTI|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6GSJ|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6GSJ|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6GSK|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6GSK|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6GSL|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6GSL|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6MKN|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6MPI|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6NSH|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6NSH|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6NTA|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6NTA|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6NUO|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6NUO|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6NWY|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6NWY|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6NY6|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6O3M|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6O3M|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6OSI|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6OSI|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6OTR|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6OTR|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6OXA|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6OXA|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6OXI|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6OXI|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7LH5|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7LH5|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7V2L|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7V2M|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7V2N|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7V2O|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7V2P|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7V2Q|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>1VVJ_QL</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>1.38695e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYG</Hsp_qseq>
+      <Hsp_hseq>MPTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKDLPGVRYHIVRGVYDAAGVKDRKKSRSKYG</Hsp_hseq>
+      <Hsp_midline>MPTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVKDLPGVRY I+RG  D  GVK+RK++RS+YG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|5NJT|L</Hit_id>
+  <Hit_def>Chain L, 30S ribosomal protein S12 [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>5NJT_L</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>2.97165e-57</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>PTIQQLVRKGRRDKISKVKTAALK-------------GSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>PTINQLIRKGRVSKVENSKSPALNKGYNSFKKEHTNVSSPQKRGVCTRVGTMTPKKPNSALRKYARVRLTNGIEVTAYIPGIGHNLQEHSVVLIRGGRVKDLPGVRYHIVRGALDTAGVENRAQGRSKYGTKKPK</Hsp_hseq>
+      <Hsp_midline>PTI QL+RKGR  K+   K+ AL               SPQ+RGVCTRV T TPKKPNSALRK ARV+LT+ +EVTAYIPG GHNLQEHS+VL+RGGRVKDLPGVRY I+RG+LDT GV+NR Q RS+YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|6HTQ|l</Hit_id>
+  <Hit_def>Chain l, 30S ribosomal protein S12 [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>6HTQ_l</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>3.00744e-57</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>PTIQQLVRKGRRDKISKVKTAALK-------------GSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>PTINQLIRKGRVSKVENSKSPALNKGYNSFKKEHTNVSSPQKRGVCTRVGTMTPKKPNSALRKYARVRLTNGIEVTAYIPGIGHNLQEHSVVLIRGGRVKDLPGVRYHIVRGALDTAGVENRAQGRSKYGTKKPK</Hsp_hseq>
+      <Hsp_midline>PTI QL+RKGR  K+   K+ AL               SPQ+RGVCTRV T TPKKPNSALRK ARV+LT+ +EVTAYIPG GHNLQEHS+VL+RGGRVKDLPGVRY I+RG+LDT GV+NR Q RS+YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|4YBB|AL</Hit_id>
+  <Hit_def>Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|4YBB|BL Chain BL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5IT8|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5IT8|BL Chain BL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5J5B|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5J5B|BL Chain BL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5J7L|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5J7L|BL Chain BL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5J88|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5J88|BL Chain BL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5J8A|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5J8A|BL Chain BL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5J91|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5J91|BL Chain BL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5JC9|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5JC9|BL Chain BL, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5ME0|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|5ME1|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6HRM|q Chain q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6I7V|AL Chain AL, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6ORE|q Chain q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6ORL|q Chain q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6OSK|q Chain q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6OSQ|q Chain q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6OST|q Chain q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6Q97|q Chain q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6VZ3|R Chain R, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|6XZA|L1 Chain L1, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|6XZB|L1 Chain L1, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7ABZ|q Chain q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7AC7|q Chain q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7B5K|l Chain l, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7M5D|q Chain q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7NBU|L Chain L, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7NWW|p Chain p, 30S ribosomal protein S12 [Escherichia coli 4.0522] &gt;pdb|7OIF|p Chain p, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7OIG|p Chain p, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7OII|p Chain p, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7OT5|p Chain p, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7OTC|l Chain l, 30S ribosomal protein S12 [Escherichia coli BL21(DE3)] &gt;pdb|7UPH|g Chain g, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7ZTA|S121 Chain S121, 30S ribosomal protein S12 [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>4YBB_AL</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>3.51605e-57</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEKG</Hsp_qseq>
+      <Hsp_hseq>TVNQLVRKPRARKVAKSNVPALEACPQKRGVCTRVYTTTPKKPNSALRKVCRVRLTNGFEVTSYIGGEGHNLQEHSVILIRGGRVKXLPGVRYHTVRGALDCSGVKDRKQARSKYGVKRPKA</Hsp_hseq>
+      <Hsp_midline>T+ QLVRK R  K++K    AL+  PQ+RGVCTRVYTTTPKKPNSALRKV RV+LT+  EVT+YI GEGHNLQEHS++L+RGGRVK LPGVRY  +RG+LD  GVK+RKQARS+YG K+ K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|6Q9A|q</Hit_id>
+  <Hit_def>Chain q, 30S ribosomal protein S12 [Escherichia coli] &gt;pdb|7ACJ|q Chain q, 30S ribosomal protein S12 [Escherichia coli K-12] &gt;pdb|7ACR|q Chain q, 30S ribosomal protein S12 [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>6Q9A_q</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>4.01492e-57</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>TIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>TVNQLVRKPRARKVAKSNVPALEACPQKRGVCTRVYTTTPKKPNSALRKVCRVRLTNGFEVTSYIGGEGHNLQEHSVILIRGGRVKXLPGVRYHTVRGALDCSGVKDRKQARSKYGVKRPK</Hsp_hseq>
+      <Hsp_midline>T+ QLVRK R  K++K    AL+  PQ+RGVCTRVYTTTPKKPNSALRKV RV+LT+  EVT+YI GEGHNLQEHS++L+RGGRVK LPGVRY  +RG+LD  GVK+RKQARS+YG K+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|4V63|AL</Hit_id>
+  <Hit_def>Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V63|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|4V67|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus] &gt;pdb|4V67|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus]</Hit_def>
+  <Hit_accession>4V63_AL</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.866</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>4.23265e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYG</Hsp_qseq>
+      <Hsp_hseq>LPTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKDLPGVRYHIVRGVYDAAGVKDRKKSRSKYG</Hsp_hseq>
+      <Hsp_midline>+PTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVKDLPGVRY I+RG  D  GVK+RK++RS+YG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|7NHN|m</Hit_id>
+  <Hit_def>Chain m, 30S ribosomal protein S12 [Listeria monocytogenes EGD-e] &gt;pdb|8UU4|l Chain l, Small ribosomal subunit protein uS12 [Listeria innocua] &gt;pdb|8UU5|l Chain l, Small ribosomal subunit protein uS12 [Listeria innocua] &gt;pdb|8UU6|l Chain l, Small ribosomal subunit protein uS12 [Listeria innocua] &gt;pdb|8UU7|l Chain l, Small ribosomal subunit protein uS12 [Listeria innocua] &gt;pdb|8UU8|l Chain l, Small ribosomal subunit protein uS12 [Listeria innocua] &gt;pdb|8UU9|l Chain l, Small ribosomal subunit protein uS12 [Listeria innocua]</Hit_def>
+  <Hit_accession>7NHN_m</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.866</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>4.91912e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALK-------------GSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>MPTINQLVRKPRQSKIKKSTSPALNKGLNSFKRELTDVNSPQKRGVCTRVGTMTPKKPNSALRKYARVRLSNGIEVTAYIPGIGHNLQEHSVVLIRGGRVKDLPGVRYHIVRGALDTAGVENRGQSRSKYGTKKPK</Hsp_hseq>
+      <Hsp_midline>MPTI QLVRK R+ KI K  + AL               SPQ+RGVCTRV T TPKKPNSALRK ARV+L++ +EVTAYIPG GHNLQEHS+VL+RGGRVKDLPGVRY I+RG+LDT GV+NR Q+RS+YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|4X62|L</Hit_id>
+  <Hit_def>Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4X64|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4X65|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4X66|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5WNP|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5WNT|L Chain L, RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|5WNU|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5WNV|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6CAO|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>4X62_L</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>4.92786e-57</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>PTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>PTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKXLPGVRYHIVRGVYDAAGVKDRKKSRSKYGTKKPK</Hsp_hseq>
+      <Hsp_midline>PTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVK LPGVRY I+RG  D  GVK+RK++RS+YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|1FJG|L</Hit_id>
+  <Hit_def>Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1HNW|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1HNX|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1HNZ|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1HR0|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1IBK|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1IBL|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1IBM|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1J5E|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1JGO|O Chain O, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1JGP|O Chain O, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1JGQ|O Chain O, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1MJ1|O Chain O, S12 ribosomal protein [Escherichia coli] &gt;pdb|1ML5|O Chain O, 30S RIBOSOMAL PROTEIN S12 [Escherichia coli] &gt;pdb|1MVR|O Chain O, 30S RIBOSOMAL PROTEIN S12 [Escherichia coli K-12] &gt;pdb|1N32|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1N33|L Chain L, 30s Ribosomal Protein S12 [Thermus thermophilus] &gt;pdb|1N34|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1N36|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1XMO|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus] &gt;pdb|1XMQ|L Chain L, 30S Ribosomal Protein S12 [Thermus thermophilus] &gt;pdb|1XNQ|L Chain L, Ribosomal protein S12 [Thermus thermophilus] &gt;pdb|1XNR|L Chain L, 16S Ribosomal protein S12 [Thermus thermophilus] &gt;pdb|2HHH|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|2OM7|E Chain E, 30S ribosomal protein S12 [Thermus thermophilus] &gt;pdb|2UU9|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|2UUA|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|2UUB|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|2UUC|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|2UXB|L Chain L, RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|2UXC|L Chain L, RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|2UXD|L Chain L, RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|2VQE|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|2VQF|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|3OTO|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4AQY|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|4V42|AO Chain AO, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|4V4P|BO Chain BO, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V4R|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V4S|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V4T|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V51|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V51|CL Chain CL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5A|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5A|CL Chain CL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5C|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5C|CL Chain CL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5D|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5D|CL Chain CL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5G|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5G|CL Chain CL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5K|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5K|CL Chain CL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5L|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5P|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5P|CL Chain CL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V7W|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V7W|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V7X|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V7X|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V7Y|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V7Y|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V7Z|AL Chain AL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V7Z|CL Chain CL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4V8N|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V8N|CL Chain CL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V8O|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V8Q|BL Chain BL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>1FJG_L</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>5.32228e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYG</Hsp_qseq>
+      <Hsp_hseq>LPTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKDLPGVRYHIVRGVYDAAGVKDRKKSRSKYG</Hsp_hseq>
+      <Hsp_midline>+PTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVKDLPGVRY I+RG  D  GVK+RK++RS+YG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|4ZER|1l</Hit_id>
+  <Hit_def>Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4ZER|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5F8K|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5F8K|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5FDU|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5FDU|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5FDV|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5FDV|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5UQ7|l Chain l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5UQ8|l Chain l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6CZR|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6CZR|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6FKR|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6FKR|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>4ZER_1l</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>5.3978e-57</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>PTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>PTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKXLPGVRYHIVRGVYDAAGVKDRKKSRSKYGTKKPK</Hsp_hseq>
+      <Hsp_midline>PTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVK LPGVRY I+RG  D  GVK+RK++RS+YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|5MYJ|AL</Hit_id>
+  <Hit_def>Chain AL, 30S ribosomal protein S12 [Lactococcus cremoris subsp. cremoris MG1363]</Hit_def>
+  <Hit_accession>5MYJ_AL</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>6.12429e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALK-------------GSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEKG</Hsp_qseq>
+      <Hsp_hseq>MPTINQLVRKPRRAQVTKSKSPAMNVGYNSRKKVQTKLASPQKRGVATRVGTMTPKKPNSALRKFARVRLSNLMEVTAYIPGIGHNLQEHSVVLLRGGRVKDLPGVRYHIVRGALDTAGVADRKQSRSKYGAKKPKA</Hsp_hseq>
+      <Hsp_midline>MPTI QLVRK RR +++K K+ A+               SPQ+RGV TRV T TPKKPNSALRK ARV+L++ +EVTAYIPG GHNLQEHS+VL+RGGRVKDLPGVRY I+RG+LDT GV +RKQ+RS+YGAKK K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|5WNQ|L</Hit_id>
+  <Hit_def>Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5WNR|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5WNS|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6CAP|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6CAQ|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>5WNQ_L</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>6.27874e-57</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>PTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>PTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKXLPGVRYHIVRGVYDAAGVKDRKKSRSKYGTKKPK</Hsp_hseq>
+      <Hsp_midline>PTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVK LPGVRY I+RG  D  GVK+RK++RS+YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|7NHK|m</Hit_id>
+  <Hit_def>Chain m, 30S ribosomal protein S12 [Enterococcus faecalis] &gt;pdb|7P7Q|m Chain m, 30S ribosomal protein S12 [Enterococcus faecalis] &gt;pdb|7P7R|m Chain m, 30S ribosomal protein S12 [Enterococcus faecalis V583] &gt;pdb|7P7S|m Chain m, 30S ribosomal protein S12 [Enterococcus faecalis] &gt;pdb|7P7T|m Chain m, 30S ribosomal protein S12 [Enterococcus faecalis] &gt;pdb|7P7U|m Chain m, 30S ribosomal protein S12 [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>7NHK_m</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>8.50759e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALK-------------GSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEKG</Hsp_qseq>
+      <Hsp_hseq>MPTINQLVRKPRKSKVEKSDSPALNKGYNSFKKTQTNVNSPQKRGVCTRVGTMTPKKPNSALRKYARVRLSNLIEVTAYIPGIGHNLQEHSVVLLRGGRVKDLPGVRYHIVRGALDTAGVNDRKQSRSKYGTKRPKA</Hsp_hseq>
+      <Hsp_midline>MPTI QLVRK R+ K+ K  + AL               SPQ+RGVCTRV T TPKKPNSALRK ARV+L++ +EVTAYIPG GHNLQEHS+VL+RGGRVKDLPGVRY I+RG+LDT GV +RKQ+RS+YG K+ K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|1I94|L</Hit_id>
+  <Hit_def>Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1I95|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1I96|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1I97|L Chain L, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus] &gt;pdb|1QZC|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus] &gt;pdb|2E5L|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus] &gt;pdb|2ZM6|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus] &gt;pdb|4V5R|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5R|CL Chain CL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5S|AL Chain AL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4V5S|CL Chain CL, 30S RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|6N1D|AS12 Chain AS12, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|6N1D|BS12 Chain BS12, 30S ribosomal protein S12 [Thermus thermophilus HB27]</Hit_def>
+  <Hit_accession>1I94_L</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.326</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>1.43302e-56</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>PTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYG</Hsp_qseq>
+      <Hsp_hseq>PTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKDLPGVRYHIVRGVYDAAGVKDRKKSRSKYG</Hsp_hseq>
+      <Hsp_midline>PTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVKDLPGVRY I+RG  D  GVK+RK++RS+YG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|4Y4O|1l</Hit_id>
+  <Hit_def>Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4Y4O|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4Y4P|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4Y4P|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4Z3S|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4Z3S|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5CZP|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5CZP|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5DFE|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5DFE|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5DOX|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5DOX|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5DOY|1l Chain 1l, 30S Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|5DOY|2l Chain 2l, 30S Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|5J30|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5J30|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5J3C|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5J3C|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5J4B|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5J4B|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5J4C|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5J4C|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5J4D|UA Chain UA, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|5J4D|ZC Chain ZC, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|5VP2|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5VP2|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5W4K|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5W4K|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5WIS|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5WIS|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5WIT|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5WIT|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6B4V|UA Chain UA, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|6B4V|YC Chain YC, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|6BOH|AD Chain AD, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|6BOH|VA Chain VA, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|6BOK|TA Chain TA, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|6BOK|WC Chain WC, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|6CAE|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6CAE|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6CFJ|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6CFJ|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6CFK|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6CFK|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6CFL|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6CFL|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6N9E|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus] &gt;pdb|6N9E|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus] &gt;pdb|6N9F|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus] &gt;pdb|6N9F|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus] &gt;pdb|6ND5|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6ND5|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6ND6|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6ND6|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6NDK|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6NDK|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6O97|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6O97|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6OF1|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6OF1|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6ORD|QL Chain QL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6ORD|XL Chain XL, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6QNQ|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6QNQ|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6QNR|3A Chain 3A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6QNR|3I Chain 3I, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6UCQ|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6UCQ|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6UO1|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6UO1|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6XHV|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6XHV|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6XHW|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6XHW|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6XHX|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6XHX|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6XHY|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6XHY|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6XQD|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6XQD|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6XQE|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6XQE|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7AZO|S12A Chain S12A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7AZO|S12B Chain S12B, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7AZS|S12A Chain S12A, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7AZS|S12B Chain S12B, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7JQL|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7JQL|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7JQM|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7JQM|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7MD7|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7MD7|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7RQ8|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7RQ8|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7RQ9|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7RQ9|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7RQA|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7RQA|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7RQB|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7RQB|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7RQC|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7RQC|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7RQD|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7RQD|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7RQE|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7RQE|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7U2H|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7U2H|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7U2I|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7U2I|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7U2J|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7U2J|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8CVJ|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8CVJ|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8CVK|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8CVK|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8CVL|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8CVL|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8EKB|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8EKB|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8EV6|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8EV6|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8EV7|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8EV7|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8FC1|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8FC1|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8FC2|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8FC2|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8FC3|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8FC3|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8FC4|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8FC4|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8FC5|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8FC5|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8FC6|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8FC6|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8G29|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8G29|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8G2A|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8G2A|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8G2B|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8G2B|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8G2C|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8G2C|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8G2D|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8G2D|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8T8B|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8T8B|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8T8C|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8T8C|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8UD6|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8UD6|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8UD7|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8UD7|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8UD8|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8UD8|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8UVR|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8UVR|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8UVS|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8UVS|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8VTU|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8VTU|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8VTV|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8VTV|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8VTW|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8VTW|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8VTX|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8VTX|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8VTY|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|8VTY|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|9B00|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|9B00|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|9D0J|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|9D0J|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|9D7R|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|9D7R|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|9D7S|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|9D7S|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|9D7T|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|9D7T|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|9DFC|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|9DFC|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|9DFD|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|9DFD|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|9DFE|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|9DFE|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>4Y4O_1l</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.555</Hsp_bit-score>
+      <Hsp_score>436</Hsp_score>
+      <Hsp_evalue>2.64413e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYG</Hsp_qseq>
+      <Hsp_hseq>MPTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKXLPGVRYHIVRGVYDAAGVKDRKKSRSKYG</Hsp_hseq>
+      <Hsp_midline>MPTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVK LPGVRY I+RG  D  GVK+RK++RS+YG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|6O8W|l</Hit_id>
+  <Hit_def>Chain l, 30S ribosomal protein S12 [Enterococcus faecalis] &gt;pdb|6O8X|l Chain l, 30S ribosomal protein S12 [Enterococcus faecalis] &gt;pdb|6O8Y|l Chain l, 30S ribosomal protein S12 [Enterococcus faecalis] &gt;pdb|6O8Z|l Chain l, 30S ribosomal protein S12 [Enterococcus faecalis] &gt;pdb|6O90|l Chain l, 30S ribosomal protein S12 [Enterococcus faecalis] &gt;pdb|6W6P|l Chain l, 30S ribosomal protein S12 [Enterococcus faecalis OG1RF] &gt;pdb|6WUB|l Chain l, 30S ribosomal protein S12 [Enterococcus faecalis OG1RF]</Hit_def>
+  <Hit_accession>6O8W_l</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.785</Hsp_bit-score>
+      <Hsp_score>434</Hsp_score>
+      <Hsp_evalue>7.96065e-56</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>PTIQQLVRKGRRDKISKVKTAALK-------------GSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEKG</Hsp_qseq>
+      <Hsp_hseq>PTINQLVRKPRKSKVEKSDSPALNKGYNSFKKTQTNVNSPQKRGVCTRVGTMTPKKPNSALRKYARVRLSNLIEVTAYIPGIGHNLQEHSVVLLRGGRVKDLPGVRYHIVRGALDTAGVNDRKQSRSKYGTKRPKA</Hsp_hseq>
+      <Hsp_midline>PTI QLVRK R+ K+ K  + AL               SPQ+RGVCTRV T TPKKPNSALRK ARV+L++ +EVTAYIPG GHNLQEHS+VL+RGGRVKDLPGVRY I+RG+LDT GV +RKQ+RS+YG K+ K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|4KVB|L</Hit_id>
+  <Hit_def>Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB27]</Hit_def>
+  <Hit_accession>4KVB_L</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.4</Hsp_bit-score>
+      <Hsp_score>433</Hsp_score>
+      <Hsp_evalue>7.97871e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYG</Hsp_qseq>
+      <Hsp_hseq>LPTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKXLPGVRYHIVRGVYDAAGVKDRKKSRSKYG</Hsp_hseq>
+      <Hsp_midline>+PTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVK LPGVRY I+RG  D  GVK+RK++RS+YG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|4DR1|L</Hit_id>
+  <Hit_def>Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4DR2|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4DR3|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4DR4|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4DR5|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4DR6|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4DR7|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4DUY|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4DUZ|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4DV0|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4DV1|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4DV2|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4DV3|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4DV4|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4DV5|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4DV6|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4DV7|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4JI5|L Chain L, Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4LF4|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4LF5|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4LF6|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4LF7|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4LF8|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4LF9|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4LFA|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4LFB|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4LFC|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4NXM|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4NXN|L Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5BR8|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|5V8I|1l Chain 1l, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|5V8I|2l Chain 2l, 30S ribosomal protein S12 [Thermus thermophilus HB27] &gt;pdb|7DUG|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7DUH|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7DUI|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7DUJ|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7DUK|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|7DUL|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>4DR1_L</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.4</Hsp_bit-score>
+      <Hsp_score>433</Hsp_score>
+      <Hsp_evalue>8.69973e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYG</Hsp_qseq>
+      <Hsp_hseq>LPTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKXLPGVRYHIVRGVYDAAGVKDRKKSRSKYG</Hsp_hseq>
+      <Hsp_midline>+PTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVK LPGVRY I+RG  D  GVK+RK++RS+YG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|4JI2|L</Hit_id>
+  <Hit_def>Chain L, RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4JI3|L Chain L, RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4JI7|L Chain L, RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4JI8|L Chain L, RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>4JI2_L</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.4</Hsp_bit-score>
+      <Hsp_score>433</Hsp_score>
+      <Hsp_evalue>9.81399e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYG</Hsp_qseq>
+      <Hsp_hseq>LPTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKDLWGVRYHIVRGVYDAAGVKDRKKSRSKYG</Hsp_hseq>
+      <Hsp_midline>+PTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVKDL GVRY I+RG  D  GVK+RK++RS+YG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>pdb|5ND8|l</Hit_id>
+  <Hit_def>Chain l, 30S ribosomal protein S12 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|5ND9|l Chain l, 30S ribosomal protein S12 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|5NGM|Al Chain Al, 30S ribosomal protein S12 [Staphylococcus aureus] &gt;pdb|6YEF|l Chain l, 30S ribosomal protein S12 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|7BGD|l Chain l, 30S ribosomal protein S12 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|7KWG|l Chain l, 30S ribosomal protein S12 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|7NHL|m Chain m, 30S ribosomal protein S12 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|7NHM|m Chain m, 30S ribosomal protein S12 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|8BYV|l Chain l, 30S ribosomal protein S12 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|8P2F|m Chain m, 30S ribosomal protein S12 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|8P2G|m Chain m, 30S ribosomal protein S12 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|8P2H|m Chain m, 30S ribosomal protein S12 [Staphylococcus aureus subsp. aureus NCTC 8325]</Hit_def>
+  <Hit_accession>5ND8_l</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.014</Hsp_bit-score>
+      <Hsp_score>432</Hsp_score>
+      <Hsp_evalue>1.67489e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALK-------------GSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>MPTINQLVRKPRQSKIKKSDSPALNKGFNSKKKKFTDLNSPQKRGVCTRVGTMTPKKPNSALRKYARVRLSNNIEINAYIPGIGHNLQEHSVVLVRGGRVKDLPGVRYHIVRGALDTSGVDGRRQGRSLYGTKKPK</Hsp_hseq>
+      <Hsp_midline>MPTI QLVRK R+ KI K  + AL               SPQ+RGVCTRV T TPKKPNSALRK ARV+L++ +E+ AYIPG GHNLQEHS+VLVRGGRVKDLPGVRY I+RG+LDT GV  R+Q RS YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|7P48|l</Hit_id>
+  <Hit_def>Chain l, 30S ribosomal protein S12 [Staphylococcus aureus] &gt;pdb|8Y38|l Chain l, Small ribosomal subunit protein uS12 [Staphylococcus aureus] &gt;pdb|8Y39|l Chain l, Small ribosomal subunit protein uS12 [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>7P48_l</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>2.5874e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALK-------------GSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>MPTINQLVRKPRQSKIKKSDSPALNKGFNSKKKKFTDLNSPQKRGVCTRVGTMTPKKPNSALRKYARVRLSNNIEINAYIPGIGHNLQEHSVVLVRGGRVKDLPGVRYHIVRGALDTSGVDGRRQGRSLYGTKKPK</Hsp_hseq>
+      <Hsp_midline>MPTI QLVRK R+ KI K  + AL               SPQ+RGVCTRV T TPKKPNSALRK ARV+L++ +E+ AYIPG GHNLQEHS+VLVRGGRVKDLPGVRY I+RG+LDT GV  R+Q RS YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>pdb|6CAR|L</Hit_id>
+  <Hit_def>Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|6CAS|L Chain L, 30S ribosomal protein S12 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>6CAR_L</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.244</Hsp_bit-score>
+      <Hsp_score>430</Hsp_score>
+      <Hsp_evalue>2.67227e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>PTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYG</Hsp_qseq>
+      <Hsp_hseq>PTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKXLPGVRYHIVRGVYDAAGVKDRKKSRSKYG</Hsp_hseq>
+      <Hsp_midline>PTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVK LPGVRY I+RG  D  GVK+RK++RS+YG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>pdb|8BH6|l</Hit_id>
+  <Hit_def>Chain l, 30S ribosomal protein S12 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|8BH7|l Chain l, 30S ribosomal protein S12 [Staphylococcus aureus subsp. aureus NCTC 8325]</Hit_def>
+  <Hit_accession>8BH6_l</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>1.24339e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALK-------------GSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>MPTINQLVRKPRQSKIKKSDSPALNKGFNSKKKKFTDLNSPQKRGVCTRVGTMTPRKPNSALRKYARVRLSNNIEINAYIPGIGHNLQEHSVVLVRGGRVRDLPGVRYHIVRGALDTSGVDGRRQGRSLYGTKKPK</Hsp_hseq>
+      <Hsp_midline>MPTI QLVRK R+ KI K  + AL               SPQ+RGVCTRV T TP+KPNSALRK ARV+L++ +E+ AYIPG GHNLQEHS+VLVRGGRV+DLPGVRY I+RG+LDT GV  R+Q RS YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>pdb|5TCU|S3</Hit_id>
+  <Hit_def>Chain S3, 30S ribosomal protein S12 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|7ASO|3 Chain 3, 30S ribosomal protein S12 [Staphylococcus aureus] &gt;pdb|7ASP|c Chain c, 30S ribosomal protein S12 [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>5TCU_S3</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.318</Hsp_bit-score>
+      <Hsp_score>425</Hsp_score>
+      <Hsp_evalue>1.51626e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>PTIQQLVRKGRRDKISKVKTAALK-------------GSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>PTINQLVRKPRQSKIKKSDSPALNKGFNSKKKKFTDLNSPQKRGVCTRVGTMTPKKPNSALRKYARVRLSNNIEINAYIPGIGHNLQEHSVVLVRGGRVKDLPGVRYHIVRGALDTSGVDGRRQGRSLYGTKKPK</Hsp_hseq>
+      <Hsp_midline>PTI QLVRK R+ KI K  + AL               SPQ+RGVCTRV T TPKKPNSALRK ARV+L++ +E+ AYIPG GHNLQEHS+VLVRGGRVKDLPGVRY I+RG+LDT GV  R+Q RS YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>pdb|6FXC|Al</Hit_id>
+  <Hit_def>Chain Al, 30S ribosomal protein S12 [Staphylococcus aureus] &gt;pdb|6FXC|Bl Chain Bl, 30S ribosomal protein S12 [Staphylococcus aureus] &gt;pdb|6S0X|l Chain l, 30S ribosomal protein S12 [Staphylococcus aureus] &gt;pdb|6S13|l Chain l, 30S ribosomal protein S12 [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>6FXC_Al</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.318</Hsp_bit-score>
+      <Hsp_score>425</Hsp_score>
+      <Hsp_evalue>1.65719e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>PTIQQLVRKGRRDKISKVKTAALK-------------GSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYGAKKEK</Hsp_qseq>
+      <Hsp_hseq>PTINQLVRKPRQSKIKKSDSPALNKGFNSKKKKFTDLNSPQKRGVCTRVGTMTPKKPNSALRKYARVRLSNNIEINAYIPGIGHNLQEHSVVLVRGGRVKDLPGVRYHIVRGALDTSGVDGRRQGRSLYGTKKPK</Hsp_hseq>
+      <Hsp_midline>PTI QLVRK R+ KI K  + AL               SPQ+RGVCTRV T TPKKPNSALRK ARV+L++ +E+ AYIPG GHNLQEHS+VLVRGGRVKDLPGVRY I+RG+LDT GV  R+Q RS YG KK K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>pdb|4JI0|L</Hit_id>
+  <Hit_def>Chain L, ribosomal protein S12 [Thermus thermophilus HB8] &gt;pdb|4JI1|L Chain L, RIBOSOMAL PROTEIN S12 [Thermus thermophilus HB8] &gt;pdb|4JI4|L Chain L, Ribosomal Protein S12 [Thermus thermophilus HB8] &gt;pdb|4JI6|L Chain L, Ribosomal Protein S12 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>4JI0_L</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.933</Hsp_bit-score>
+      <Hsp_score>424</Hsp_score>
+      <Hsp_evalue>2.54047e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MPTIQQLVRKGRRDKISKVKTAALKGSPQRRGVCTRVYTTTPKKPNSALRKVARVKLTSQVEVTAYIPGEGHNLQEHSMVLVRGGRVKDLPGVRYKIIRGSLDTQGVKNRKQARSRYG</Hsp_qseq>
+      <Hsp_hseq>LPTINQLVRKGREKVRKKSKVPALKGAPFRRGVCTVVRTVTPKKPNSALRKVAKVRLTSGYEVTAYIPGEGHNLQEHSVVLIRGGRVKXLLGVRYHIVRGVYDAAGVKDRKKSRSKYG</Hsp_hseq>
+      <Hsp_midline>+PTI QLVRKGR     K K  ALKG+P RRGVCT V T TPKKPNSALRKVA+V+LTS  EVTAYIPGEGHNLQEHS+VL+RGGRVK L GVRY I+RG  D  GVK+RK++RS+YG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>167021</Statistics_db-num>
+      <Statistics_db-len>47229223</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

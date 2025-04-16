@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_4290471</BlastOutput_query-ID>
+  <BlastOutput_query-def>Mycobacterium tuberculosis H37Rv|Rv0701|rplC</BlastOutput_query-def>
+  <BlastOutput_query-len>217</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_4290471</Iteration_query-ID>
+  <Iteration_query-def>Mycobacterium tuberculosis H37Rv|Rv0701|rplC</Iteration_query-def>
+  <Iteration_query-len>217</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|5V7Q|D</Hit_id>
+  <Hit_def>Chain D, 50S ribosomal protein L3 [Mycobacterium tuberculosis] &gt;pdb|5V93|D Chain D, 50S ribosomal protein L3 [Mycobacterium tuberculosis] &gt;pdb|7F0D|D Chain D, 50S ribosomal protein L3 [Mycobacterium tuberculosis H37Ra] &gt;pdb|7KGB|D Chain D, 50S ribosomal protein L3 [Mycobacterium tuberculosis H37Rv] &gt;pdb|7MSC|D Chain D, 50S ribosomal protein L3 [Mycobacterium tuberculosis H37Rv] &gt;pdb|7MSH|D Chain D, 50S ribosomal protein L3 [Mycobacterium tuberculosis H37Rv] &gt;pdb|7MSM|D Chain D, 50S ribosomal protein L3 [Mycobacterium tuberculosis H37Rv] &gt;pdb|7MSZ|D Chain D, 50S ribosomal protein L3 [Mycobacterium tuberculosis H37Rv] &gt;pdb|7MT2|D Chain D, 50S ribosomal protein L3 [Mycobacterium tuberculosis H37Rv] &gt;pdb|7MT3|D Chain D, 50S ribosomal protein L3 [Mycobacterium tuberculosis H37Rv] &gt;pdb|7MT7|D Chain D, 50S ribosomal protein L3 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>5V7Q_D</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.573</Hsp_bit-score>
+      <Hsp_score>1124</Hsp_score>
+      <Hsp_evalue>3.25493e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>MARKGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIKRGEK</Hsp_qseq>
+      <Hsp_hseq>MARKGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIKRGEK</Hsp_hseq>
+      <Hsp_midline>MARKGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIKRGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|7SFR|D</Hit_id>
+  <Hit_def>Chain D, 50S ribosomal protein L3 [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>7SFR_D</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>4.53664e-155</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>ARKGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIKR</Hsp_qseq>
+      <Hsp_hseq>ARKGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIKR</Hsp_hseq>
+      <Hsp_midline>ARKGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIKR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|5O60|D</Hit_id>
+  <Hit_def>Chain D, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|5O61|D Chain D, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|5XYM|D Chain D, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|5ZEB|D Chain D, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|5ZEP|D Chain D, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|5ZET|D Chain D, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|6DZP|D Chain D, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7XAM|D Chain D, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7Y41|D Chain D, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8KAB|D Chain D, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8V9J|D Chain D, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8V9K|D Chain D, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8V9L|D Chain D, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8WHX|F Chain F, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8WHY|F Chain F, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8WI7|F Chain F, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8WI8|F Chain F, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8WIB|F Chain F, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8WIC|F Chain F, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155]</Hit_def>
+  <Hit_accession>5O60_D</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.349</Hsp_bit-score>
+      <Hsp_score>1004</Hsp_score>
+      <Hsp_evalue>5.56439e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>MARKGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIKRGEK</Hsp_qseq>
+      <Hsp_hseq>MARKGILGTKLGMTQVFDENNKVVPVTVVKAGPNVVTRIRTTERDGYSAVQLAYGEISPRKVIKPVAGQFAAAGVNPRRHVAELRLDDEAAVAEYEVGQELTAEIFSDGAYVDVTGTSKGKGFAGTMKRHGFRGQGAAHGAQAVHRRPGSIGGCATPGRVFKGTRMSGRMGNDRVTTQNLKVHKVDAENGVLLIKGAIPGRNGGLVVVRSAIKRGEK</Hsp_hseq>
+      <Hsp_midline>MARKGILGTKLGMTQVFDE+N+VVPVTVVKAGPNVVTRIRT ERDGYSAVQLAYGEISPRKV KP+ GQ+ AAGVNPRR++AELRLDD  A  EY+VGQELTAEIF+DG+YVDVTGTSKGKGFAGTMKRHGFRGQGA+HGAQAVHRRPGSIGGCATP RVFKGTRM+GRMGNDRVT  NL VHKVDAENGVLLIKGA+PGR GGLV+VRSAIKRGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|6DZI|D</Hit_id>
+  <Hit_def>Chain D, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|7S0S|E Chain E, 50S ribosomal protein L3 [Mycolicibacterium smegmatis] &gt;pdb|8FR8|L Chain L, 50S ribosomal protein L3 [Mycolicibacterium smegmatis MC2 155] &gt;pdb|8XZ3|D Chain D, Large ribosomal subunit protein uL3 [Mycolicibacterium smegmatis MC2 155]</Hit_def>
+  <Hit_accession>6DZI_D</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>1.69081e-137</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>ARKGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIKRG</Hsp_qseq>
+      <Hsp_hseq>ARKGILGTKLGMTQVFDENNKVVPVTVVKAGPNVVTRIRTTERDGYSAVQLAYGEISPRKVIKPVAGQFAAAGVNPRRHVAELRLDDEAAVAEYEVGQELTAEIFSDGAYVDVTGTSKGKGFAGTMKRHGFRGQGAAHGAQAVHRRPGSIGGCATPGRVFKGTRMSGRMGNDRVTTQNLKVHKVDAENGVLLIKGAIPGRNGGLVVVRSAIKRG</Hsp_hseq>
+      <Hsp_midline>ARKGILGTKLGMTQVFDE+N+VVPVTVVKAGPNVVTRIRT ERDGYSAVQLAYGEISPRKV KP+ GQ+ AAGVNPRR++AELRLDD  A  EY+VGQELTAEIF+DG+YVDVTGTSKGKGFAGTMKRHGFRGQGA+HGAQAVHRRPGSIGGCATP RVFKGTRM+GRMGNDRVT  NL VHKVDAENGVLLIKGA+PGR GGLV+VRSAIKRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|8CRX|d</Hit_id>
+  <Hit_def>Chain d, 50S ribosomal protein L3 [Cutibacterium acnes] &gt;pdb|8CVM|d Chain d, 50S ribosomal protein L3 [Cutibacterium acnes] &gt;pdb|9C4G|d Chain d, 50S ribosomal protein L3 [Cutibacterium acnes]</Hit_def>
+  <Hit_accession>8CRX_d</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.559</Hsp_bit-score>
+      <Hsp_score>706</Hsp_score>
+      <Hsp_evalue>1.79952e-94</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIKRGEK</Hsp_qseq>
+      <Hsp_hseq>KGVLGTKLGMTQLWDEHNRLVPVTVIQAGPCVVTQVRTPETDGYSAVQLGYGAVKAKNVTKPEAGHFEKAGVTPRRHLVELRTAD---ASEYTLGQEIAADVFSESDFVDVTGTSKGKGTAGVMKRHGFGGLRATHGVHRKHRSPGSIGGCSTPGKVIKGLRMAGRMGVERVTVQNLQVHSVDAERGIMLVRGAVPGPKGSLLVVRSAAKKAAK</Hsp_hseq>
+      <Hsp_midline>KG+LGTKLGMTQ++DE NR+VPVTV++AGP VVT++RTPE DGYSAVQL YG +  + V KP  G +  AGV PRR+L ELR  D   A+EY +GQE+ A++F++  +VDVTGTSKGKG AG MKRHGF G  A+HG    HR PGSIGGC+TP +V KG RMAGRMG +RVTV NL VH VDAE G++L++GAVPG  G L++VRSA K+  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|4V83|BD</Hit_id>
+  <Hit_def>Chain BD, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V83|DD Chain DD, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V84|BD Chain BD, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V84|DD Chain DD, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V9I|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V9I|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V9N|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V9N|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V9Q|AE Chain AE, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V9Q|CE Chain CE, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4WT8|CC Chain CC, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WT8|DC Chain DC, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4XEJ|AL03 Chain AL03, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4XEJ|BL03 Chain BL03, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4ZER|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4ZER|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5F8K|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5F8K|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5FDU|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5FDU|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5FDV|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5FDV|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5UQ7|E Chain E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5UQ8|E Chain E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6CZR|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6CZR|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6FKR|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6FKR|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>4V83_BD</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.075</Hsp_bit-score>
+      <Hsp_score>536</Hsp_score>
+      <Hsp_evalue>7.04914e-69</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>KGILGVKVGMTRIFRD-DRAVPVTVILAGPCPVVQRRTPEKDGYTAVQLGFLPQNPKRVNRPLKGHFAKAGVEPVRILREIRDFNPE-------GDTVTVEIFKPGERVDVTGTSKGRGFAGVMKRWNFAGGPDSHGAHKIHRHPGSIGNRKTPGRVYKGKKMAGHYGAERVTVMNLEVVDVIPEENLLLVKGAVPGPNGGLVIVRETKK</Hsp_hseq>
+      <Hsp_midline>KGILG K+GMT++F + +R VPVTV+ AGP  V + RTPE+DGY+AVQL +   +P++VN+PL G +  AGV P R L E+R  + +       G  +T EIF  G  VDVTGTSKG+GFAG MKR  F G   SHGA  +HR PGSIG   TP RV+KG +MAG  G +RVTV+NL V  V  E  +LL+KGAVPG  GGLV+VR   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|4V68|BE</Hit_id>
+  <Hit_def>Chain BE, 50S ribosomal protein L3 [Thermus thermophilus] &gt;pdb|4V87|AE Chain AE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V87|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V9J|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V9J|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V9K|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V9K|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V9L|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V9L|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V9M|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V9M|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4W29|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4W29|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4WQ1|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WQ1|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5OT7|h Chain h, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6GZQ|D1 Chain D1, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6GZX|D1 Chain D1, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6GZX|D2 Chain D2, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6GZZ|D1 Chain D1, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6GZZ|D2 Chain D2, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6Q95|C Chain C, 50S ribosomal protein L3 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>4V68_BE</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.075</Hsp_bit-score>
+      <Hsp_score>536</Hsp_score>
+      <Hsp_evalue>7.60483e-69</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>KGILGVKVGMTRIFRD-DRAVPVTVILAGPCPVVQRRTPEKDGYTAVQLGFLPQNPKRVNRPLKGHFAKAGVEPVRILREIRDFNPE-------GDTVTVEIFKPGERVDVTGTSKGRGFAGVMKRWNFAGGPDSHGAHKIHRHPGSIGNRKTPGRVYKGKKMAGHYGAERVTVMNLEVVDVIPEENLLLVKGAVPGPNGGLVIVRETKK</Hsp_hseq>
+      <Hsp_midline>KGILG K+GMT++F + +R VPVTV+ AGP  V + RTPE+DGY+AVQL +   +P++VN+PL G +  AGV P R L E+R  + +       G  +T EIF  G  VDVTGTSKG+GFAG MKR  F G   SHGA  +HR PGSIG   TP RV+KG +MAG  G +RVTV+NL V  V  E  +LL+KGAVPG  GGLV+VR   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|1VVJ|RE</Hit_id>
+  <Hit_def>Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|1VVJ|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|1VY4|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|1VY4|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|1VY5|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|1VY5|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|1VY6|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|1VY6|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|1VY7|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|1VY7|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|2V47|E Chain E, 50s Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|2WDN|E Chain E, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|2WH2|E Chain E, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|2WH4|E Chain E, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|2WRL|E Chain E, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|2WRO|E Chain E, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|2WRR|E Chain E, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|2X9S|E Chain E, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|2X9U|E Chain E, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|2XG0|E Chain E, 50s Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|2XQE|E Chain E, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|2Y0Z|E Chain E, 50s Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|2Y13|E Chain E, 50s Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|3OH5|E Chain E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|3OH7|E Chain E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|3OHJ|E Chain E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|3OHK|E Chain E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|3OHZ|E Chain E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|3OI1|E Chain E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|3OI3|E Chain E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|3OI5|E Chain E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|3ZNE|E Chain E, 50s Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|3ZVP|E Chain E, 50s Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4ABS|E Chain E, 50s Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4B8G|E Chain E, 50s Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4B8I|E Chain E, 50s Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4BYC|E Chain E, 50s Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4BYE|E Chain E, 50s Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4L47|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4L47|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4L71|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4L71|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4LEL|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4LEL|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4LFZ|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4LFZ|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4LNT|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4LNT|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4LSK|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4LSK|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4LT8|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4LT8|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4P6F|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4P6F|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4P70|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4P70|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4QJS|E Chain E, 50s Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4TUA|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4TUA|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4TUB|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4TUB|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4TUC|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4TUC|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4TUD|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4TUD|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4TUE|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4TUE|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V4I|C Chain C, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V4J|C Chain C, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V4X|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V4Y|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V4Z|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V51|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V51|DE Chain DE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5A|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5A|DE Chain DE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5C|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5C|DE Chain DE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5D|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5D|DE Chain DE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5E|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5E|DE Chain DE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5F|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5F|DE Chain DE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5G|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5G|DE Chain DE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5J|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5J|DE Chain DE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5K|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5K|DE Chain DE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5L|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5M|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5N|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5P|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5P|DE Chain DE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5Q|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5Q|DE Chain DE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5R|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5R|DE Chain DE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5S|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V5S|DE Chain DE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V63|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V63|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V67|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus] &gt;pdb|4V67|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus] &gt;pdb|4V6A|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V6A|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V6F|AE Chain AE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V6F|DE Chain DE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V6G|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V6G|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V7J|AE Chain AE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V7J|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V7K|AE Chain AE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V7K|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V7L|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V7L|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V7M|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V7M|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V7P|BD Chain BD, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V7P|CD Chain CD, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|4V7W|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V7W|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V7X|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V7X|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V7Y|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V7Y|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V7Z|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V7Z|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8A|AE Chain AE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8A|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8B|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8B|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8C|AE Chain AE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8C|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8D|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8D|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8E|AE Chain AE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8E|CE Chain CE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8F|AE Chain AE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8F|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8G|BE Chain BE, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8G|DE Chain DE, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8H|BE Chain BE, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8H|DE Chain DE, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8I|BE Chain BE, 50S Ribosomal Protein L3 [Thermus thermophilus] &gt;pdb|4V8I|DE Chain DE, 50S Ribosomal Protein L3 [Thermus thermophilus] &gt;pdb|4V8J|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8J|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V8N|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V8N|DE Chain DE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V8O|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V8Q|AE Chain AE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V8U|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V8U|DE Chain DE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V8X|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V8X|DE Chain DE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V90|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V95|BE Chain BE, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4V95|DE Chain DE, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4V97|BE Chain BE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V97|DE Chain DE, 50S RIBOSOMAL PROTEIN L3 [Thermus thermophilus HB8] &gt;pdb|4V9A|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V9A|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V9B|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V9B|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V9H|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4V9R|BE Chain BE, 50S Ribosomal Protein L3 [Thermus thermophilus] &gt;pdb|4V9R|DE Chain DE, 50S Ribosomal Protein L3 [Thermus thermophilus] &gt;pdb|4V9S|BE Chain BE, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4V9S|DE Chain DE, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4W2E|E Chain E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4W2F|BE Chain BE, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4W2F|DE Chain DE, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4W2G|BE Chain BE, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4W2G|DE Chain DE, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4W2H|BE Chain BE, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4W2H|DE Chain DE, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4W2I|BE Chain BE, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4W2I|DE Chain DE, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|4W4G|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4W4G|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WPO|AE Chain AE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WPO|CE Chain CE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WQF|AE Chain AE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WQF|CE Chain CE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WQR|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WQR|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WQU|AE Chain AE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WQU|CE Chain CE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WQY|AE Chain AE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WQY|CE Chain CE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WR6|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WR6|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WRA|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WRA|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WRO|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WSD|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WSD|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WSM|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WSM|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WT1|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WT1|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WU1|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WU1|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WZD|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WZD|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WZO|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4WZO|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4Y4O|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4Y4O|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4Y4P|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4Y4P|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4YPB|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4YPB|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4YZV|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4YZV|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4Z3S|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4Z3S|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4Z8C|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4Z8C|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4ZSN|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|4ZSN|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5A9Z|AE Chain AE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5AA0|AE Chain AE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5CZP|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5CZP|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5D8B|B Chain B, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|5D8B|XA Chain XA, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|5DFE|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5DFE|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5DOX|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5DOX|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5DOY|1E Chain 1E, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|5DOY|2E Chain 2E, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|5E7K|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5E7K|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5E81|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5E81|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5EL4|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5EL4|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5EL5|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5EL5|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5EL6|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5EL6|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5EL7|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5EL7|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5HAU|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5HAU|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5HCP|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5HCP|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5HCQ|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5HCQ|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5HCR|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5HCR|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5HD1|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5HD1|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5IB7|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5IB7|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5IB8|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5IB8|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5IBB|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5IBB|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5IMQ|b Chain b, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5IMR|b Chain b, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5J30|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5J30|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5J3C|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5J3C|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5J4B|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5J4B|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5J4C|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5J4C|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5J4D|F Chain F, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|5J4D|KB Chain KB, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|5J8B|E Chain E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5NDJ|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5NDJ|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5NDK|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5NDK|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5V8I|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|5V8I|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|5VP2|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5VP2|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5VPO|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5VPO|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5VPP|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5VPP|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5W4K|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5W4K|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5WIS|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5WIS|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5WIT|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5WIT|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|5ZLU|a Chain a, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6B4V|F Chain F, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|6B4V|JB Chain JB, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|6BOH|F Chain F, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|6BOH|KB Chain KB, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|6BOK|F Chain F, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|6BOK|IB Chain IB, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|6BUW|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6BUW|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6BZ6|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6BZ6|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6BZ7|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6BZ7|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6BZ8|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6BZ8|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6C5L|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus] &gt;pdb|6C5L|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus] &gt;pdb|6CAE|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6CAE|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6CFJ|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6CFJ|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6CFK|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6CFK|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6CFL|1E Chain 1E, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|6CFL|2E Chain 2E, 50S Ribosomal Protein L3 [Thermus thermophilus HB8] &gt;pdb|6GSJ|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6GSJ|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6GSK|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6GSK|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6GSL|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6GSL|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6N1D|AL03 Chain AL03, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|6N1D|BL03 Chain BL03, 50S ribosomal protein L3 [Thermus thermophilus HB27] &gt;pdb|6N9E|1E Chain 1E, 50S Ribosomal Protein L3 [Thermus thermophilus] &gt;pdb|6N9E|2E Chain 2E, 50S Ribosomal Protein L3 [Thermus thermophilus] &gt;pdb|6N9F|1E Chain 1E, 50S Ribosomal Protein L3 [Thermus thermophilus] &gt;pdb|6N9F|2E Chain 2E, 50S Ribosomal Protein L3 [Thermus thermophilus] &gt;pdb|6ND5|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6ND5|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6ND6|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6ND6|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6NDK|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6NDK|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6NSH|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6NSH|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6NTA|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6NTA|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6NUO|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6NUO|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6NWY|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6NWY|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6O3M|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6O3M|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6O97|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6O97|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6OF1|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6OF1|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6OF6|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6OF6|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6OJ2|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6OJ2|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6OPE|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6OPE|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6ORD|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6ORD|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6OSI|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6OSI|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6OTR|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6OTR|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6OXA|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6OXA|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6OXI|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6OXI|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6QNQ|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6QNQ|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6QNR|21 Chain 21, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6QNR|29 Chain 29, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6UCQ|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6UCQ|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6UO1|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6UO1|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6XHV|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6XHV|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6XHW|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6XHW|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6XHX|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6XHX|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6XHY|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6XHY|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6XQD|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6XQD|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6XQE|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|6XQE|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7AZO|L3A Chain L3A, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7AZO|L3B Chain L3B, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7AZS|L3A Chain L3A, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7AZS|L3B Chain L3B, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7JQL|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7JQL|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7JQM|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7JQM|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7LH5|BE Chain BE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7LH5|DE Chain DE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7MD7|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7MD7|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7RQ8|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7RQ8|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7RQ9|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7RQ9|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7RQA|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7RQA|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7RQB|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7RQB|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7RQC|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7RQC|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7RQD|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7RQD|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7RQE|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7RQE|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7U2H|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7U2H|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7U2I|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7U2I|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7U2J|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|7U2J|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8CVJ|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8CVJ|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8CVK|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8CVK|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8CVL|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8CVL|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8EKB|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8EKB|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8EV6|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8EV6|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8EV7|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8EV7|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8FC1|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8FC1|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8FC2|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8FC2|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8FC3|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8FC3|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8FC4|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8FC4|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8FC5|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8FC5|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8FC6|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8FC6|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8FOM|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8FOM|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8FON|RE Chain RE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8FON|YE Chain YE, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8G29|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8G29|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8G2A|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8G2A|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8G2B|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8G2B|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8G2C|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8G2C|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8G2D|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8G2D|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8T8B|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8T8B|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8T8C|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8T8C|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8UD6|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8UD6|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8UD7|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8UD7|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8UD8|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8UD8|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8UVR|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8UVR|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8UVS|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8UVS|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8VTU|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8VTU|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8VTV|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8VTV|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8VTW|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8VTW|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8VTX|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8VTX|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8VTY|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|8VTY|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|9B00|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|9B00|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|9D0J|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|9D0J|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|9D7R|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|9D7R|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|9D7S|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|9D7S|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|9D7T|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|9D7T|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|9DFC|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|9DFC|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|9DFD|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|9DFD|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|9DFE|1E Chain 1E, 50S ribosomal protein L3 [Thermus thermophilus HB8] &gt;pdb|9DFE|2E Chain 2E, 50S ribosomal protein L3 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>1VVJ_RE</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.075</Hsp_bit-score>
+      <Hsp_score>536</Hsp_score>
+      <Hsp_evalue>8.02704e-69</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>KGILGVKVGMTRIFRD-DRAVPVTVILAGPCPVVQRRTPEKDGYTAVQLGFLPQNPKRVNRPLKGHFAKAGVEPVRILREIRDFNPE-------GDTVTVEIFKPGERVDVTGTSKGRGFAGVMKRWNFAGGPDSHGAHKIHRHPGSIGNRKTPGRVYKGKKMAGHYGAERVTVMNLEVVDVIPEENLLLVKGAVPGPNGGLVIVRETKK</Hsp_hseq>
+      <Hsp_midline>KGILG K+GMT++F + +R VPVTV+ AGP  V + RTPE+DGY+AVQL +   +P++VN+PL G +  AGV P R L E+R  + +       G  +T EIF  G  VDVTGTSKG+GFAG MKR  F G   SHGA  +HR PGSIG   TP RV+KG +MAG  G +RVTV+NL V  V  E  +LL+KGAVPG  GGLV+VR   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|4V49|BB</Hit_id>
+  <Hit_def>Chain BB, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V4A|BB Chain BB, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V4G|BE Chain BE, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V4G|DE Chain DE, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V4G|FE Chain FE, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V4G|HE Chain HE, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V4G|JE Chain JE, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5DM6|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans] &gt;pdb|5DM7|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans]</Hit_def>
+  <Hit_accession>4V49_BB</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.068</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>7.59369e-67</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>KGILGTKIGMTQIW-KNDRAIPVTVVLAGPCPIVQRKTAQTDGYEAVQIGYAPKAERKVNKPMQGHFAKAGVAPTRILREFRGFAPD-------GDSVNVDIFAEGEKIDATGTSKGKGTQGVMKRWNFAGGPASHGSKKWHRRPGSIGQRKTPGRVYKGKRMAGHMGMERVTVQNLEVVEIRAGENLILVKGAIPGANGGLVVLRSAAK</Hsp_hseq>
+      <Hsp_midline>KGILGTK+GMTQ++ +++R +PVTVV AGP  + + +T + DGY AVQ+ Y   + RKVNKP+ G +  AGV P R L E R    D       G  +  +IFA+G  +D TGTSKGKG  G MKR  F G  ASHG++  HRRPGSIG   TP RV+KG RMAG MG +RVTV NL V ++ A   ++L+KGA+PG  GGLV++RSA K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|7A0R|B</Hit_id>
+  <Hit_def>Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539] &gt;pdb|7A0S|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539] &gt;pdb|7A18|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539]</Hit_def>
+  <Hit_accession>7A0R_B</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>9.23441e-67</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>KGILGTKIGMTQIW-KNDRAIPVTVVLAGPCPIVQRKTAQTDGYEAVQIGYAPKAERKVNKPMQGHFAKAGVAPTRILREFRGFAPD-------GDSVNVDIFAEGEKIDATGTSKGKGTQGVMKRWNFAGGPASHGSKKWHRRPGSIGQRKTPGRVYKGKRMAGHMGMERVTVQNLEVVEIRAGENLILVKGAIPGANGGLVVLRSAAK</Hsp_hseq>
+      <Hsp_midline>KGILGTK+GMTQ++ +++R +PVTVV AGP  + + +T + DGY AVQ+ Y   + RKVNKP+ G +  AGV P R L E R    D       G  +  +IFA+G  +D TGTSKGKG  G MKR  F G  ASHG++  HRRPGSIG   TP RV+KG RMAG MG +RVTV NL V ++ A   ++L+KGA+PG  GGLV++RSA K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|4YBB|DD</Hit_id>
+  <Hit_def>Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5IT8|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5J5B|CD Chain CD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5J5B|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5J7L|CD Chain CD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5J7L|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5J88|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5J8A|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5J91|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5JC9|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5KCR|1E Chain 1E, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6I7V|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6TBV|L031 Chain L031, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6TC3|L031 Chain L031, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6U48|CD Chain CD, 50S ribosomal protein uL3 [Escherichia coli] &gt;pdb|6XZ7|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6XZA|D2 Chain D2, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6XZB|D2 Chain D2, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6ZTJ|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6ZTL|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6ZTM|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6ZTN|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6ZTO|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6ZTP|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6ZU1|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7AA6|AD Chain AD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7B5K|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7K00|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7NBU|d Chain d, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7O19|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7O1A|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7O1C|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7ODE|L Chain L, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7OIZ|d Chain d, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7OJ0|d Chain d, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7P3K|d Chain d, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7Q4K|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7Y7C|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7Y7D|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7Y7E|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7Y7F|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7Y7G|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7Y7H|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7ZTA|L031 Chain L031, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|8A3L|d Chain d, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|8AKN|d Chain d, 50S ribosomal protein L3 [Escherichia coli BW25113] &gt;pdb|8AM9|d Chain d, 50S ribosomal protein L3 [Escherichia coli BW25113] &gt;pdb|8ANA|d Chain d, 50S ribosomal protein L3 [Escherichia coli BW25113] &gt;pdb|8AYE|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8B0X|d Chain d, 50S ribosomal protein L3 [Escherichia coli B] &gt;pdb|8CAM|d Chain d, Large ribosomal subunit protein uL3 [Escherichia coli BW25113] &gt;pdb|8CEU|d Chain d, Large ribosomal subunit protein uL3 [Escherichia coli BW25113] &gt;pdb|8CGD|d Chain d, Large ribosomal subunit protein uL3 [Escherichia coli BW25113] &gt;pdb|8CGK|d Chain d, Large ribosomal subunit protein uL3 [Escherichia coli BW25113] &gt;pdb|8CGV|d Chain d, Large ribosomal subunit protein uL3 [Escherichia coli BW25113] &gt;pdb|8EIU|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8EKC|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8EMM|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8FTO|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8FZD|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8FZE|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8FZF|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8FZG|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8FZH|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8FZI|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8FZJ|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8G6W|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8G6X|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8G6Y|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8G7P|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8G7Q|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8G7R|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8G7S|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8HSP|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8HTZ|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8HU1|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8IFB|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8IFC|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8P16|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8P17|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8P18|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8PHJ|d Chain d, Large ribosomal subunit protein uL3 [Escherichia coli] &gt;pdb|8PVA|d Chain d, Large ribosomal subunit protein uL3 [Escherichia coli] &gt;pdb|8QK7|C Chain C, Large ribosomal subunit protein uL3 [Escherichia coli] &gt;pdb|8QOA|d Chain d, Large ribosomal subunit protein uL3 [Escherichia coli BW25113] &gt;pdb|8R6C|d Chain d, Large ribosomal subunit protein uL3 [Escherichia coli BW25113] &gt;pdb|8R8M|d Chain d, Large ribosomal subunit protein uL3 [Escherichia coli BW25113] &gt;pdb|8SYL|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|9AX7|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|9CG5|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|9CG6|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|9CG7|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|9GR1|d Chain d, Large ribosomal subunit protein uL3 [Escherichia coli BL21(DE3)]</Hit_def>
+  <Hit_accession>4YBB_DD</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>3.76141e-66</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>GILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>GLVGKKVGMTRIFTEDGVSIPVTVIEVEANRVTQVKDLANDGYRAIQVTTGAKKANRVTKPEAGHFAKAGVEAGRGLWEFRLAEGE---EFTVGQSISVELFADVKKVDVTGTSKGKGFAGTVKRWNFRTQDATHGNSLSHRVPGSIGQNXTPGKVFKGKKMAGQMGNERVTVQSLDVVRVDAERNLLLVKGAVPGATGSDLIVKPAVK</Hsp_hseq>
+      <Hsp_midline>G++G K+GMT++F E    +PVTV++   N VT+++    DGY A+Q+  G     +V KP  G +  AGV   R L E RL + +   E+ VGQ ++ E+FAD   VDVTGTSKGKGFAGT+KR  FR Q A+HG    HR PGSIG   TP +VFKG +MAG+MGN+RVTV +L V +VDAE  +LL+KGAVPG TG  ++V+ A+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|2J28|D</Hit_id>
+  <Hit_def>Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|2RDO|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|3BBX|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|3FIK|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|3IY9|C Chain C, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|3J5L|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|3J7Z|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|3J8G|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|3J9Y|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|3J9Z|LX Chain LX, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|3JA1|LE Chain LE, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|3JBU|d Chain d, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|3JBV|d Chain d, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|3JCD|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|3JCE|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|3JCJ|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|3JCN|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|3SGF|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|3UOS|D Chain D, 50S ribosomal protein L3 &gt;pdb|4CSU|D Chain D, 50S RIBOSOMAL PROTEIN L3 [Escherichia coli K-12] &gt;pdb|4U1U|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4U1U|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4U1V|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4U1V|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4U20|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4U20|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4U24|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4U24|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4U25|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4U25|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4U26|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4U26|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4U27|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4U27|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4UY8|D Chain D, 50S RIBOSOMAL PROTEIN L3 [Escherichia coli] &gt;pdb|4V47|AB Chain AB, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V48|AB Chain AB, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V4H|BD Chain BD, 50S RIBOSOMAL PROTEIN L3 [Escherichia coli] &gt;pdb|4V4H|DD Chain DD, 50S RIBOSOMAL PROTEIN L3 [Escherichia coli] &gt;pdb|4V4Q|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V4Q|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V4V|BB Chain BB, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V4W|BB Chain BB, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V50|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V50|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V52|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V52|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V53|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V53|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V54|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V54|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V55|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V55|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V56|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V56|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V57|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V57|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V5B|AD Chain AD, 50S RIBOSOMAL PROTEIN L3 [Escherichia coli] &gt;pdb|4V5B|CD Chain CD, 50S RIBOSOMAL PROTEIN L3 [Escherichia coli] &gt;pdb|4V5H|BD Chain BD, 50S RIBOSOMAL PROTEIN L3 [Escherichia coli] &gt;pdb|4V5Y|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V5Y|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V64|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V64|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V65|BY Chain BY, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V66|BY Chain BY, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V69|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V6C|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V6C|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V6D|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V6D|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V6E|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V6E|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V6K|AE Chain AE, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V6L|BE Chain BE, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V6M|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V6N|AE Chain AE, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V6O|BE Chain BE, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V6P|BE Chain BE, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V6Q|BE Chain BE, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V6R|BE Chain BE, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V6S|AE Chain AE, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V6T|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V6V|BE Chain BE, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V6Y|BD Chain BD, 50S ribosomal protein L36 [Escherichia coli K-12] &gt;pdb|4V6Z|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V70|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V71|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V72|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V73|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V74|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V75|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V76|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V77|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V78|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V79|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V7A|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V7B|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V7C|BE Chain BE, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V7D|AE Chain AE, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V7I|AD Chain AD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V7S|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V7S|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V7T|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V7T|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V7U|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V7U|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V7V|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V7V|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V85|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V89|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|4V9C|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V9C|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V9D|CD Chain CD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V9D|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V9O|AD Chain AD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V9O|CD Chain CD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V9O|ED Chain ED, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V9O|GD Chain GD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V9P|AD Chain AD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V9P|CD Chain CD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V9P|ED Chain ED, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4V9P|GD Chain GD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4WAP|D Chain D, 50s Ribosomal Protein L3 [Escherichia coli K-12] &gt;pdb|4WAR|D Chain D, 50s Ribosomal Protein L3 [Escherichia coli K-12] &gt;pdb|4WF1|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4WF1|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4WOI|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4WOI|CD Chain CD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4WWW|RD Chain RD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4WWW|YD Chain YD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|4YBB|CD Chain CD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5ADY|D Chain D, 50S RIBOSOMAL PROTEIN L3 [Escherichia coli K-12] &gt;pdb|5AFI|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5AKA|D Chain D, 50S RIBOSOMAL PROTEIN L3 [Escherichia coli K-12] &gt;pdb|5GAD|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5GAE|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5GAF|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5GAG|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5GAH|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5H5U|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5IQR|C Chain C, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5IT8|CD Chain CD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5J88|CD Chain CD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5J8A|CD Chain CD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5J91|CD Chain CD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5JC9|CD Chain CD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5JTE|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5JU8|BD Chain BD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5KCS|1E Chain 1E, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5KPS|C Chain C, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5KPV|B Chain B, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5KPW|B Chain B, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5KPX|B Chain B, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5L3P|E Chain E, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5LZA|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5LZB|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5LZC|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5LZD|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5LZE|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5LZF|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5MDV|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5MDW|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5MDY|C Chain C, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5MDZ|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5MGP|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5NCO|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5NP6|b Chain b, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5NWY|Q Chain Q, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5O2R|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5U4I|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5U9F|05 Chain 05, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5U9G|05 Chain 05, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5UYK|05 Chain 05, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5UYL|05 Chain 05, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5UYM|05 Chain 05, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5UYN|05 Chain 05, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5UYP|05 Chain 05, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5UYQ|05 Chain 05, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6BU8|05 Chain 05, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6BY1|CD Chain CD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6BY1|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6C4H|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6C4I|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6DNC|G Chain G, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6ENF|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6ENJ|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6ENU|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6GBZ|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6GC0|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6GC4|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6GC6|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6GC7|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6GC8|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6GWT|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6GXM|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6GXN|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6GXO|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6GXP|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6H4N|D Chain D, 50S ribosomal protein L3 [Escherichia coli BW25113] &gt;pdb|6H58|D Chain D, 50S ribosomal protein L3 [Escherichia coli BW25113] &gt;pdb|6H58|DD Chain DD, 50S ribosomal protein L3 [Escherichia coli BW25113] &gt;pdb|6HRM|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6I0Y|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6I7V|CD Chain CD, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6LKQ|V Chain V, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6O9J|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6O9K|4 Chain 4, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6OFX|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6OG7|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6OGF|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6OGG|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6OGI|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6OM6|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6ORE|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6ORL|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6OSK|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6OSQ|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6OST|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6OT3|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6OUO|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6PC5|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6PC6|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6PC7|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6PC8|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6PCH|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6PCQ|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6PCR|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6PCS|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6PCT|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6PJ6|L Chain L, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6Q97|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6Q98|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6QDW|d Chain d, 50S ribosomal protein L3 [Escherichia coli BL21(DE3)] &gt;pdb|6QUL|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6S0K|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6SZS|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6VU3|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6VWL|B Chain B, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6VWM|B Chain B, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6VWN|B Chain B, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6VYQ|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6VYR|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6VYS|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6VYT|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6VYU|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6VYW|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6VYX|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6VYY|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6VYZ|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6VZ2|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6VZ3|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6VZ5|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6VZ7|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6VZJ|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WD0|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WD1|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WD2|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WD3|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WD4|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WD5|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WD6|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6WD7|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WD8|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WD9|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WDA|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WDB|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WDC|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WDD|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WDE|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WDF|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6WDG|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6WDH|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WDI|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WDJ|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6WDK|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WDL|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6WDM|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WNT|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WNV|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WNW|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6WYV|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6X6T|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6X7F|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6X7K|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6X9Q|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6XDQ|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6XDR|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6XGF|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6XII|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6XIJ|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6Y69|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|6YS3|d Chain d, 50S ribosomal protein L3 [Escherichia coli BL21(DE3)] &gt;pdb|6YSR|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6YSS|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6YST|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|6YSU|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7ABZ|C Chain C, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7AC7|C Chain C, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7ACJ|C Chain C, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7ACR|C Chain C, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7BL2|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7BL3|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7BL4|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7BL5|D Chain D, 50S ribosomal protein L3 [Escherichia coli str. K-12 substr. MG1655] &gt;pdb|7BL6|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7BV8|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7CPJ|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7D6Z|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7D80|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7JSS|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7JSW|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7JSZ|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7JT1|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7JT2|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7JT3|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7K50|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7K51|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7K52|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7K53|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7K54|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7K55|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7LV0|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7LVK|L Chain L, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7M5D|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7N1P|LC Chain LC, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7N2C|LC Chain LC, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7N2U|LC Chain LC, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7N2V|LC Chain LC, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7N30|LC Chain LC, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7N31|LC Chain LC, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7NSO|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7NSP|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7NSQ|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7NWT|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7NWW|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7OIF|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7OIG|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7OII|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7OT5|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7OTC|D Chain D, 50S ribosomal protein L3 [Escherichia coli BL21(DE3)] &gt;pdb|7PJS|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7PJT|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7PJU|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7PJV|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7PJW|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7PJX|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7PJY|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7PJZ|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7QG8|Q Chain Q, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7QGH|Q Chain Q, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7QGN|Q Chain Q, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7QGR|Q Chain Q, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7QQ3|L Chain L, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7S1G|L Chain L, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7S1H|L Chain L, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7S1I|L Chain L, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7S1J|L Chain L, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7S1K|L Chain L, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7SA4|C Chain C, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7SS9|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7SSD|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7SSL|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7SSN|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7SSO|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7SSW|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7ST2|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7ST6|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7ST7|c Chain c, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|7TOS|L03 Chain L03, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7UG7|LC Chain LC, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7UPH|L Chain L, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7YLA|L Chain L, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7Z20|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7ZOD|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7ZP8|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7ZQ5|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|7ZQ6|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8AP4|d Chain d, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|8B7Y|L Chain L, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|8BF7|B Chain B, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|8BGE|B Chain B, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|8BGH|B Chain B, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|8BH4|B Chain B, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|8BHJ|B Chain B, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|8BHL|B Chain B, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|8BHN|B Chain B, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|8BHP|B Chain B, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|8BIL|B Chain B, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|8BIM|B Chain B, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|8C8X|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8C8Y|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8C8Z|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8C90|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8C91|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8C92|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8C93|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8C94|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8C96|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8C97|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8E30|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8E32|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8E33|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8E35|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8E36|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8E3L|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8E3M|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8E3O|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8E41|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8E42|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8E43|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8E44|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8E45|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8E46|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8E47|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8E48|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8E49|N Chain N, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8FIZ|BE Chain BE, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8G2U|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8G31|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8G34|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8G38|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8J1Z|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8PEG|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8PKL|c Chain c, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8Q4F|d Chain d, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8QBT|D Chain D, 50S ribosomal protein L3 [Escherichia coli BW25113] &gt;pdb|8RPY|D Chain D, Large ribosomal subunit protein uL3 [Escherichia coli] &gt;pdb|8RPZ|D Chain D, Large ribosomal subunit protein uL3 [Escherichia coli] &gt;pdb|8RQ0|D Chain D, Large ribosomal subunit protein uL3 [Escherichia coli] &gt;pdb|8RQ2|D Chain D, Large ribosomal subunit protein uL3 [Escherichia coli] &gt;pdb|8T5D|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8T5H|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8UPO|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8UPR|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8UQL|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8UQM|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8UQP|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8UR0|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8URH|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8URI|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8URX|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8URY|j Chain j, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8VS9|L03 Chain L03, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8VSA|L03 Chain L03, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|8W51|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|9AX8|4 Chain 4, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|9CL9|D Chain D, Large ribosomal subunit protein uL3 [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>2J28_D</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>3.84434e-66</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>GILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>GLVGKKVGMTRIFTEDGVSIPVTVIEVEANRVTQVKDLANDGYRAIQVTTGAKKANRVTKPEAGHFAKAGVEAGRGLWEFRLAEGE---EFTVGQSISVELFADVKKVDVTGTSKGKGFAGTVKRWNFRTQDATHGNSLSHRVPGSIGQNQTPGKVFKGKKMAGQMGNERVTVQSLDVVRVDAERNLLLVKGAVPGATGSDLIVKPAVK</Hsp_hseq>
+      <Hsp_midline>G++G K+GMT++F E    +PVTV++   N VT+++    DGY A+Q+  G     +V KP  G +  AGV   R L E RL + +   E+ VGQ ++ E+FAD   VDVTGTSKGKGFAGT+KR  FR Q A+HG    HR PGSIG   TP +VFKG +MAG+MGN+RVTV +L V +VDAE  +LL+KGAVPG TG  ++V+ A+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|5WDT|D</Hit_id>
+  <Hit_def>Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5WE4|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5WE6|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5WF0|D Chain D, 50S ribosomal protein L3 [Escherichia coli] &gt;pdb|5WFK|D Chain D, 50S ribosomal protein L3 [Escherichia coli K-12] &gt;pdb|5WFS|D Chain D, 50S ribosomal protein L3 [Escherichia coli]</Hit_def>
+  <Hit_accession>5WDT_D</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>3.97546e-66</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>GILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>GLVGKKVGMTRIFTEDGVSIPVTVIEVEANRVTQVKDLANDGYRAIQVTTGAKKANRVTKPEAGHFAKAGVEAGRGLWEFRLAEGE---EFTVGQSISVELFADVKKVDVTGTSKGKGFAGTVKRWNFRTQDATHGNSLSHRVPGSIGQNQTPGKVFKGKKMAGQMGNERVTVQSLDVVRVDAERNLLLVKGAVPGATGSDLIVKPAVK</Hsp_hseq>
+      <Hsp_midline>G++G K+GMT++F E    +PVTV++   N VT+++    DGY A+Q+  G     +V KP  G +  AGV   R L E RL + +   E+ VGQ ++ E+FAD   VDVTGTSKGKGFAGT+KR  FR Q A+HG    HR PGSIG   TP +VFKG +MAG+MGN+RVTV +L V +VDAE  +LL+KGAVPG TG  ++V+ A+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|6Q9A|C</Hit_id>
+  <Hit_def>Chain C, 50S ribosomal protein L3 [Escherichia coli]</Hit_def>
+  <Hit_accession>6Q9A_C</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>4.34134e-66</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>GILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>GLVGKKVGMTRIFTEDGVSIPVTVIEVEANRVTQVKDLANDGYRAIQVTTGAKKANRVTKPEAGHFAKAGVEAGRGLWEFRLAEGE---EFTVGQSISVELFADVKKVDVTGTSKGKGFAGTVKRWNFRTQDATHGNSLSHRVPGSIGQNQTPGKVFKGKKMAGQMGNERVTVQSLDVVRVDAERNLLLVKGAVPGATGSDLIVKPAVK</Hsp_hseq>
+      <Hsp_midline>G++G K+GMT++F E    +PVTV++   N VT+++    DGY A+Q+  G     +V KP  G +  AGV   R L E RL + +   E+ VGQ ++ E+FAD   VDVTGTSKGKGFAGT+KR  FR Q A+HG    HR PGSIG   TP +VFKG +MAG+MGN+RVTV +L V +VDAE  +LL+KGAVPG TG  ++V+ A+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|3J3V|D</Hit_id>
+  <Hit_def>Chain D, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|3J3W|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|3J9W|BE Chain BE, 50S ribosomal protein uL3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|6HA1|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|6HA8|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|6PPF|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis] &gt;pdb|6PPK|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis] &gt;pdb|6PVK|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis] &gt;pdb|6TNN|X Chain X, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|6TPQ|X Chain X, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|7AQC|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|7AQD|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|7AS8|F Chain F, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|7AS9|F Chain F, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|7OPE|F Chain F, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|7QV1|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|7QV2|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|7QV3|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|7S9U|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis] &gt;pdb|7SAE|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis] &gt;pdb|8BUU|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|8QCQ|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|8S1P|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|8S1U|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|9BS0|D Chain D, Large ribosomal subunit protein uL3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|9BSL|D Chain D, Large ribosomal subunit protein uL3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|9BSS|D Chain D, Large ribosomal subunit protein uL3 [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>3J3V_D</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.986</Hsp_bit-score>
+      <Hsp_score>515</Hsp_score>
+      <Hsp_evalue>1.20787e-65</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>KGILGRKIGMTQVFAENGDLIPVTVIEAAPNVVLQKKTAENDGYEAIQLGFDDKREKLSNKPEKGHVAKAETAPKRFVKELRGVEMDA---YEVGQEVKVEIFSAGEIVDVTGVSKGKGFQGAIKRHGQSRGPMSHGSR-YHRRPGSM-GPVDPNRVFKGKLLPGRMGGEQITVQNLEIVKVDAERNLLLIKGNVPGAKKSLITVKSAVK</Hsp_hseq>
+      <Hsp_midline>KGILG K+GMTQVF E+  ++PVTV++A PNVV + +T E DGY A+QL + +   +  NKP  G    A   P+R++ ELR  + DA   Y+VGQE+  EIF+ G  VDVTG SKGKGF G +KRHG      SHG++  HRRPGS+ G   P RVFKG  + GRMG +++TV NL + KVDAE  +LLIKG VPG    L+ V+SA+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|6HTQ|D</Hit_id>
+  <Hit_def>Chain D, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>6HTQ_D</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.986</Hsp_bit-score>
+      <Hsp_score>515</Hsp_score>
+      <Hsp_evalue>1.30702e-65</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>KGILGRKIGMTQVFAENGDLIPVTVIEAAPNVVLQKKTAENDGYEAIQLGFDDKREKLSNKPEKGHVAKAETAPKRFVKELRGVEMDA---YEVGQEVKVEIFSAGEIVDVTGVSKGKGFQGAIKRHGQSRGPMSHGSR-YHRRPGSM-GPVDPNRVFKGKLLPGRMGGEQITVQNLEIVKVDAERNLLLIKGNVPGAKKSLITVKSAVK</Hsp_hseq>
+      <Hsp_midline>KGILG K+GMTQVF E+  ++PVTV++A PNVV + +T E DGY A+QL + +   +  NKP  G    A   P+R++ ELR  + DA   Y+VGQE+  EIF+ G  VDVTG SKGKGF G +KRHG      SHG++  HRRPGS+ G   P RVFKG  + GRMG +++TV NL + KVDAE  +LLIKG VPG    L+ V+SA+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|5NJT|X</Hit_id>
+  <Hit_def>Chain X, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|8QPP|a Chain a, Large ribosomal subunit protein uL3 [Bacillus subtilis] &gt;pdb|8R55|a Chain a, Large ribosomal subunit protein uL3 [Bacillus subtilis]</Hit_def>
+  <Hit_accession>5NJT_X</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>1.45637e-65</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>KGILGRKIGMTQVFAENGDLIPVTVIEAAPNVVLQKKTAENDGYEAIQLGFDDKREKLSNKPEKGHVAKAETAPKRFVKELRGVEMDA---YEVGQEVKVEIFSAGEIVDVTGVSKGKGFQGAIKRHGQSRGPMSHGSR-YHRRPGSM-GPVDPNRVFKGKLLPGRMGGEQITVQNLEIVKVDAERNLLLIKGNVPGAKKSLITVKSAVK</Hsp_hseq>
+      <Hsp_midline>KGILG K+GMTQVF E+  ++PVTV++A PNVV + +T E DGY A+QL + +   +  NKP  G    A   P+R++ ELR  + DA   Y+VGQE+  EIF+ G  VDVTG SKGKGF G +KRHG      SHG++  HRRPGS+ G   P RVFKG  + GRMG +++TV NL + KVDAE  +LLIKG VPG    L+ V+SA+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|7O5B|a</Hit_id>
+  <Hit_def>Chain a, 50S ribosomal protein L3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|7QGU|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis] &gt;pdb|7QH4|D Chain D, 50S ribosomal protein L3 [Bacillus subtilis]</Hit_def>
+  <Hit_accession>7O5B_a</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>1.48719e-65</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>KGILGRKIGMTQVFAENGDLIPVTVIEAAPNVVLQKKTAENDGYEAIQLGFDDKREKLSNKPEKGHVAKAETAPKRFVKELRGVEMDA---YEVGQEVKVEIFSAGEIVDVTGVSKGKGFQGAIKRHGQSRGPMSHGSR-YHRRPGSM-GPVDPNRVFKGKLLPGRMGGEQITVQNLEIVKVDAERNLLLIKGNVPGAKKSLITVKSAVK</Hsp_hseq>
+      <Hsp_midline>KGILG K+GMTQVF E+  ++PVTV++A PNVV + +T E DGY A+QL + +   +  NKP  G    A   P+R++ ELR  + DA   Y+VGQE+  EIF+ G  VDVTG SKGKGF G +KRHG      SHG++  HRRPGS+ G   P RVFKG  + GRMG +++TV NL + KVDAE  +LLIKG VPG    L+ V+SA+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|6O8W|D</Hit_id>
+  <Hit_def>Chain D, 50S ribosomal protein L3 [Enterococcus faecalis] &gt;pdb|6O8X|D Chain D, 50S ribosomal protein L3 [Enterococcus faecalis] &gt;pdb|6O8Y|D Chain D, 50S ribosomal protein L3 [Enterococcus faecalis] &gt;pdb|6O8Z|D Chain D, 50S ribosomal protein L3 [Enterococcus faecalis] &gt;pdb|6O90|D Chain D, 50S ribosomal protein L3 [Enterococcus faecalis] &gt;pdb|6W6P|D Chain D, 50S ribosomal protein L3 [Enterococcus faecalis OG1RF] &gt;pdb|6WU9|D Chain D, 50S ribosomal protein L3 [Enterococcus faecalis OG1RF]</Hit_def>
+  <Hit_accession>6O8W_D</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>1.71514e-65</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>KGILGKKVGMTQIFTESGELIPVTVVEATPNVVLQVKTVETDGYEAIQVGYQDKREVLSNKPAKGHVAKANTAPKRFIKEFK---NVELGEYEVGKEIKVDVFQAGDVVDVTGTTKGKGFQGAIKRHGQSRGPMSHGSR-YHRRPGSMGPVA-PNRVFKNKRLAGRMGGDRVTIQNLEVVKVDVERNVILIKGNIPGAKKSLITIKSAVK</Hsp_hseq>
+      <Hsp_midline>KGILG K+GMTQ+F ES  ++PVTVV+A PNVV +++T E DGY A+Q+ Y +      NKP  G    A   P+R++ E +   +    EY+VG+E+  ++F  G  VDVTGT+KGKGF G +KRHG      SHG++  HRRPGS+G  A P RVFK  R+AGRMG DRVT+ NL V KVD E  V+LIKG +PG    L+ ++SA+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|7NHK|H</Hit_id>
+  <Hit_def>Chain H, 50S ribosomal protein L3 [Enterococcus faecalis] &gt;pdb|7P7Q|H Chain H, 50S ribosomal protein L3 [Enterococcus faecalis] &gt;pdb|7P7R|H Chain H, 50S ribosomal protein L3 [Enterococcus faecalis V583] &gt;pdb|7P7S|H Chain H, 50S ribosomal protein L3 [Enterococcus faecalis] &gt;pdb|7P7T|H Chain H, 50S ribosomal protein L3 [Enterococcus faecalis] &gt;pdb|7P7U|H Chain H, 50S ribosomal protein L3 [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>7NHK_H</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>1.90935e-65</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>KGILGKKVGMTQIFTESGELIPVTVVEATPNVVLQVKTVETDGYEAIQVGYQDKREVLSNKPAKGHVAKANTAPKRFIKEFK---NVELGEYEVGKEIKVDVFQAGDVVDVTGTTKGKGFQGAIKRHGQSRGPMSHGSR-YHRRPGSMGPVA-PNRVFKNKRLAGRMGGDRVTIQNLEVVKVDVERNVILIKGNIPGAKKSLITIKSAVK</Hsp_hseq>
+      <Hsp_midline>KGILG K+GMTQ+F ES  ++PVTVV+A PNVV +++T E DGY A+Q+ Y +      NKP  G    A   P+R++ E +   +    EY+VG+E+  ++F  G  VDVTGT+KGKGF G +KRHG      SHG++  HRRPGS+G  A P RVFK  R+AGRMG DRVT+ NL V KVD E  V+LIKG +PG    L+ ++SA+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|7UNR|D</Hit_id>
+  <Hit_def>Chain D, 50S ribosomal protein L3 [Pseudomonas aeruginosa PAO1] &gt;pdb|7UNU|D Chain D, 50S ribosomal protein L3 [Pseudomonas aeruginosa PAO1] &gt;pdb|7UNV|D Chain D, 50S ribosomal protein L3 [Pseudomonas aeruginosa PAO1] &gt;pdb|7UNW|D Chain D, 50S ribosomal protein L3 [Pseudomonas aeruginosa PAO1] &gt;pdb|8CD1|D Chain D, 50S ribosomal protein L3 [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>7UNR_D</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>3.32302e-65</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>GILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>GVVGRKCGMTRIFTEEGVSIPVTVIEVEPNRVTQFKTEETDGYRAVQVTAGERRASRVTKAQAGHFAKANVAAGRGVWEFRLGEE----QYAAGDQITVDLFQAGQMVDVTGESKGKGFAGTIKRWNFRGQDNTHGNSVSHRVPGSIGQCQTPGRVFKGKKMSGHLGAERVTVQSLEIVRVDAERNLLLVKGAVPGATGGDVIVRPAAK</Hsp_hseq>
+      <Hsp_midline>G++G K GMT++F E    +PVTV++  PN VT+ +T E DGY AVQ+  GE    +V K   G +  A V   R + E RL +     +Y  G ++T ++F  G  VDVTG SKGKGFAGT+KR  FRGQ  +HG    HR PGSIG C TP RVFKG +M+G +G +RVTV +L + +VDAE  +LL+KGAVPG TGG V+VR A K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|6SPB|D</Hit_id>
+  <Hit_def>Chain D, 50S ribosomal protein L3 [Pseudomonas aeruginosa] &gt;pdb|6SPD|D Chain D, 50S ribosomal protein L3 [Pseudomonas aeruginosa] &gt;pdb|6SPF|D Chain D, 50S ribosomal protein L3 [Pseudomonas aeruginosa] &gt;pdb|6SPG|D Chain D, 50S ribosomal protein L3 [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>6SPB_D</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>3.44623e-65</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>GILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>GVVGRKCGMTRIFTEEGVSIPVTVIEVEPNRVTQFKTEETDGYRAVQVTAGERRASRVTKAQAGHFAKANVAAGRGVWEFRLGEE----QYAAGDQITVDLFQAGQMVDVTGESKGKGFAGTIKRWNFRGQDNTHGNSVSHRVPGSIGQCQTPGRVFKGKKMSGHLGAERVTVQSLEIVRVDAERNLLLVKGAVPGATGGDVIVRPAAK</Hsp_hseq>
+      <Hsp_midline>G++G K GMT++F E    +PVTV++  PN VT+ +T E DGY AVQ+  GE    +V K   G +  A V   R + E RL +     +Y  G ++T ++F  G  VDVTG SKGKGFAGT+KR  FRGQ  +HG    HR PGSIG C TP RVFKG +M+G +G +RVTV +L + +VDAE  +LL+KGAVPG TGG V+VR A K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|9DYG|D</Hit_id>
+  <Hit_def>Chain D, Large ribosomal subunit protein uL3 [Escherichia coli]</Hit_def>
+  <Hit_accession>9DYG_D</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>4.53781e-65</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>GTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>GKKVGMTRIFTEDGVSIPVTVIEVEANRVTQVKDLANDGYRAIQVTTGAKKANRVTKPEAGHFAKAGVEAGRGLWEFRLAEGE---EFTVGQSISVELFADVKKVDVTGTSKGKGFAGTVKRWNFRTQDATHGNSLSHRVPGSIGQNQTPGKVFKGKKMAGQMGNERVTVQSLDVVRVDAERNLLLVKGAVPGATGSDLIVKPAVK</Hsp_hseq>
+      <Hsp_midline>G K+GMT++F E    +PVTV++   N VT+++    DGY A+Q+  G     +V KP  G +  AGV   R L E RL + +   E+ VGQ ++ E+FAD   VDVTGTSKGKGFAGT+KR  FR Q A+HG    HR PGSIG   TP +VFKG +MAG+MGN+RVTV +L V +VDAE  +LL+KGAVPG TG  ++V+ A+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|1NKW|B</Hit_id>
+  <Hit_def>Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans] &gt;pdb|1NWX|B Chain B, ribosomal protein L3 [Deinococcus radiodurans] &gt;pdb|1NWY|B Chain B, ribosomal protein L3 [Deinococcus radiodurans] &gt;pdb|1SM1|B Chain B, 50S RIBOSOMAL PROTEIN L3 [Deinococcus radiodurans] &gt;pdb|1XBP|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans] &gt;pdb|2OGM|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans] &gt;pdb|2OGN|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans] &gt;pdb|2OGO|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans] &gt;pdb|2ZJP|B Chain B, 50S RIBOSOMAL PROTEIN L3 [Deinococcus radiodurans] &gt;pdb|2ZJQ|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans] &gt;pdb|2ZJR|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans] &gt;pdb|3CF5|B Chain B, 50S RIBOSOMAL PROTEIN L3 [Deinococcus radiodurans] &gt;pdb|3DLL|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans] &gt;pdb|3PIO|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans] &gt;pdb|3PIP|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans] &gt;pdb|4IO9|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans] &gt;pdb|4IOA|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans] &gt;pdb|4IOC|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans] &gt;pdb|4U67|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539] &gt;pdb|4WFN|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539] &gt;pdb|5JVG|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539] &gt;pdb|5JVH|B Chain B, 50S ribosomal protein L3 [Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539]</Hit_def>
+  <Hit_accession>1NKW_B</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>8.39298e-65</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVR</Hsp_qseq>
+      <Hsp_hseq>KGILGTKIGMTQIW-KNDRAIPVTVVLAGPCPIVQRKTAQTDGYEAVQIGYAPKAERKVNKPMQGHFAKAGVAPTRILREFRGFAPD-------GDSVNVDIFAEGEKIDATGTSKGKGTQGVMKRWNFAGGPASHGSKKWHRRPGSIGQRKTPGRVYKGKRMAGHMGMERVTVQNLEVVEIRAGENLILVKGAIPGANGGLVVLR</Hsp_hseq>
+      <Hsp_midline>KGILGTK+GMTQ++ +++R +PVTVV AGP  + + +T + DGY AVQ+ Y   + RKVNKP+ G +  AGV P R L E R    D       G  +  +IFA+G  +D TGTSKGKG  G MKR  F G  ASHG++  HRRPGSIG   TP RV+KG RMAG MG +RVTV NL V ++ A   ++L+KGA+PG  GGLV++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|4WCE|B</Hit_id>
+  <Hit_def>Chain B, 50S ribosomal protein L3 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|4WF9|B Chain B, 50S ribosomal protein L3 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|4WFA|B Chain B, 50S ribosomal protein L3 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|4WFB|B Chain B, 50S ribosomal protein L3 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|5HKV|B Chain B, 50S ribosomal protein L3 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|5HL7|B Chain B, 50S ribosomal protein L3 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|5ND8|E Chain E, 50S ribosomal protein L3 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|5ND9|E Chain E, 50S ribosomal protein L3 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|5NGM|AD Chain AD, 50S ribosomal protein L3 [Staphylococcus aureus] &gt;pdb|5NRG|B Chain B, 50S ribosomal protein L3 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|6SJ6|E Chain E, 50S ribosomal protein L3 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|6YEF|E Chain E, 50S ribosomal protein L3 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|7NHL|H Chain H, 50S ribosomal protein L3 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|7NHM|H Chain H, 50S ribosomal protein L3 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|7P48|D Chain D, 50S ribosomal protein L3 [Staphylococcus aureus] &gt;pdb|7TTU|L Chain L, 50S ribosomal protein L3 [Staphylococcus aureus] &gt;pdb|8P2F|H Chain H, 50S ribosomal protein L3 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|8P2G|H Chain H, 50S ribosomal protein L3 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|8P2H|H Chain H, 50S ribosomal protein L3 [Staphylococcus aureus subsp. aureus NCTC 8325]</Hit_def>
+  <Hit_accession>4WCE_B</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>6.99881e-63</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAY--------GEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIKRGEK</Hsp_qseq>
+      <Hsp_hseq>KGILGRKIGMTQVFGENGELIPVTVVEAKENVVLQKKTVEVDGYNAIQVGFEDKKAYKKDAKSNKYANKPAEGHAKKADAAPKRFIREFRNVDVDA---YEVGQEVSVDTFVAGDVIDVTGVSKGKGFQGAIKRHGQSRGPMSHGSH-FHRAPGSVGMASDASRVFKGQKMPGRMGGNTVTVQNLEVVQVDTENKVILVKGNVPGPKKGLVEIRTSIKKGNK</Hsp_hseq>
+      <Hsp_midline>KGILG K+GMTQVF E+  ++PVTVV+A  NVV + +T E DGY+A+Q+ +           S +  NKP  G    A   P+R++ E R  D DA   Y+VGQE++ + F  G  +DVTG SKGKGF G +KRHG      SHG+   HR PGS+G  +  +RVFKG +M GRMG + VTV NL V +VD EN V+L+KG VPG   GLV +R++IK+G K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|5LI0|E</Hit_id>
+  <Hit_def>Chain E, 50S ribosomal protein L3 [Staphylococcus aureus subsp. aureus NCTC 8325]</Hit_def>
+  <Hit_accession>5LI0_E</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>2.82901e-62</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAY--------GEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIKRG</Hsp_qseq>
+      <Hsp_hseq>KGILGRKIGMTQVFGENGELIPVTVVEAKENVVLQKKTVEVDGYNAIQVGFEDKKAYKKDAKSNKYANKPAEGHAKKADAAPKRFIREFRNVDVDA---YEVGQEVSVDTFVAGDVIDVTGVSKGKGFQGAIKRHGQSRGPMSHGSH-FHRAPGSVGMASDASRVFKGQKMPGRMGGNTVTVQNLEVVQVDTENKVILVKGNVPGPKKGLVEIRTSIKKG</Hsp_hseq>
+      <Hsp_midline>KGILG K+GMTQVF E+  ++PVTVV+A  NVV + +T E DGY+A+Q+ +           S +  NKP  G    A   P+R++ E R  D DA   Y+VGQE++ + F  G  +DVTG SKGKGF G +KRHG      SHG+   HR PGS+G  +  +RVFKG +M GRMG + VTV NL V +VD EN V+L+KG VPG   GLV +R++IK+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|6DDD|L</Hit_id>
+  <Hit_def>Chain L, 50S ribosomal protein L3 [Staphylococcus aureus] &gt;pdb|6DDG|L Chain L, 50S ribosomal protein L3 [Staphylococcus aureus] &gt;pdb|6WQN|L Chain L, 50S ribosomal protein L3 [Staphylococcus aureus] &gt;pdb|6WQQ|L Chain L, 50S ribosomal protein L3 [Staphylococcus aureus] &gt;pdb|6WRS|L Chain L, 50S ribosomal protein L3 [Staphylococcus aureus] &gt;pdb|6WRU|L Chain L, 50S ribosomal protein L3 [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>6DDD_L</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>1.70828e-61</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAY--------GEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIKR</Hsp_qseq>
+      <Hsp_hseq>KGILGRKIGMTQVFGENGELIPVTVVEAKENVVLQKKTVEVDGYNAIQVGFEDKKAYKKDAKSNKYANKPAEGHAKKADAAPKRFIREFRNVDVDA---YEVGQEVSVDTFVAGDVIDVTGVSKGKGFQGAIKRHGQSRGPMSHGSH-FHRAPGSVGMASDASRVFKGQKMPGRMGGNTVTVQNLEVVQVDTENKVILVKGNVPGPKKGLVEIRTSIKK</Hsp_hseq>
+      <Hsp_midline>KGILG K+GMTQVF E+  ++PVTVV+A  NVV + +T E DGY+A+Q+ +           S +  NKP  G    A   P+R++ E R  D DA   Y+VGQE++ + F  G  +DVTG SKGKGF G +KRHG      SHG+   HR PGS+G  +  +RVFKG +M GRMG + VTV NL V +VD EN V+L+KG VPG   GLV +R++IK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|5TCU|LC</Hit_id>
+  <Hit_def>Chain LC, 50S ribosomal protein L3 [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;pdb|6FXC|AD Chain AD, 50S ribosomal protein L3 [Staphylococcus aureus RF122] &gt;pdb|6FXC|BD Chain BD, 50S ribosomal protein L3 [Staphylococcus aureus RF122] &gt;pdb|6HMA|D Chain D, 50S ribosomal protein L3 [Staphylococcus aureus] &gt;pdb|6S0X|D Chain D, 50S ribosomal protein L3 [Staphylococcus aureus] &gt;pdb|6S0Z|D Chain D, 50S ribosomal protein L3 [Staphylococcus aureus] &gt;pdb|6S12|D Chain D, 50S ribosomal protein L3 [Staphylococcus aureus] &gt;pdb|6S13|D Chain D, 50S ribosomal protein L3 [Staphylococcus aureus] &gt;pdb|7ASM|D Chain D, 50S ribosomal protein L3 [Staphylococcus aureus] &gt;pdb|7ASN|D Chain D, 50S ribosomal protein L3 [Staphylococcus aureus] &gt;pdb|7ASO|e Chain e, 50S ribosomal protein L3 [Staphylococcus aureus] &gt;pdb|7ASP|D Chain D, 50S ribosomal protein L3 [Staphylococcus aureus] &gt;pdb|8Y36|D Chain D, Large ribosomal subunit protein uL3 [Staphylococcus aureus] &gt;pdb|8Y37|D Chain D, Large ribosomal subunit protein uL3 [Staphylococcus aureus] &gt;pdb|8Y38|D Chain D, Large ribosomal subunit protein uL3 [Staphylococcus aureus] &gt;pdb|8Y39|D Chain D, Large ribosomal subunit protein uL3 [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>5TCU_LC</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>4.04962e-61</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAY--------GEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>KGILGRKIGMTQVFGENGELIPVTVVEAKENVVLQKKTVEVDGYNAIQVGFEDKKAYKKDAKSNKYANKPAEGHAKKADAAPKRFIREFRNVDVDA---YEVGQEVSVDTFVAGDVIDVTGVSKGKGFQGAIKRHGQSRGPMSHGSH-FHRAPGSVGMASDASRVFKGQKMPGRMGGNTVTVQNLEVVQVDTENKVILVKGNVPGPKKGLVEIRTSIK</Hsp_hseq>
+      <Hsp_midline>KGILG K+GMTQVF E+  ++PVTVV+A  NVV + +T E DGY+A+Q+ +           S +  NKP  G    A   P+R++ E R  D DA   Y+VGQE++ + F  G  +DVTG SKGKGF G +KRHG      SHG+   HR PGS+G  +  +RVFKG +M GRMG + VTV NL V +VD EN V+L+KG VPG   GLV +R++IK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|7TTW|L</Hit_id>
+  <Hit_def>Chain L, 50S ribosomal protein L3 [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>7TTW_L</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>6.70268e-61</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAY--------GEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIKRGEK</Hsp_qseq>
+      <Hsp_hseq>KGILGRKIGMTQVFGENGELIPVTVVEAKENVVLQKKTVEVDGYNAIQVGFEDKKAYKKDAKSNKYANKPAEGHAKKADAAPKRFIREFRNVDVDA---YEVGQEVSVDTFVAGDVIDVTGVSKGKGFQGAIKRHGQSRGPMSHGSH-FHRAPGSVRMASDASRVFKGQKIPGRMGGNTVTVQNLEVVQVDTENKVILVKGNVPGPKKGLVEIRTSIKKGNK</Hsp_hseq>
+      <Hsp_midline>KGILG K+GMTQVF E+  ++PVTVV+A  NVV + +T E DGY+A+Q+ +           S +  NKP  G    A   P+R++ E R  D DA   Y+VGQE++ + F  G  +DVTG SKGKGF G +KRHG      SHG+   HR PGS+   +  +RVFKG ++ GRMG + VTV NL V +VD EN V+L+KG VPG   GLV +R++IK+G K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|5T7V|LC</Hit_id>
+  <Hit_def>Chain LC, 50S ribosomal protein L3 [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>5T7V_LC</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>1.599e-60</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAY--------GEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>KGILGRKIGMTQVFGENGELIPVTVVEAKENVVLQKKTVEVDGYNAIQVGFEDKKAYKKDAKSNKYANKPAEGHAKKADAAPKRFIREFRNVDVDA---YEVGQEVSVDTFVAGDVIDVTGVSKGKGFQGAIKRHGQSRGPMSHGH--FHRAPGSVGMASDASRVFKGQKMPGRMGGNTVTVQNLEVVQVDTENKVILVKGNVPGPKKGLVEIRTSIK</Hsp_hseq>
+      <Hsp_midline>KGILG K+GMTQVF E+  ++PVTVV+A  NVV + +T E DGY+A+Q+ +           S +  NKP  G    A   P+R++ E R  D DA   Y+VGQE++ + F  G  +DVTG SKGKGF G +KRHG      SHG    HR PGS+G  +  +RVFKG +M GRMG + VTV NL V +VD EN V+L+KG VPG   GLV +R++IK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|8UU4|D</Hit_id>
+  <Hit_def>Chain D, Large ribosomal subunit protein uL3 [Listeria innocua] &gt;pdb|8UU5|D Chain D, Large ribosomal subunit protein uL3 [Listeria innocua] &gt;pdb|8UU6|D Chain D, Large ribosomal subunit protein uL3 [Listeria innocua] &gt;pdb|8UU7|D Chain D, Large ribosomal subunit protein uL3 [Listeria innocua] &gt;pdb|8UU8|D Chain D, Large ribosomal subunit protein uL3 [Listeria innocua] &gt;pdb|8UU9|D Chain D, Large ribosomal subunit protein uL3 [Listeria innocua] &gt;pdb|8UUA|D Chain D, Large ribosomal subunit protein uL3 [Listeria innocua]</Hit_def>
+  <Hit_accession>8UU4_D</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>9.71161e-60</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>KGILGRKVGMTQVFTENGELIPVTVIEAAQNVVLQKKTVETDGYEAVQIGFEDKRAKLSNKPEQGHVAKADTTPKRFIREFRDVNLD---EYEIGAEVKVDVFAEGDIIDATGVSKGKGFQGVIKRHGQSRGPMAHGSR-YHRRPGSMGPVA-PNRVFKNKLLPGRMGGEQITIQNLEIVKVDVEKNVLLVKGNVPGAKKALVQIKTATK</Hsp_hseq>
+      <Hsp_midline>KGILG K+GMTQVF E+  ++PVTV++A  NVV + +T E DGY AVQ+ + +   +  NKP  G    A   P+R++ E R  + D   EY++G E+  ++FA+G  +D TG SKGKGF G +KRHG      +HG++  HRRPGS+G  A P RVFK   + GRMG +++T+ NL + KVD E  VLL+KG VPG    LV +++A K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|7NHN|H</Hit_id>
+  <Hit_def>Chain H, 50S ribosomal protein L3 [Listeria monocytogenes EGD-e] &gt;pdb|8A57|H Chain H, 50S ribosomal protein L3 [Listeria monocytogenes EGD-e] &gt;pdb|8A5I|H Chain H, 50S ribosomal protein L3 [Listeria monocytogenes EGD-e] &gt;pdb|8A63|H Chain H, 50S ribosomal protein L3 [Listeria monocytogenes EGD-e]</Hit_def>
+  <Hit_accession>7NHN_H</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>4.41032e-59</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>KGILGRKVGMTQVFTENGELIPVTVIEAAQNVVLQKKTVETDGYEAVQIGFEDKRAILSNKPEQGHVAKANTTPKRFIREFRDVNLD---EYEIGAEVKVDVFAEGDIIDATGVSKGKGFQGVIKRHGQSRGPMAHGSR-YHRRPGSMGPVA-PNRVFKNKLLPGRMGGEQITIQNLEIVKVDVEKNVLLVKGNVPGAKKALVQIKTATK</Hsp_hseq>
+      <Hsp_midline>KGILG K+GMTQVF E+  ++PVTV++A  NVV + +T E DGY AVQ+ + +      NKP  G    A   P+R++ E R  + D   EY++G E+  ++FA+G  +D TG SKGKGF G +KRHG      +HG++  HRRPGS+G  A P RVFK   + GRMG +++T+ NL + KVD E  VLL+KG VPG    LV +++A K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|8FMW|AE</Hit_id>
+  <Hit_def>Chain AE, 50S ribosomal protein L3 [Borreliella burgdorferi B31] &gt;pdb|8FN2|E Chain E, 50S ribosomal protein L3 [Borreliella burgdorferi B31]</Hit_def>
+  <Hit_accession>8FMW_AE</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>1.58353e-58</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>GILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTA-AGVNPRRYLAELR-LDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>GLIGKKVGMTQIFQKNGIVVPVTVIEFQPNYIIGKKTVDRDGYSALIAGSVDLKSSKVSKPIKGQYKSLKDIEPKRYVIELKGLDGYDA------GDEIKVDVFKSVKYVDVTGTTKGKGFQGAMKRHNFSGGPSSHGSK-FHRHLGGTGQATTPARTFKGTKMAGRMAGNQQTIQNLEVVLIDEEKRALLVKGAVPGAKGSFVVVKKSKK</Hsp_hseq>
+      <Hsp_midline>G++G K+GMTQ+F ++  VVPVTV++  PN +   +T +RDGYSA+     ++   KV+KP+ GQY +   + P+RY+ EL+ LD  DA      G E+  ++F    YVDVTGT+KGKGF G MKRH F G  +SHG++  HR  G  G   TPAR FKGT+MAGRM  ++ T+ NL V  +D E   LL+KGAVPG  G  V+V+ + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|7JIL|C</Hit_id>
+  <Hit_def>Chain C, 50S ribosomal protein L3 [Flavobacterium johnsoniae]</Hit_def>
+  <Hit_accession>7JIL_C</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.341</Hsp_bit-score>
+      <Hsp_score>464</Hsp_score>
+      <Hsp_evalue>5.54552e-58</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>GILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQG-ASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVR</Hsp_qseq>
+      <Hsp_hseq>GLIGKKIGMTSIFDENGKNIPCTVIEAGPCVVTQVRTNEVDGYEALQLGFDDKNEKHSTKAALGHFKKAGTVAKKKVVEFQ----DFAAAQALGDLIDVSIFEEGEFVDVQGVSKGKGFQGVVKRHGFGGVGQATHGQHQRLRAPGSVGASSYPSRVFKGMRMAGRMGGDNVKVQNLRVLKVVAEKNLLVVKGCIPGHKNSYVIIQ</Hsp_hseq>
+      <Hsp_midline>G++G K+GMT +FDE+ + +P TV++AGP VVT++RT E DGY A+QL + + + +   K   G +  AG   ++ + E +    D A    +G  +   IF +G +VDV G SKGKGF G +KRHGF G G A+HG     R PGS+G  + P+RVFKG RMAGRMG D V V NL V KV AE  +L++KG +PG     V+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|8RD8|Af</Hit_id>
+  <Hit_def>Chain Af, Large ribosomal subunit protein uL3 [Psychrobacter urativorans] &gt;pdb|8RDV|Af Chain Af, Large ribosomal subunit protein uL3 [Psychrobacter urativorans] &gt;pdb|8RDW|Af Chain Af, Large ribosomal subunit protein uL3 [Psychrobacter urativorans]</Hit_def>
+  <Hit_accession>8RD8_Af</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>1.44326e-57</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>GILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>GLVGKKCGMTRVFTEAGASIPVTVVEISANRITQVKNTDVDGYQAIQVTTGTRRDSRVTAAQKGHFAKAGVAAGRGVWEFRANDSDLEGR-EIGGEILADLFEQGQMVDVTGNSKGKGFQGGVKRHNFSMQDATHGNSVSHRAIGSTGQNQSPGKVFKGKKMPGQMGNKRVTVQGLEVISVDVEKGLLVIKGAIPGATGGDVIVRPSVK</Hsp_hseq>
+      <Hsp_midline>G++G K GMT+VF E+   +PVTVV+   N +T+++  + DGY A+Q+  G     +V     G +  AGV   R + E R +DSD     ++G E+ A++F  G  VDVTG SKGKGF G +KRH F  Q A+HG    HR  GS G   +P +VFKG +M G+MGN RVTV  L V  VD E G+L+IKGA+PG TGG V+VR ++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|5MYJ|BE</Hit_id>
+  <Hit_def>Chain BE, 50S ribosomal protein L3 [Lactococcus cremoris subsp. cremoris MG1363]</Hit_def>
+  <Hit_accession>5MYJ_BE</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.644</Hsp_bit-score>
+      <Hsp_score>457</Hsp_score>
+      <Hsp_evalue>7.86329e-57</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>KGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELR-LDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>KGILGKKVGMTQIFTDNGELIPVTVIEATPNTVLQVKSVETDGYEATQVGFDTLREVLTNKPAKGHAAKANTTPKRFVREFKGLEGAE------VGAEITVDTFAAGDVVDVTGTSKGKGFQGPIKRHGQSRGPMAHGSR-YHRRPGSMGPVAA-NKVPKGKKLAGRMGNKRVTVQNLVIAQVLPEKNVILVKGNVPGAKKSLIVVKSAIK</Hsp_hseq>
+      <Hsp_midline>KGILG K+GMTQ+F ++  ++PVTV++A PN V ++++ E DGY A Q+ +  +     NKP  G    A   P+R++ E + L+ ++      VG E+T + FA G  VDVTGTSKGKGF G +KRHG      +HG++  HRRPGS+G  A   +V KG ++AGRMGN RVTV NL++ +V  E  V+L+KG VPG    L++V+SAIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|6V39|D</Hit_id>
+  <Hit_def>Chain D, 50S ribosomal protein L3 [Acinetobacter baumannii AB0057] &gt;pdb|6V3A|D Chain D, 50S ribosomal protein L3 [Acinetobacter baumannii AB0057] &gt;pdb|6V3B|D Chain D, 50S ribosomal protein L3 [Acinetobacter baumannii AB0057] &gt;pdb|6V3D|D Chain D, 50S ribosomal protein L3 [Acinetobacter baumannii AB0057] &gt;pdb|6YHS|B Chain B, 50S ribosomal protein L3 [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;pdb|6YSI|B Chain B, 50S ribosomal protein L3 [Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841] &gt;pdb|7M4V|D Chain D, 50S ribosomal protein L3 [Acinetobacter baumannii AB0057] &gt;pdb|7M4W|D Chain D, 50S ribosomal protein L3 [Acinetobacter baumannii AB0057] &gt;pdb|7M4X|D Chain D, 50S ribosomal protein L3 [Acinetobacter baumannii AB0057] &gt;pdb|7M4Y|D Chain D, 50S ribosomal protein L3 [Acinetobacter baumannii AB0057] &gt;pdb|7M4Z|D Chain D, 50S ribosomal protein L3 [Acinetobacter baumannii AB0057] &gt;pdb|7RYF|D Chain D, 50S ribosomal protein L3 [Acinetobacter baumannii AB0057] &gt;pdb|7RYG|D Chain D, 50S ribosomal protein L3 [Acinetobacter baumannii AB0057] &gt;pdb|7RYH|D Chain D, 50S ribosomal protein L3 [Acinetobacter baumannii AB0057] &gt;pdb|7UVV|D Chain D, 50S ribosomal protein L3 [Acinetobacter baumannii AB0057] &gt;pdb|7UVW|D Chain D, 50S ribosomal protein L3 [Acinetobacter baumannii AB0057] &gt;pdb|7UVX|D Chain D, 50S ribosomal protein L3 [Acinetobacter baumannii AB0057] &gt;pdb|7UVY|D Chain D, 50S ribosomal protein L3 [Acinetobacter baumannii AB0057] &gt;pdb|7UVZ|D Chain D, 50S ribosomal protein L3 [Acinetobacter baumannii AB0057] &gt;pdb|7UW1|D Chain D, 50S ribosomal protein L3 [Acinetobacter baumannii AB0057]</Hit_def>
+  <Hit_accession>6V39_D</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.104</Hsp_bit-score>
+      <Hsp_score>453</Hsp_score>
+      <Hsp_evalue>3.38237e-56</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>GILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIK</Hsp_qseq>
+      <Hsp_hseq>GLVGRKCGMTRIFTDAGVSVPVTVIEVDPNRITQIKTLETDGYQAVQVTTGERRESRVTNAQKGHFAKAGVAAGRLVKEFRVTEAELEGR-EVGGTIGVDLFTVGQIVDVTGQSKGKGFQGGVKRWNFRTQDATHGNSVSHRVLGSTGQNQTPGRVFKGKKMAGHLGDERVTVQGLEIVSVDTERSVLVVKGAIPGATGGDVIVRPTIK</Hsp_hseq>
+      <Hsp_midline>G++G K GMT++F ++   VPVTV++  PN +T+I+T E DGY AVQ+  GE    +V     G +  AGV   R + E R+ +++     +VG  +  ++F  G  VDVTG SKGKGF G +KR  FR Q A+HG    HR  GS G   TP RVFKG +MAG +G++RVTV  L +  VD E  VL++KGA+PG TGG V+VR  IK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|6Z1P|Ad</Hit_id>
+  <Hit_def>Chain Ad, 50S ribosomal protein L3 [Tetrahymena thermophila SB210]</Hit_def>
+  <Hit_accession>6Z1P_Ad</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.415</Hsp_bit-score>
+      <Hsp_score>459</Hsp_score>
+      <Hsp_evalue>1.40994e-54</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>RKGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIKR</Hsp_qseq>
+      <Hsp_hseq>RTGILGYKLGMTSIWDKWGKLHALTVIQIDRCQVVQVKTEEKDGVNALQLGVGEKSLKRINKPTIGHLMKNDIPPKRHLKEFKVS---PDCFLPAGYMLSARHFVPGQYVDIQGISVGKGFAGTVKRWNFKMQDATHGNSLSHRAPGSTGQRQDPGRVFKNKKMAGHMGCEKVTIMDLQVYKIDVERSLVYIRGHVPGKPGSLVQIRDAFKK</Hsp_hseq>
+      <Hsp_midline>R GILG KLGMT ++D+  ++  +TV++     V +++T E+DG +A+QL  GE S +++NKP  G      + P+R+L E ++           G  L+A  F  G YVD+ G S GKGFAGT+KR  F+ Q A+HG    HR PGS G    P RVFK  +MAG MG ++VT+++L V+K+D E  ++ I+G VPG+ G LV +R A K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|5H1S|F</Hit_id>
+  <Hit_def>Chain F, 50S ribosomal protein L3 [Spinacia oleracea] &gt;pdb|5X8P|D Chain D, protein L3 [Spinacia oleracea] &gt;pdb|5X8T|D Chain D, protein L3 [Spinacia oleracea] &gt;pdb|6ERI|AD Chain AD, 50S ribosomal protein L3, chloroplastic [Spinacia oleracea]</Hit_def>
+  <Hit_accession>5H1S_F</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.548</Hsp_bit-score>
+      <Hsp_score>423</Hsp_score>
+      <Hsp_evalue>1.34572e-51</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>GILGTKLGMTQVFDESNRVVPVTVV--KAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSA</Hsp_qseq>
+      <Hsp_hseq>GVMGTKLGMMSFFEEDGTVVPVTVIGFKEG-NIVTQVKTESTDGYNAVQVGYERLRDRKLTMPERGHLNKAGVIPMRHLQEFRLVSVDDFTPSQ--KLLFEELFKEGDMVDISGTTIGKGFQGGIKRHNFKRGLMTHGSKS-HRALGSIGAGTTPGHVYKGKKMPGRMGGTKTKIRKLKIMKIDTDLRVVMIKGAVPGKPGNLLRLAPA</Hsp_hseq>
+      <Hsp_midline>G++GTKLGM   F+E   VVPVTV+  K G N+VT+++T   DGY+AVQ+ Y  +  RK+  P  G    AGV P R+L E RL   D  T  Q  + L  E+F +G  VD++GT+ GKGF G +KRH F+    +HG+++ HR  GSIG   TP  V+KG +M GRMG  +  +  L + K+D +  V++IKGAVPG+ G L+ +  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|6XYW|Ac</Hit_id>
+  <Hit_def>Chain Ac, 50S ribosomal protein L3-2, mitochondrial [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>6XYW_Ac</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.474</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>4.92288e-51</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>RKGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSA</Hsp_qseq>
+      <Hsp_hseq>RTGIIAVKCGMTALWDKWGKRIPISILWVDDNIVSQVKTVEKEGIFALQIGCGQKKPKHLSKAVVGHFRAQGVPLKRKLREFPVTE-DAL--LPVGTSLGVRHFVPGQYVDVTGITRGKGFQGCMKRHGFSGMPASHGASLSHRSGGSTGQRDAPGKVFKGRKMAGRMGADQRTVKNVWVYKIDPARNLMWVRGQVPGAEGNFVFIKDA</Hsp_hseq>
+      <Hsp_midline>R GI+  K GMT ++D+  + +P++++    N+V++++T E++G  A+Q+  G+  P+ ++K + G + A GV  +R L E  + + DA     VG  L    F  G YVDVTG ++GKGF G MKRHGF G  ASHGA   HR  GS G    P +VFKG +MAGRMG D+ TV N+ V+K+D    ++ ++G VPG  G  V ++ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|5MLC|E</Hit_id>
+  <Hit_def>Chain E, 50S ribosomal protein L3, chloroplastic [Spinacia oleracea] &gt;pdb|5MMI|D Chain D, plastid ribosomal protein uL3c [Spinacia oleracea] &gt;pdb|5MMM|D Chain D, plastid ribosomal protein uL3c [Spinacia oleracea]</Hit_def>
+  <Hit_accession>5MLC_E</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.318</Hsp_bit-score>
+      <Hsp_score>425</Hsp_score>
+      <Hsp_evalue>6.88622e-51</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>GILGTKLGMTQVFDESNRVVPVTVV--KAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSA</Hsp_qseq>
+      <Hsp_hseq>GVMGTKLGMMSFFEEDGTVVPVTVIGFKEG-NIVTQVKTESTDGYNAVQVGYERLRDRKLTMPERGHLNKAGVIPMRHLQEFRLVSVDDFTPSQ--KLLFEELFKEGDMVDISGTTIGKGFQGGIKRHNFKRGLMTHGSKS-HRALGSIGAGTTPGHVYKGKKMPGRMGGTKTKIRKLKIMKIDTDLRVVMIKGAVPGKPGNLLRLAPA</Hsp_hseq>
+      <Hsp_midline>G++GTKLGM   F+E   VVPVTV+  K G N+VT+++T   DGY+AVQ+ Y  +  RK+  P  G    AGV P R+L E RL   D  T  Q  + L  E+F +G  VD++GT+ GKGF G +KRH F+    +HG+++ HR  GSIG   TP  V+KG +M GRMG  +  +  L + K+D +  V++IKGAVPG+ G L+ +  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|7OOD|b</Hit_id>
+  <Hit_def>Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7P6Z|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PAH|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PAI|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PAJ|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PAK|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PAL|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PAM|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PAN|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PAO|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PAQ|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PAR|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PAS|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PAT|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PAU|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PH9|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PHA|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PHB|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PHC|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PI8|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PI9|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PIA|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PIB|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PIC|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PIO|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PIP|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PIQ|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PIR|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PIS|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|7PIT|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|8P7X|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|8P7Y|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|8P8B|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|8P8V|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129] &gt;pdb|8P8W|b Chain b, 50S ribosomal protein L3 [Mycoplasmoides pneumoniae M129]</Hit_def>
+  <Hit_accession>7OOD_b</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>9.90236e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MARKGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAE-IFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIG---GCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIKR</Hsp_qseq>
+      <Hsp_hseq>MEIRGIFGVKVGMSQVFTTNNERLPITVIYCEPNQVAGVKTEAKDKYSATLLSFDTVENKKLNKPQQGFFEKNNLKPTKHLQEIR-----NMTGFEMGQQITPQNLFQVGEYVDVSAISKGRGFTGAIKRWNFKIGPLGHGAGYPHRFQGSVQAGRGGASAQRVFKGKKMSGHYGHEKVTVQNLRIVGFDEANMLVLVSGAIAGPEGGVVLIRTAKKK</Hsp_hseq>
+      <Hsp_midline>M  +GI G K+GM+QVF  +N  +P+TV+   PN V  ++T  +D YSA  L++  +  +K+NKP  G +    + P ++L E+R       T +++GQ++T + +F  G YVDV+  SKG+GF G +KR  F+     HGA   HR  GS+    G A+  RVFKG +M+G  G+++VTV NL +   D  N ++L+ GA+ G  GG+V++R+A K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|4V61|BF</Hit_id>
+  <Hit_def>Chain BF, Ribosomal Protein L3 [Spinacia oleracea]</Hit_def>
+  <Hit_accession>4V61_BF</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>8.22166e-47</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>GILGTKLGMTQVFDESNRVVPVTV--VKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELT-AEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSA</Hsp_qseq>
+      <Hsp_hseq>GVMATKLGMMSFFEESGTVVPVTVVGFREG-NIVTQIKTEATDGYNAVQVGYRRVRDRKLTKPEMGHLEKSGIIPLRHLQEFRLQSIDG---FEVTQKLDFGELFKEGDLVDVSGTTIGKGFQGGIKRHNFKRGQMTHGSKS-HRQLGSIGAGTTPGRVYKGKKMPGRMGGTKRKIRKLKIVKIDDQLNIIMIKGALPGKPGNLLRIAPA</Hsp_hseq>
+      <Hsp_midline>G++ TKLGM   F+ES  VVPVTV   + G N+VT+I+T   DGY+AVQ+ Y  +  RK+ KP  G    +G+ P R+L E RL   D    ++V Q+L   E+F +G  VDV+GT+ GKGF G +KRH F+    +HG+++ HR+ GSIG   TP RV+KG +M GRMG  +  +  L + K+D +  +++IKGA+PG+ G L+ +  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>pdb|5MRC|C</Hit_id>
+  <Hit_def>Chain C, uL3m [Saccharomyces cerevisiae] &gt;pdb|5MRE|C Chain C, uL3m [Saccharomyces cerevisiae] &gt;pdb|5MRF|C Chain C, uL3m [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>5MRC_C</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>3.28285e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>RKGILGTKLGMTQVFDESN-RVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIKR</Hsp_qseq>
+      <Hsp_hseq>RCGLITRKKGMMPYFDKSTGERSAATILEVNNVEVIMHRTSEVNGYFACQVGYGSRHLSKVSRQMLGHFASKVVNPKEHVAEFRVKDEKGLIP--PGTLLKPSFFKEGQYVDVRSVSKGKGFTGVMKRYGFKGLRASHGTSIMHRHGGSYGQNQDPGRVLPGRKMPGHMGNEHVTIQNVKVLKVDDENNVIWVKGSVAGPKNSFVKIQDAIKK</Hsp_hseq>
+      <Hsp_midline>R G++  K GM   FD+S       T+++     V   RT E +GY A Q+ YG     KV++ + G + +  VNP+ ++AE R+ D         G  L    F +G YVDV   SKGKGF G MKR+GF+G  ASHG   +HR  GS G    P RV  G +M G MGN+ VT+ N+ V KVD EN V+ +KG+V G     V ++ AIK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|3J6B|C</Hit_id>
+  <Hit_def>Chain C, 54S ribosomal protein L9, mitochondrial [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>3J6B_C</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>3.81624e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>RKGILGTKLGMTQVFDESN-RVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIKR</Hsp_qseq>
+      <Hsp_hseq>RCGLITRKKGMMPYFDKSTGERSAATILEVNNVEVIMHRTSEVNGYFACQVGYGSRHLSKVSRQMLGHFASKVVNPKEHVAEFRVKDEKGLIP--PGTLLKPSFFKEGQYVDVRSVSKGKGFTGVMKRYGFKGLRASHGTSIMHRHGGSYGQNQDPGRVLPGRKMPGHMGNEHVTIQNVKVLKVDDENNVIWVKGSVAGPKNSFVKIQDAIKK</Hsp_hseq>
+      <Hsp_midline>R G++  K GM   FD+S       T+++     V   RT E +GY A Q+ YG     KV++ + G + +  VNP+ ++AE R+ D         G  L    F +G YVDV   SKGKGF G MKR+GF+G  ASHG   +HR  GS G    P RV  G +M G MGN+ VT+ N+ V KVD EN V+ +KG+V G     V ++ AIK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>pdb|8A22|Ab</Hit_id>
+  <Hit_def>Chain Ab, uL3m [Polytomella magna] &gt;pdb|8APN|Ab Chain Ab, uL3m [Polytomella magna] &gt;pdb|8APO|Ab Chain Ab, uL3m [Polytomella magna]</Hit_def>
+  <Hit_accession>8A22_Ab</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>1.04415e-40</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>RKGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSA</Hsp_qseq>
+      <Hsp_hseq>RVGCITVKAGMTHEWDEHGVMIPLTVLWIDECQVVGLKYFEKNGYYAVQLGAGCVKQHTVLPQIAGYYLKHDLPIKREMKEYQVSSPEALLP--VGTHITAAHFVVGQQVDVTGYTTDKGFQGVMKRWGFKGMPASHGVSLSHRKPGATGGRQDPGKIWKEKKLPGHMGDEKRTQLGLELYKVDPKRNLLYVKGAVPGPRGASILVRDS</Hsp_hseq>
+      <Hsp_midline>R G +  K GMT  +DE   ++P+TV+      V  ++  E++GY AVQL  G +    V   + G Y    +  +R + E ++   +A     VG  +TA  F  G  VDVTG +  KGF G MKR GF+G  ASHG    HR+PG+ GG   P +++K  ++ G MG+++ T L L ++KVD +  +L +KGAVPG  G  ++VR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>pdb|7PKT|b</Hit_id>
+  <Hit_def>Chain b, uL3m [Chlamydomonas reinhardtii]</Hit_def>
+  <Hit_accession>7PKT_b</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>3.47548e-38</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>RKGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSA</Hsp_qseq>
+      <Hsp_hseq>RTGCIATKAGMTQEWDEHGVRVPLTVLWVDECQVVGLKTRPVHGYNALMLGSGYKRQKCMSPSEAGFFLKAGVPFKKLVAEWQVSE-DALVP--VGTAIGAAHYVAGQRVDVTGWTKWKGFQGVMRRWGFKGLPASHGVSLSHRAPGSIGNRQDPGKIWKGKKLPGCMGDERRTVHNCLVYKVDAARNLVYLRGQVPGPVGRSVFLRDS</Hsp_hseq>
+      <Hsp_midline>R G + TK GMTQ +DE    VP+TV+      V  ++T    GY+A+ L  G    + ++    G +  AGV  ++ +AE ++ + DA     VG  + A  +  G  VDVTG +K KGF G M+R GF+G  ASHG    HR PGSIG    P +++KG ++ G MG++R TV N LV+KVDA   ++ ++G VPG  G  V +R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>pdb|6YWE|C</Hit_id>
+  <Hit_def>Chain C, Related to ribosomal protein L3, mitochondrial [Neurospora crassa] &gt;pdb|6YWS|C Chain C, 60S ribosomal protein L3 [Neurospora crassa OR74A] &gt;pdb|6YWV|C Chain C, 60S ribosomal protein L3 [Neurospora crassa OR74A] &gt;pdb|6YWX|C Chain C, 60S ribosomal protein L3 [Neurospora crassa OR74A] &gt;pdb|6YWY|C Chain C, Related to ribosomal protein L3, mitochondrial [Neurospora crassa]</Hit_def>
+  <Hit_accession>6YWE_C</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>4.13883e-37</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>RKGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRR-PGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSAIKR</Hsp_qseq>
+      <Hsp_hseq>RTGVLAVKKGMTVFMGRTGARIPCTVLQLDRVQVVANKTRAKNGYWAVQVGLGERRAENVGAPQLGYYEAKGIPPKQTLAEFKVRNQDGL--LPVGVQLFPDWFHVGQVVDVRGITRGMGFAGGMKRHGFAGQEASHGNSLNHRTIGSVGGSQGSGSRVLPGKKMPGRMGAQQHTVQNLPILMVDNELGIVVVKGAVAGHKGAVVKVQDAVKK</Hsp_hseq>
+      <Hsp_midline>R G+L  K GMT     +   +P TV++     V   +T  ++GY AVQ+  GE     V  P  G Y A G+ P++ LAE ++ + D      VG +L  + F  G  VDV G ++G GFAG MKRHGF GQ ASHG    HR      G   + +RV  G +M GRMG  + TV NL +  VD E G++++KGAV G  G +V V+ A+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>pdb|9G6K|LW</Hit_id>
+  <Hit_def>Chain LW, Putative 50S ribosomal protein L3 [Toxoplasma gondii]</Hit_def>
+  <Hit_accession>9G6K_LW</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>6.01363e-36</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>RKGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNKPLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQA-VHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSA</Hsp_qseq>
+      <Hsp_hseq>RTGLLAYKIGMMSLWDGWGERHAVTVCQVDRCVVMDQRTLDKDGYEACVMGIGYKPIHKVTKPMLGVYIRSQIEPKSRIAEFKCS-SDCLLP--VGHEMSVRHFTPGQQVFVSGWSKDKGYLGVKKRWGFAGQNASHGVEAKAHSSPGSIGQSKTVNVVWRFKKMAGHAGGDP-RVVNCKVFRIEAQRNLIFLKGCVPGYKGSLIKISDA</Hsp_hseq>
+      <Hsp_midline>R G+L  K+GM  ++D       VTV +    VV   RT ++DGY A  +  G     KV KP+ G Y  + + P+  +AE +   SD      VG E++   F  G  V V+G SK KG+ G  KR GF GQ ASHG +A  H  PGSIG   T   V++  +MAG  G D   V+N  V +++A+  ++ +KG VPG  G L+ +  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>pdb|2FTC|C</Hit_id>
+  <Hit_def>Chain C, Mitochondrial 39S ribosomal protein L3 [Bos taurus]</Hit_def>
+  <Hit_accession>2FTC_C</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>3.28782e-27</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>RKGILGTKLGMTQVFDESNRVVPVTVVKAGPNVVTRIRTPERDGYSAVQLAYGEISPRKVNK--PLTGQYTAAGVNPRRYLAELRLDDSDAATEYQVGQELTAEIFADGSYVDVTGTSKGKGFAGTMKRHGFRGQGASHGAQAVHRRPGSIGGCATPARVFKGTRMAGRMGNDRVTVLNLLVHKVDAENGVLLIKGAVPGRTGGLVMVRSA</Hsp_qseq>
+      <Hsp_hseq>RVGLIALKLGMMPLWTKDGQKHVVTLLQVQDCHVLKYTSKENCNGKMATLSVGGKTVSRFRKATSILEFYRELGLPPKQTVKIFNITDNAAI---KPGTPLYAAHFRPGQYVDVTAKTIGKGFQGVMKRWGFKGQPATHGQTKTHRRPGAV-ATGDIGRVWPGTKMPGKMGNIYRTEYGLKVWRINTKHNIIYVNGSVPGHKNCLVKVKDS</Hsp_hseq>
+      <Hsp_midline>R G++  KLGM  ++ +  +   VT+++     V +  + E        L+ G  +  +  K   +   Y   G+ P++ +    + D+ A    + G  L A  F  G YVDVT  + GKGF G MKR GF+GQ A+HG    HRRPG++       RV+ GT+M G+MGN   T   L V +++ ++ ++ + G+VPG    LV V+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>167019</Statistics_db-num>
+      <Statistics_db-len>47228606</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

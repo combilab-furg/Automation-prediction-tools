@@ -1,0 +1,433 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_4317403</BlastOutput_query-ID>
+  <BlastOutput_query-def>Mycobacterium tuberculosis H37Rv|Rv2043c|pncA</BlastOutput_query-def>
+  <BlastOutput_query-len>186</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_4317403</Iteration_query-ID>
+  <Iteration_query-def>Mycobacterium tuberculosis H37Rv|Rv2043c|pncA</Iteration_query-def>
+  <Iteration_query-len>186</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|3PL1|A</Hit_id>
+  <Hit_def>Chain A, PYRAZINAMIDASE/NICOTINAMIDASE PNCA (PZase) [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>3PL1_A</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.407</Hsp_bit-score>
+      <Hsp_score>973</Hsp_score>
+      <Hsp_evalue>3.17478e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>MRALIIVDVQNDFCEGGSLAVTGGAALARAISDYLAEAADYHHVVATKDFHIDPGDHFSGTPDYSSSWPPHCVSGTPGADFHPSLDTSAIEAVFYKGAYTGAYSGFEGVDENGTPLLNWLRQRGVDEVDVVGIATDHCVRQTAEDAVRNGLATRVLVDLTAGVSADTTVAALEEMRTASVELVCSS</Hsp_qseq>
+      <Hsp_hseq>MRALIIVDVQNDFCEGGSLAVTGGAALARAISDYLAEAADYHHVVATKDFHIDPGDHFSGTPDYSSSWPPHCVSGTPGADFHPSLDTSAIEAVFYKGAYTGAYSGFEGVDENGTPLLNWLRQRGVDEVDVVGIATDHCVRQTAEDAVRNGLATRVLVDLTAGVSADTTVAALEEMRTASVELVCSS</Hsp_hseq>
+      <Hsp_midline>MRALIIVDVQNDFCEGGSLAVTGGAALARAISDYLAEAADYHHVVATKDFHIDPGDHFSGTPDYSSSWPPHCVSGTPGADFHPSLDTSAIEAVFYKGAYTGAYSGFEGVDENGTPLLNWLRQRGVDEVDVVGIATDHCVRQTAEDAVRNGLATRVLVDLTAGVSADTTVAALEEMRTASVELVCSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|1ILW|A</Hit_id>
+  <Hit_def>Chain A, aa long hypothetical Pyrazinamidase/nicotinamidase [Pyrococcus horikoshii] &gt;pdb|1IM5|A Chain A, 180aa long hypothetical Pyrazinamidase/Nicotinamidase [Pyrococcus horikoshii]</Hit_def>
+  <Hit_accession>1ILW_A</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>2.50367e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>ALIIVDVQNDFCEGGSLAVTGGAALARAISDYLAEAADYHH-VVATKDFHIDPGDHFSGTPDYSSSWPPHCVSGTPGADFHPSLDTSAIEAVFYKGAYTGAYSGFEGVDENGTPLLNWLRQRGVDEVDVVGIATDHCVRQTAEDAVRNGLATRVLVDLTAGVSADTTVAALEEMRTASVELV</Hsp_qseq>
+      <Hsp_hseq>ALIVVDMQRDFMPGGALPVPEGDKIIPKVNEYIRKFKEKGALIVATRDWH--PENHISFR-ERGGPWPRHCVQNTPGAEFVVDLPEDAVIISKATEPDKEAYSGFEGTD-----LAKILRGNGVKRVYICGVATEYCVRATALDALKHGFEVYLLRDAVKGIKPEDEERALEEMKSRGIKIV</Hsp_hseq>
+      <Hsp_midline>ALI+VD+Q DF  GG+L V  G  +   +++Y+ +  +    +VAT+D+H  P +H S   +    WP HCV  TPGA+F   L   A+           AYSGFEG D     L   LR  GV  V + G+AT++CVR TA DA+++G    +L D   G+  +    ALEEM++  +++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|2WT9|A</Hit_id>
+  <Hit_def>Chain A, NICOTINAMIDASE [Acinetobacter baumannii AYE] &gt;pdb|2WT9|B Chain B, NICOTINAMIDASE [Acinetobacter baumannii AYE] &gt;pdb|2WTA|A Chain A, NICOTINAMIDASE [Acinetobacter baumannii AYE]</Hit_def>
+  <Hit_accession>2WT9_A</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>2.99404e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>ALIIVDVQNDFCEGGSLAVTGGAALARAISDYLAEAADYHHVVATKDFHID-----PGDHFSGTP------DYSSS--WPPHCVSGTPGADFHPSLDTSAIEAVFYKG--AYTGAYSGFEGVDENG-TPLLNWLRQRGVDEVDVVGIATDHCVRQTAEDAVRNGLATRVLVDLTAGVSADTTV-AALEEMRTASVELVCSS</Hsp_qseq>
+      <Hsp_hseq>ALVVVDVQNGFTPGGNLAVADADTIIPTINQL---AGCFENVVLTQDWHPDNHISFAANHPGKQPFETIELDYGSQVLWPKHCIQGTHDAEFHPDLNIPTAQLIIRKGFHAHIDSYSAFMEADHTTMTGLTGYLKERGIDTVYVVGIATDFCVAWTALDAVKQGFKTLVIEDACKGIDLNGSLEQAWQTMQQQGVVRIQST</Hsp_hseq>
+      <Hsp_midline>AL++VDVQN F  GG+LAV     +   I+     A  + +VV T+D+H D       +H    P      DY S   WP HC+ GT  A+FHP L+    + +  KG  A+  +YS F   D    T L  +L++RG+D V VVGIATD CV  TA DAV+ G  T V+ D   G+  + ++  A + M+   V  + S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|3R2J|A</Hit_id>
+  <Hit_def>Chain A, Alpha/beta-hydrolase-like protein [Leishmania infantum] &gt;pdb|3R2J|B Chain B, Alpha/beta-hydrolase-like protein [Leishmania infantum] &gt;pdb|3R2J|C Chain C, Alpha/beta-hydrolase-like protein [Leishmania infantum] &gt;pdb|3R2J|D Chain D, Alpha/beta-hydrolase-like protein [Leishmania infantum]</Hit_def>
+  <Hit_accession>3R2J_A</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>1.5487e-27</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>LIIVDVQNDFCE-GGSLAVTGGAALARAISDYLAEAADYHHVVATKDFHIDPGDHFSGTPDYSSSWPPHCVSGTPGADFHPSLDTSAIEAVFYKGAYTGA--YSGFEGVDENG--TPLLNWLRQRGVDEVDVVGIATDHCVRQTAEDAVRNGLATRVLVDLTAGVSADTTVAALEEMRTASVELVCSS</Hsp_qseq>
+      <Hsp_hseq>LIIADMQVDFLAPGGSLHVKGGEALLDGI-NAVSSQLPFRYQVATQDWH--PENHCSFVT-HGGPWPPHCVQGSAGAQLHAGLHTQRINAVIRKGVTQQADSYSAF--VEDNGVSTGLAGLLHSIGARRVFVCGVAYDFCVFFTAMDARKNGFSVVLLEDLTAAVDDAAWSARTAELKDAGVVLLKSS</Hsp_hseq>
+      <Hsp_midline>LII D+Q DF   GGSL V GG AL   I + ++    + + VAT+D+H  P +H S    +   WPPHCV G+ GA  H  L T  I AV  KG    A  YS F  V++NG  T L   L   G   V V G+A D CV  TA DA +NG +  +L DLTA V      A   E++ A V L+ SS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|2H0R|A</Hit_id>
+  <Hit_def>Chain A, Nicotinamidase [Saccharomyces cerevisiae] &gt;pdb|2H0R|B Chain B, Nicotinamidase [Saccharomyces cerevisiae] &gt;pdb|2H0R|C Chain C, Nicotinamidase [Saccharomyces cerevisiae] &gt;pdb|2H0R|D Chain D, Nicotinamidase [Saccharomyces cerevisiae] &gt;pdb|2H0R|E Chain E, Nicotinamidase [Saccharomyces cerevisiae] &gt;pdb|2H0R|F Chain F, Nicotinamidase [Saccharomyces cerevisiae] &gt;pdb|2H0R|G Chain G, Nicotinamidase [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>2H0R_A</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>1.28259e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>MRALIIVDVQNDFCEG-GSLAVTGGAALARAISDYLAEA-ADYHHVVATKDFHIDPGDHFSGTPDYSSS-----------------------WPPHCVSGTPGADFHPSLDTSAIEA---VFYKGAYTGA--YSGFEGV-DENGTPLLNWLRQRGVDEVDVVGIATDHCVRQTAEDAVRNGLATRVLVDLTAGVSADTTV--AALEEMRTASVELV</Hsp_qseq>
+      <Hsp_hseq>MKTLIVVDMQNDFISPLGSLTVPKGEELINPISDLMQDADRDWHRIVVTRDWH--PSRHISFAKNHKDKEPYSTYTYHSPRPGDDSTQEGILWPVHCVKNTWGSQLVDQIMDQVVTKHIKIVDKGFLTDREYYSAFHDIWNFHKTDMNKYLEKHHTDEVYIVGVALEYCVKATAISAAELGYKTTVLLDYTRPISDDPEVINKVKEELKAHNINVV</Hsp_hseq>
+      <Hsp_midline>M+ LI+VD+QNDF    GSL V  G  L   ISD + +A  D+H +V T+D+H  P  H S   ++                          WP HCV  T G+     +    +     +  KG  T    YS F  + + + T +  +L +   DEV +VG+A ++CV+ TA  A   G  T VL+D T  +S D  V     EE++  ++ +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|3V8E|A</Hit_id>
+  <Hit_def>Chain A, Nicotinamidase [Saccharomyces cerevisiae S288C] &gt;pdb|3V8E|B Chain B, Nicotinamidase [Saccharomyces cerevisiae S288C] &gt;pdb|3V8E|C Chain C, Nicotinamidase [Saccharomyces cerevisiae S288C] &gt;pdb|3V8E|D Chain D, Nicotinamidase [Saccharomyces cerevisiae S288C] &gt;pdb|3V8E|E Chain E, Nicotinamidase [Saccharomyces cerevisiae S288C] &gt;pdb|3V8E|F Chain F, Nicotinamidase [Saccharomyces cerevisiae S288C] &gt;pdb|3V8E|G Chain G, Nicotinamidase [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>3V8E_A</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>5.08145e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>MRALIIVDVQNDFCEG-GSLAVTGGAALARAISDYLAEA-ADYHHVVATKDFHIDPGDHFSGTPDYSSS-----------------------WPPHCVSGTPGADFHPSLDTSAIE---AVFYKGAYTGA--YSGFEGV-DENGTPLLNWLRQRGVDEVDVVGIATDHCVRQTAEDAVRNGLATRVLVDLTAGVSADTTV--AALEEMRTASVELV</Hsp_qseq>
+      <Hsp_hseq>MKTLIVVDMQNDFISPLGSLTVPKGEELINPISDLMQDADRDWHRIVVTRDWH--PSRHISFAKNHKDKEPYSTYTYHSPRPGDDSTQEGILWPVHCVKNTWGSQLVDQIMDQVVTKHIKIVDKGFLTDREYYSAFHDIWNFHKTDMNKYLEKHHTDEVYIVGVALEYXVKATAISAAELGYKTTVLLDYTRPISDDPEVINKVKEELKAHNINVV</Hsp_hseq>
+      <Hsp_midline>M+ LI+VD+QNDF    GSL V  G  L   ISD + +A  D+H +V T+D+H  P  H S   ++                          WP HCV  T G+     +    +     +  KG  T    YS F  + + + T +  +L +   DEV +VG+A ++ V+ TA  A   G  T VL+D T  +S D  V     EE++  ++ +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|3HB7|A</Hit_id>
+  <Hit_def>Chain A, Isochorismatase hydrolase [Alkaliphilus metalliredigens QYMF] &gt;pdb|3HB7|B Chain B, Isochorismatase hydrolase [Alkaliphilus metalliredigens QYMF] &gt;pdb|3HB7|C Chain C, Isochorismatase hydrolase [Alkaliphilus metalliredigens QYMF] &gt;pdb|3HB7|D Chain D, Isochorismatase hydrolase [Alkaliphilus metalliredigens QYMF] &gt;pdb|3HB7|E Chain E, Isochorismatase hydrolase [Alkaliphilus metalliredigens QYMF] &gt;pdb|3HB7|F Chain F, Isochorismatase hydrolase [Alkaliphilus metalliredigens QYMF] &gt;pdb|3HB7|G Chain G, Isochorismatase hydrolase [Alkaliphilus metalliredigens QYMF] &gt;pdb|3HB7|H Chain H, Isochorismatase hydrolase [Alkaliphilus metalliredigens QYMF]</Hit_def>
+  <Hit_accession>3HB7_A</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>2.63606e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>ALIIVDVQNDFC-EGGSLAVTGGAALA---RAISDYLA--EAADYHHVVATKDFHIDPGDHFSGTPDYSSSWPPHCVSGTPGADFHPSLDTSAIEAVFYKGAYTGAYSGFEGVDENGTPLLNWLRQRGVDEVDVVGIATDHCVRQTAEDAVRNGLATRVLVDLTAGVSADTTVAALEEM</Hsp_qseq>
+      <Hsp_hseq>AILVIDXLNDFVGEKAPLRCPGGETIIPDLQKIFEWVRGREGDDIHLV------HIQEA-HRKNDADFRVR-PLHAVKGTWGSDFIPELYPQEDEYIVQKRRH----SGFAHTD-----LDLYLKEEGIDTVVLTGVWTNVCVRSTATDALANAYKVITLSDGTASKTEEXHEYGLNDL</Hsp_hseq>
+      <Hsp_midline>A++++D  NDF  E   L   GG  +    + I +++   E  D H V      HI    H     D+    P H V GT G+DF P L     E +  K  +    SGF   D     L  +L++ G+D V + G+ T+ CVR TA DA+ N      L D TA  + +     L ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|3OQP|A</Hit_id>
+  <Hit_def>Chain A, Putative isochorismatase [Paraburkholderia xenovorans LB400] &gt;pdb|3OQP|B Chain B, Putative isochorismatase [Paraburkholderia xenovorans LB400]</Hit_def>
+  <Hit_accession>3OQP_A</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.000159174</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>RALIIVDVQNDFCEGGSLAVTGGAALARAISDYLAEAADYHHVVATKDFHIDPGDHFSGTPDYSSSWPPHCVSGTPGADFHPSLDTSAIEAVFYKGAYTGAYSGFEGVDENGTPLLNWLRQRGVDEVDVVGIATDHCVRQTAEDAVRNGLATRVLVDLTAGVSADTT--VAALEEM-RTASVEL</Hsp_qseq>
+      <Hsp_hseq>RALIVIDVQNEY-------VTGDLPI-----EYPDVQSSLANIARAXDAARAAGVPVVIVQNFAPAGSPLFARGSNGAELHPVVSERARDHYVEK----SLPSAFTGTD-----LAGWLAARQIDTLTVTGYXTHNXDASTINHAVHSGLAVEFLHDATGSVPYENSAGFASAEEIHRVFSVVL</Hsp_hseq>
+      <Hsp_midline>RALI++DVQN++       VTG   +     +Y    +   ++    D     G       +++ +  P    G+ GA+ HP +   A +    K       S F G D     L  WL  R +D + V G  T +    T   AV +GLA   L D T  V  + +   A+ EE+ R  SV L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|6AZO|A</Hit_id>
+  <Hit_def>Chain A, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZO|B Chain B, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZO|C Chain C, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZO|D Chain D, Putative amidase [Rhizobium johnstonii 3841]</Hit_def>
+  <Hit_accession>6AZO_A</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00194018</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>ALIIVDVQNDFCEGGSLAVTGGAALA------RAISDYL-AEAADYHHVVATKDFHIDPGDHFSGTPDYSSSW-------PPHC----VSGTPGADFHPSLDTSAIEAVFYKGAYTGAYSGFEGVDENGTPLLNWLRQRGVDEVDVVGIATDHCVRQTAEDAVRNGLATRVLVDLTAGVSADTTVAALEEMR</Hsp_qseq>
+      <Hsp_hseq>ALIIIDXQTDFCGKGGYVDHXGYDLSLVQAPIEPIKRVLAAXRAKGYHIIHTREGHRPDLADLPANKRWRSQRIGAGIGDPGPCGRILTRGEPGWDIIPELYPIEGETIIDKPG-KGSFC--------ATDLELVLNQKRIENIILTGITTDVCVSTTXREANDRGYECLLLEDCCGATDYGNHLAAIKXVK</Hsp_hseq>
+      <Hsp_midline>ALII+D Q DFC  G      G  L+        I   L A  A  +H++ T++ H            + S         P  C      G PG D  P L     E +  K    G++          T L   L Q+ ++ + + GI TD CV  T  +A   G    +L D          +AA++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|5BK6|A</Hit_id>
+  <Hit_def>Chain A, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|5BK6|B Chain B, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|5BK6|C Chain C, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|5BK6|D Chain D, Putative amidase [Rhizobium johnstonii 3841]</Hit_def>
+  <Hit_accession>5BK6_A</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.00402035</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>ALIIVDVQNDFCEGGSLAVTGGAALA------RAISDYLAEA-ADYHHVVATKDFHIDPGDHFSGTPDYSSSW-------PPHC----VSGTPGADFHPSLDTSAIEAVF-YKGAYTGAYSGFEGVDENGTPLLNWLRQRGVDEVDVVGIATDHCVRQTAEDAVRNGLATRVLVDLTAGVSADTTVAALEEMR</Hsp_qseq>
+      <Hsp_hseq>ALIIIDMQTDFCGKGGYVDHMGYDLSLVQAPIEPIKRVLAAMRAKGYHIIHTREGHRPDLADLPANKRWRSQRIGAGIGDPGPCGRILTRGEPGWDIIPELYPIEGETIIDHPGKGSFCATDLELV----------LNQKRIENIILTGITTDVCVSTTMREANDRGYECLLLEDCCGATDYGNHLAAIKMVK</Hsp_hseq>
+      <Hsp_midline>ALII+D+Q DFC  G      G  L+        I   LA   A  +H++ T++ H            + S         P  C      G PG D  P L     E +  + G  +   +  E V          L Q+ ++ + + GI TD CV  T  +A   G    +L D          +AA++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|6AZS|A</Hit_id>
+  <Hit_def>Chain A, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZS|B Chain B, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZS|C Chain C, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZS|D Chain D, Putative amidase [Rhizobium johnstonii 3841]</Hit_def>
+  <Hit_accession>6AZS_A</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.00441353</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ALIIVDVQNDFCEGGSLAVTGGAALA------RAISDYLAEA-ADYHHVVATKDFHIDPGDHFSGTPDYSSSW-------PPHC----VSGTPGADFHPSLDTSAIEAVF---YKGAYTGAYSGFEGVDENGTPLLNWLRQRGVDEVDVVGIATDHCVRQTAEDAVRNGLATRVLVDLTAGVSADTTVAALEEMR</Hsp_qseq>
+      <Hsp_hseq>ALIIIDMQTDFCGKGGYVDHMGYDLSLVQAPIEPIKRVLAAMRAKGYHIIHTREGHRPDLADLPANKRWRSQRIGAGIGDPGPCGRILTRGEPGWDIIPELYPIEGETIIDAPGKGSFC------------ATDLELVLNQKRIENIILTGITTDVCVSTTMREANDRGYECLLLEDCCGATDYGNHLAAIKMVK</Hsp_hseq>
+      <Hsp_midline>ALII+D+Q DFC  G      G  L+        I   LA   A  +H++ T++ H            + S         P  C      G PG D  P L     E +     KG++              T L   L Q+ ++ + + GI TD CV  T  +A   G    +L D          +AA++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|6AZN|A</Hit_id>
+  <Hit_def>Chain A, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZN|B Chain B, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZN|C Chain C, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZN|D Chain D, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZN|F Chain F, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZN|G Chain G, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZN|H Chain H, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZN|I Chain I, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZQ|A Chain A, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZQ|B Chain B, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZQ|C Chain C, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZQ|D Chain D, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZQ|E Chain E, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZQ|F Chain F, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZQ|G Chain G, Putative amidase [Rhizobium johnstonii 3841] &gt;pdb|6AZQ|H Chain H, Putative amidase [Rhizobium johnstonii 3841]</Hit_def>
+  <Hit_accession>6AZN_A</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0427049</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>ALIIVDVQNDFCEGGSLAVTGGAALA------RAISDYLAEA-ADYHHVVATKDFHIDPGDHFSGTPDYSSSW-------PPHC----VSGTPGADFHPSLDTSAIEAVFYKGAYTGAYSGFEGVDENGTPLLNWLRQRGVDEVDVVGIATDHCVRQTAEDAVRNGLATRVLVDLTAGVSADTTVAALEEMR</Hsp_qseq>
+      <Hsp_hseq>ALIIIDMQTDFCGKGGYVDHMGYDLSLVQAPIEPIKRVLAAMRAKGYHIIHTREGHRPDLADLPANKRWRSQRIGAGIGDPGPCGRILTRGEPGWDIIPELYPIEGETIIDKPG-KGSFC--------ATDLELVLNQKRIENIILTGITTDVSVSTTMREANDRGYECLLLEDCCGATDYGNHLAAIKMVK</Hsp_hseq>
+      <Hsp_midline>ALII+D+Q DFC  G      G  L+        I   LA   A  +H++ T++ H            + S         P  C      G PG D  P L     E +  K    G++          T L   L Q+ ++ + + GI TD  V  T  +A   G    +L D          +AA++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|3TB4|A</Hit_id>
+  <Hit_def>Chain A, Vibriobactin-specific isochorismatase [Vibrio cholerae]</Hit_def>
+  <Hit_accession>3TB4_A</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.325691</Hsp_evalue>
+      <Hsp_query-from>103</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>YSGFEGVDENGTPLLNWLRQRGVDEVDVVGIATDHCVRQTAEDAVRNGLATRVLVDLTAGVS</Hsp_qseq>
+      <Hsp_hseq>YSAFKK-----SPLLDWLRETGRDQLIITGVYAHIGILSTALDAFMFDIQPFVIGDGVADFS</Hsp_hseq>
+      <Hsp_midline>YS F+      +PLL+WLR+ G D++ + G+     +  TA DA    +   V+ D  A  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|3TG2|A</Hit_id>
+  <Hit_def>Chain A, Vibriobactin-specific isochorismatase [Vibrio cholerae]</Hit_def>
+  <Hit_accession>3TG2_A</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.357327</Hsp_evalue>
+      <Hsp_query-from>103</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>YSGFEGVDENGTPLLNWLRQRGVDEVDVVGIATDHCVRQTAEDAVRNGLATRVLVDLTAGVS</Hsp_qseq>
+      <Hsp_hseq>YSAFKK-----SPLLDWLRETGRDQLIITGVYAHIGILSTALDAFMFDIQPFVIGDGVADFS</Hsp_hseq>
+      <Hsp_midline>YS F+      +PLL+WLR+ G D++ + G+     +  TA DA    +   V+ D  A  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>167019</Statistics_db-num>
+      <Statistics_db-len>47228606</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

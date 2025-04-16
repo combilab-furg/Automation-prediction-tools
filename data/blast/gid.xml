@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_4547357</BlastOutput_query-ID>
+  <BlastOutput_query-def>Mycobacterium tuberculosis H37Rv|Rv3919c|gid</BlastOutput_query-def>
+  <BlastOutput_query-len>224</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_4547357</Iteration_query-ID>
+  <Iteration_query-def>Mycobacterium tuberculosis H37Rv|Rv3919c|gid</Iteration_query-def>
+  <Iteration_query-len>224</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|7CFE|A</Hit_id>
+  <Hit_def>Chain A, Ribosomal RNA small subunit methyltransferase G [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>7CFE_A</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.802</Hsp_bit-score>
+      <Hsp_score>1122</Hsp_score>
+      <Hsp_evalue>1.28055e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>MSPIEPAASAIFGPRLGLARRYAEALAGPGVERGLVGPREVGRLWDRHLLNCAVIGELLERGDRVVDIGSGAGLPGVPLAIARPDLQVVLLEPLLRRTEFLREMVTDLGVAVEIVRGRAEESWVQDQLGGSDAAVSRAVAALDKLTKWSMPLIRPNGRMLAIKGERAHDEVREHRRVMIASGAVDVRVVTCGANYLRPPATVVFARRGKQIARGSARMASGGTA</Hsp_qseq>
+      <Hsp_hseq>MSPIEPAASAIFGPRLGLARRYAEALAGPGVERGLVGPREVGRLWDRHLLNCAVIGELLERGDRVVDIGSGAGLPGVPLAIARPDLQVVLLEPLLRRTEFLREMVTDLGVAVEIVRGRAEESWVQDQLGGSDAAVSRAVAALDKLTKWSMPLIRPNGRMLAIKGERAHDEVREHRRVMIASGAVDVRVVTCGANYLRPPATVVFARRGKQIARGSARMASGGTA</Hsp_hseq>
+      <Hsp_midline>MSPIEPAASAIFGPRLGLARRYAEALAGPGVERGLVGPREVGRLWDRHLLNCAVIGELLERGDRVVDIGSGAGLPGVPLAIARPDLQVVLLEPLLRRTEFLREMVTDLGVAVEIVRGRAEESWVQDQLGGSDAAVSRAVAALDKLTKWSMPLIRPNGRMLAIKGERAHDEVREHRRVMIASGAVDVRVVTCGANYLRPPATVVFARRGKQIARGSARMASGGTA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|1JSX|A</Hit_id>
+  <Hit_def>Chain A, Glucose-inhibited division protein B [Escherichia coli]</Hit_def>
+  <Hit_accession>1JSX_A</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>6.48811e-21</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>YAEALAGPGVERGLVGPREVGRLWDRHLLNCAVIGELLERGDRVVDIGSGAGLPGVPLAIARPDLQVVLLEPLLRRTEFLREMVTDLGVA-VEIVRGRAEESWVQDQLGGSDAAVSRAVAALDKLTKWSMPLIRPNGRMLAIKGERAHDEV</Hsp_qseq>
+      <Hsp_hseq>YVNMLHKWNKAYNLTSVRDPNEMLVRHILDSIVVAPYLQ-GERFIDVGTGPGLPGIPLSIVRPEAHFTLLDSLGKRVRFLRQVQHELKLENIEPVQSRVEEFPSEPPF---DGVISRAFASLNDMVSWCHHLPGEQGRFYALKGQMPEDEI</Hsp_hseq>
+      <Hsp_midline>Y   L        L   R+   +  RH+L+  V+   L+ G+R +D+G+G GLPG+PL+I RP+    LL+ L +R  FLR++  +L +  +E V+ R EE   +      D  +SRA A+L+ +  W   L    GR  A+KG+   DE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|3G88|A</Hit_id>
+  <Hit_def>Chain A, Ribosomal RNA small subunit methyltransferase G [Thermus thermophilus HB8] &gt;pdb|3G88|B Chain B, Ribosomal RNA small subunit methyltransferase G [Thermus thermophilus HB8] &gt;pdb|3G89|A Chain A, Ribosomal RNA small subunit methyltransferase G [Thermus thermophilus HB8] &gt;pdb|3G89|B Chain B, Ribosomal RNA small subunit methyltransferase G [Thermus thermophilus HB8] &gt;pdb|3G8A|A Chain A, Ribosomal RNA small subunit methyltransferase G [Thermus thermophilus HB8] &gt;pdb|3G8A|B Chain B, Ribosomal RNA small subunit methyltransferase G [Thermus thermophilus HB8] &gt;pdb|3G8A|C Chain C, Ribosomal RNA small subunit methyltransferase G [Thermus thermophilus HB8] &gt;pdb|3G8A|D Chain D, Ribosomal RNA small subunit methyltransferase G [Thermus thermophilus HB8] &gt;pdb|3G8A|E Chain E, Ribosomal RNA small subunit methyltransferase G [Thermus thermophilus HB8] &gt;pdb|3G8A|F Chain F, Ribosomal RNA small subunit methyltransferase G [Thermus thermophilus HB8] &gt;pdb|3G8B|A Chain A, Ribosomal RNA small subunit methyltransferase G [Thermus thermophilus HB8] &gt;pdb|3G8B|B Chain B, Ribosomal RNA small subunit methyltransferase G [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>3G88_A</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>6.16263e-07</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>RVVDIGSGAGLPGVPLAIARPDLQVVLLEPLLRRTEFLREMVTDLGV-AVEIVRGRAE----ESWVQDQLGGSDAAVSRAVAALDKLTKWSMPLIRPNGRMLAIKGERAHDEV</Hsp_qseq>
+      <Hsp_hseq>RVLDLGTGAGFPGLPLKIVRPELELVLVDATRKKVAFVERAIEVLGLKGARALWGRAEVLAREAGHREAYARAVARAVAPLCVLSELL---LPFLEVGGAAVAMKGPRVEEEL</Hsp_hseq>
+      <Hsp_midline>RV+D+G+GAG PG+PL I RP+L++VL++   ++  F+   +  LG+     + GRAE    E+  ++    + A     +  L +L    +P +   G  +A+KG R  +E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|3BUS|A</Hit_id>
+  <Hit_def>Chain A, Methyltransferase [Lentzea aerocolonigenes] &gt;pdb|3BUS|B Chain B, Methyltransferase [Lentzea aerocolonigenes]</Hit_def>
+  <Hit_accession>3BUS_A</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.00149</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>GDRVVDIGSGAGLPGVPLAIAR</Hsp_qseq>
+      <Hsp_hseq>GDRVLDVGCGIGKPAVRLATAR</Hsp_hseq>
+      <Hsp_midline>GDRV+D+G G G P V LA AR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|2CUM|A</Hit_id>
+  <Hit_def>Chain A, Tenascin-X [Homo sapiens]</Hit_def>
+  <Hit_accession>2CUM_A</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>5.7326</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>SRAVAALDKLTKWSMPLIRPNGRMLAIKGERAHDE-------VREHRRV-MIASGAVDVRVVTCGANYLRPPATVVFARRGKQIA</Hsp_qseq>
+      <Hsp_hseq>AKEVTPRTALLTWTEPPVRPAGYLLSFHTPGGQTQEILLPGGITSHQLLGLFPSTSYNARLQAMWGQSLLPPVSTSFTTGGLRIS</Hsp_hseq>
+      <Hsp_midline>++ V     L  W+ P +RP G +L+        +       +  H+ + +  S + + R+       L PP +  F   G +I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>167019</Statistics_db-num>
+      <Statistics_db-len>47228606</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
