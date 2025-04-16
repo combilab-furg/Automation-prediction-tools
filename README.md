@@ -43,7 +43,6 @@ src/
 |   |-- 05_i_tasser.ipynb
 |   |-- 06_rosetta.ipynb
 |   |-- 07_alphafold3.ipynb
-|   |-- 08_fold_x.ipynb
 |-- helper/
 |   |-- helper_functions.ipynb
 |-- validation/
