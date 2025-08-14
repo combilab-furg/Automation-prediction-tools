@@ -1,0 +1,6 @@
+ASSETS_PATH = "assets"
+PDBS_PATH = f"{ASSETS_PATH}/pdbs"
+RESULTS_PATH = f"{ASSETS_PATH}/results"
+FASTA_FILE = "fastas.csv"
+MAX_RETRIES = 3  
+BACKOFF_FACTOR = 5  
