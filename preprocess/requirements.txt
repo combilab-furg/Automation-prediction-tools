@@ -1,0 +1,10 @@
+notebook
+pandas
+openpyxl
+selenium
+requests
+beautifulsoup4
+coreapi-cli
+ipywidgets
+ratelimit
+tqdm
