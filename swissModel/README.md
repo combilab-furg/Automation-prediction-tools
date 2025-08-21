@@ -74,22 +74,3 @@ Replace <```Swiss model token```> with your Swiss model token.
 ## 4. Output
 
 The output will be a directory named `results` containing the generated PDB files for each FASTA sequence provided in the `fasta.csv` file. Each PDB file will be named according to the gene and variant specified in the CSV.
-
----
-
-## 5. Key Concepts
-
-1. **FASTA**: A text format representing nucleotide or peptide sequences.
-2. **PDB**: Protein Data Bank files containing 3D coordinates of protein structures.
-3. **Swiss-Model**: A tool for comparative protein structure modeling.
-
----
-
-## 6. Contact
-
-For any questions or suggestions, feel free to reach out:  
-Email: **[rvlampert@gmail.com](mailto:rvlampert@gmail.com)**
-
----
-
-### Happy Modeling!
