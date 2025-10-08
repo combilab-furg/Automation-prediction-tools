@@ -1,0 +1,1 @@
+This was the only tool executed manually. The web version, which allows processing up to 100 proteins per run, was executed four times to generate three-dimensional models for all mutations. The resulting PDB files were then filtered using a custom script to retain only the desired structures.
